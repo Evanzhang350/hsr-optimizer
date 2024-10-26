@@ -3,7 +3,7 @@ import { initReactI18next } from 'react-i18next'
 import Backend from 'i18next-http-backend'
 import { BASE_PATH } from './db'
 import yaml from 'js-yaml'
-
+import LanguageDetector from 'i18next-browser-languagedetector'
 window.yaml = yaml
 
 export const languages = {
@@ -60,7 +60,7 @@ export const languages = {
 export const supportedLanguages = Object.keys(languages)
 void i18next
   .use(Backend)
-  // .use(LanguageDetector) Disabled temporarily
+  .use(LanguageDetector) //reenabled temp
   .use(initReactI18next)
   .init({
     ns: [
@@ -79,7 +79,7 @@ void i18next
       'notifications',
       'conditionals',
     ],
-    lng: 'en', // Hardcoded temporarily
+    
     defaultNS: 'common',
     fallbackNS: ['common', 'gameData'],
     debug: true,
