@@ -431,8 +431,8 @@ function getTbName(locale: string, isCaelus: boolean): string {
       caelus: 'Caelus',
     },
     zh: {
-      stelle: 'Stelle',
-      caelus: 'Caelus',
+      stelle: '星',
+      caelus: '穹',
     },
     th: {
       stelle: 'Stelle',
