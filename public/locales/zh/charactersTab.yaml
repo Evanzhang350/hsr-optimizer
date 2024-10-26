@@ -26,8 +26,8 @@ CharacterMenu:
     Options:
       SortByScore: 按评分排序所有角色
       MoveToTop: 将角色移至顶部
-Confirm: '$t(common:确定, {"capitalizeLength": 1})'
-Cancel: '$t(common:取消, {"capitalizeLength": 1})'
+Confirm: '$t(common:Confirm, {"capitalizeLength": 1})'
+Cancel: '$t(common:Cancel, {"capitalizeLength": 1})'
 CopyScreenshot: 复制截图
 SearchPlaceholder: 搜索角色名称
 GridHeaders:
