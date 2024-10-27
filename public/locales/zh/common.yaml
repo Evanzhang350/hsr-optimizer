@@ -22,7 +22,7 @@ Score: '$t(CapitalizeString, {"string": "评分"})'
 Reset: '$t(CapitalizeString, {"string": "重置"})'
 Maximum: '$t(CapitalizeString, {"string": "最大"})'
 Minimum: '$t(CapitalizeString, {"string": "最小"})'
-EidolonNShort: 魂{{eidolon}}
+EidolonNShort: '{{eidolon}}魂'
 SuperimpositionNShort: 叠{{superimposition}}
 LevelShort: 等级{{level}}
 CharacterWithCount_one: '{{count}} $t(CapitalizeString, {"string": "角色"})'
@@ -150,7 +150,7 @@ ShortReadableStats:
   CRIT DMG: 暴击伤害
   Effect Hit Rate: 命中         #double-check (HIT)
   Effect RES: 抵抗              #double-check (RES)
-  Break Effect: 击破            #double-check (Bread)
+  Break Effect: 击破            #double-check (Break)
   Energy Regeneration Rate: 能量 #double-check (Energy)
   Outgoing Healing Boost: 治疗    #double-check (Healing)
   Physical DMG Boost: $t(gameData:Elements.Physical)伤
