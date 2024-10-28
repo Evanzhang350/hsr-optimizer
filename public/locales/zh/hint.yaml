@@ -1,0 +1,119 @@
+RatingFilter:
+  Title: 评分过滤器
+  p1: 权重 - 来自副词条权重过滤器的所有6件遗物的副词条权重总和
+  p2: 有效生命值 - 用于衡量满级角色的生存能力。通过生命值、防御力和减伤被动计算
+  p3: 普攻 / 战技 / 终结技 / 追加攻击 / 持续伤害 / 击破伤害 - 技能伤害计算，基于角色被动 / 光锥被动 / 敌方选项的环境因素。
+CombatBuffs:
+  Title: 战斗增益
+  p1: 额外的团队增益将应用于计算。请注意，角色 / 光锥的自我增益、被动和行迹的增益已包含在计算中。
+StatFilters:
+  Title: 属性过滤器
+  p1: 角色属性的最小（左边）/ 最大（右边）值过滤器（最小和最大值包括在内）。优化器将仅显示在这些范围内的结果。    #double-check inclusive
+  p2: 属性缩写为攻击 / 生命 / 防御 / 速度 / 暴击率 / 暴击伤害 / 效果命中 / 效果抵抗 / 击破特攻 / 能量恢复
+  p3: 注意：游戏中的速度小数会被截断，因此你可能会看到游戏中的速度值高于此处显示的值。这是因为OCR导入器无法检测隐藏的小数。
+Mainstats:
+  Title: 主属性
+  p1: 选择用于优化器搜索的主要属性。可以选择多个主属性以获取更多选项。
+Sets:
+  Title: 套装
+  p1: 选择要用于过滤结果的隧洞遗器和位面饰品套装。可以选择多个套装以获取更多选项。
+  p2: 套装效果将在计算中被考虑，请使用"条件触发套装效果"菜单来自定义哪些效果是激活的。
+Character:
+  Title: 角色
+  p1: 选择角色和星魂数。角色在优化计算中会被默认为80级和满行迹。
+CharacterPassives:
+  Title: 角色被动
+  p1: 选择要应用于角色的条件触发效果。
+  p2: 依赖于战斗属性或环境状态的效果将默认应用，因此此处仅列出需要用户输入的选项。
+LightconePassives:
+  Title: 光锥被动
+  p1: 选择要应用于光锥的条件触发效果。
+  p2: 依赖战斗属性或环境状态的效果将默认应用，因此此处仅列出需要用户输入的选项。
+Lightcone:
+  Title: 光锥
+  p1: 选择光锥和叠影数。光锥在优化计算中会被默认为80级。
+  p2: 叠影数效果和被动效果在光锥被动面板下应用。
+Actions:
+  Title: 可执行动作
+  p1: 装备 - 将表格中选中的遗器装备到角色上。
+  p2: 过滤 - 在现有结果上重新应用搜索过滤器。使用此功能可以在不重新启动搜索的情况下缩小过滤范围。
+  p3: 置顶配装 - 将当前选中的行固定在表格顶部。使用此功能可以更轻松地比较多个配装。
+  p4: 清除所有置顶 - 清除所有置顶在表格顶部的配装。
+OptimizerOptions:
+  Title: 优化器选项
+  p1: >-
+    <0>角色优先级过滤器</0> - 启用此选项后，角色只能从低于该角色优先级的其他角色拿取遗器。优化器将忽略列表中优先级高于当前角色的遗器装备者。你可以在优先级选择器中更改角色排名，或在角色页面通过拖动进行调整。
+  p2: >-
+    <0>提升主属性</0> - 如果遗物当前等级低于此等级，则将主属性按此等级（或其最高等级）的属性值计算。副词条不会相应变化。因此在使用低等级遗器的配装时，提升遗器的等级后可能会让配装变得更强。
+  p3: <0>保留当前遗器</0> - 角色必须使用当前已装备的遗器，然后优化器将尝试填充空的遗器部件位。
+  p4: <0>允许已装备的遗器</0> - 启用后，优化器将允许在搜索中使用已被其他角色装备的遗器。否则，已装备的遗器将被排除在搜索外。
+  p5: <0>优先级</0> - 参见：角色优先级过滤器。更改此设置将更改角色的优先级。
+  p6: <0>排除</0> - 选择特定角色已装备的遗器，将其从搜索中排除。此设置会覆盖优先级过滤器。
+  p7: <0>强化等级 / 稀有度</0> - 选择搜索时能使用的最低遗器强化等级以及遗器的最低星级。
+Relics:
+  Title: 遗器
+  p1: >-
+    注意 - 潜力是一个百分比评分，它会比较该遗器与当前角色在该部件上最佳的+15遗物。该评分基于评分算法的权重。这意味着未强化的+0遗器有时潜力会高于现有的+15遗器，因为它们的副词条可能会升级到角色所需的属性。
+  p2: 所选角色：评分 - 遗器的当前权重由当前所选角色定义进行评分算法
+  p3: 所选角色：平均潜力 - 遗器的潜力权重如果副词条升级到遗器某个副词条属性的平均权重。
+  p4: 所选角色：最大潜力 - 遗器的最大潜力权重如果所有未来的副词条都升级到角色所需的属性。
+  p5: 所有角色：最大潜力 - 遗器在游戏中所有角色中可能达到的最高潜力值。
+OptimizationDetails:
+  Title: Optimization details
+  p1: Shows how many relics are being used in the optimization search, after all filters are applied
+  p2: Perms - Number of permutations that need to be searched. Narrow your filters to reduce permutations & search time
+  p3: Searched - Number of permutations already searched
+  p4: Results - Number of displayed results that satisfy the stat filters
+EnemyOptions:
+  Title: Enemy options
+  p1: Level - Enemy level, affects enemy DEF calculations
+  p2: Targets - Number of targets in the battle. The target enemy is always assumed to be in the center, and damage calculations are only for the single primary target.
+  p3: RES - Enemy elemental RES. RES is set to 0 when the enemy's elemental weakness is enabled.
+  p4: Max toughness - Enemy's maximum toughness bar value. Affects calculations related to break damage.
+  p5: Elemental weakness - Whether the enemy is weak to the character's type. Enabling this sets enemy elemental RES % to 0.
+  p6: Weakness broken - Whether the enemy's toughness bar is broken. Affects damage calculations and certain character passives.
+SubstatWeightFilter:
+  Title: Substat weight filter
+  p1: This filter is used to reduce the number of permutations the optimizer has to process.
+  p2: It works by first scoring each relic per slot by the weights defined, then filtering by the number of weighted min rolls the relic has.
+  p3: Only relics that have more than the specified number of weighted rolls will be used for the optimization search.
+  p4: >-
+    Note that setting the minimum rolls too low may result in some builds not being displayed, if the filter ends up excludes a key relic. Use this filter with caution, but on large searches it makes
+    a large impact on reducing search time.
+StatDisplay:
+  Title: Stat and filter view
+  p1: This allows for switching between viewing results as Base stats vs Combat stats. Stat filters will also be applied to the selected view.
+  p2: Base stats - The stats as shown on the character's screen ingame, with no in-combat buffs applied.
+  p3: 'Combat stats - The character"s stats with all stat modifiers in combat included: ability buffs, character & light cone passives, teammates, conditional set effects, etc.'
+ValueColumns:
+  Title: Value Columns
+  p1: You can optionally display a number of columns that assess the relative 'value' of a relic.
+  p2: Weight
+  p3: Weight columns assess the contribution of a particular relic to the overall letter grading of the selected recommendation character (if any).
+  p4: Weight can show the current value of a relic, the possible best case upgraded weight, or an 'average' weight that you're more likely to see
+  p5: Weight is useful to focus on a single character and see which relics might give them a higher letter grading.
+  p6: Potential
+  p7: Potential is a character-specific percentage of how good the relic could be (or 'is', if fully upgraded), compared against the stats on a fully upgraded 'perfect' relic in that slot.
+  p8: Potential can look at all characters or just owned. It then takes the maximum percentage for any character.
+  p9: Potential is useful for finding relics that aren't good on any character, or hidden gems that could be great when upgraded.
+  p10: 'Note: ordering by potential can be mismatched against weights, due to weight calculations preferring lower weight ideal mainstats.'
+RelicInsights:
+  Title: Relic Insight
+  p1: When a relic is selected in the table above, you can choose an analysis to view a plot of.
+  p2: >-
+    'Buckets' looks at how perfect this relic could be (with the best possible upgrade rolls) for each character, and buckets them into percentages.<0/>If you hover over a character portrait you'll
+    see the new stats and/or rolls necessary to reach the max potential of this relic.<1/>⚠️ Relics with missing substats may have misleadingly high buckets, as best-case upgrade analysis assumes the
+    best new substat per character.
+  p3: 'Top 10 takes the top 10 characters that this relic could be best for, and shows the range of "% perfection" upgrading this relic could result in.'
+RelicLocation:
+  Title: Relic Location
+  p1: When a relic is selected in the grid, its position in the ingame inventory is displayed here.
+  p2: If the set / part filters are active, apply those same filters ingame, then sort by Date Obtained (newest first) to find the relic.
+  p3: ⚠️Usage notes⚠️
+  p4: This is only supported with Reliquary Archiver import
+  p5: If new relics were deleted or obtained since the last import, they must be re-scanned and imported
+  p6: Select the appropriate Inventory width setting to get accurate locations. The width depends on the ingame screen and menu width
+LocatorParams:
+  Title: Relic Locator Options
+  p1: <0>Inventory Width</0> - Select the number of columns the inventory has ingame so that the relic locator can find your relic accurately
+  p2: <0>Auto Filter rows</0> - Maximum number of rows before the relic locator applies a part/set filter to try and bring the searched relic closer to the top of your inventory
