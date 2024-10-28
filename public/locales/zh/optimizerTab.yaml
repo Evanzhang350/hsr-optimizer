@@ -22,7 +22,7 @@ SortOptions:
   SKILL: 按战技伤害排序
   ULT: 按终结技伤害排序
   FUA: 按追加攻击伤害排序
-  DOT: 按连续伤害排序
+  DOT: 按持续伤害排序
   BREAK: 按击破伤害排序
   HP: 按$t(common:ReadableStats.HP)排序
   ATK: 按$t(common:ReadableStats.ATK)排序
