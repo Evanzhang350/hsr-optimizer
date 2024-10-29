@@ -9,8 +9,8 @@ CharacterSelector:
   SuperimpositionPlaceholder: 叠
 LightconePassives: 光锥被动
 CharacterPassives: 角色被动
-NoConditionals: 无条件触发被动技能          #remove 触发?
-NoTeamConditionals: 无条件触发团队被动技能  #remove 触发?
+NoConditionals: 无条件触发被动技能         
+NoTeamConditionals: 无条件触发团队被动技能  
 ResultLimitN: 查找排名前{{limit}}的结果
 MainStats: 主属性
 Sets: 套装
@@ -195,7 +195,7 @@ Sidebar:
       'Yes': '$t(common:Yes, {"capitalizeLength": 1})'
       'No': '$t(common:No, {"capitalizeLength": 1})'
   StatViewGroup:
-    Header: 属性和筛选查看 
+    Header: 属性和筛选视图 
     CombatStats: 战斗属性
     BasicStats: 基本属性
   ResultsGroup:
@@ -212,7 +212,7 @@ FormRowLabels:
   Teammates: 队友
   Character custom stats simulation: 角色自定义属性模拟
 SetConditionals:
-  Title: 条件触发套装效果
+  Title: 套装条件触发效果
   DescriptionHeader: 套装描述
   EffectHeader: 已启用效果
   SetName: $t(gameData:RelicSets.{{id}}.Name)
@@ -442,7 +442,7 @@ StatSimulation:
   FooterLabels:
     Simulate: 模拟配装
     Import: 导入优化器配装
-    Conditionals: 条件触发套装效果
+    Conditionals: 套装条件触发效果
   DeletePopup:
     Title: 清除属性模拟
     Description: 你确定要清除该角色所有已保存的模拟吗？
