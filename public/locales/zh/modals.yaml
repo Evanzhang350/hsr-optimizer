@@ -74,7 +74,7 @@ Scoring:
   RootCauses:
     StatView:
       SuccessMessage: 已切换至战斗属性视角
-      Description: 你的属性过滤条件被设置为基础属性，这不包括增益效果。战斗属性视角将显示来自技能/队友/遗物等的增益属性
+      Description: 你的属性过滤条件被设置为基础属性，这不包括增益效果。战斗属性视角将显示来自技能/队友/遗器等的增益属性
       ButtonText: 切换至战斗属性视角
     MAX_HP:
       SuccessMessage: '已$t(common:Reset, {"capitalizeLength": 1})$t(common:Maximum, {"capitalizeLength": 1})$t(common:Stats.HP)的过滤条件'

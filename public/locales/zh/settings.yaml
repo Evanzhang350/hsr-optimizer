@@ -1,7 +1,7 @@
 Title: 设置
 RelicEquippingBehaviour:
   Label: 装备其他角色所装备的遗器
-  Replace: '默认：替换遗物而不交换'
+  Replace: '默认：替换遗器而不交换'
   Swap: 与该遗器装备者交换遗器
 PermutationSidebarBehaviour:
   Label: 在较小屏幕上缩小优化器侧边工具栏
