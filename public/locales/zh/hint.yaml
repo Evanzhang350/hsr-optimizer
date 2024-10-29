@@ -17,7 +17,7 @@ Mainstats:
 Sets:
   Title: 套装
   p1: 选择要用于过滤结果的隧洞遗器和位面饰品套装。可以选择多个套装以获取更多选项。
-  p2: 套装效果将在计算中被考虑，请使用"条件触发套装效果"菜单来自定义哪些效果是激活的。
+  p2: 套装效果将在计算中被考虑，请使用"套装条件触发效果"菜单来自定义哪些效果是激活的。
 Character:
   Title: 角色
   p1: 选择角色和星魂数。角色在优化计算中会被默认为80级和满行迹。
@@ -54,66 +54,63 @@ Relics:
   Title: 遗器
   p1: >-
     注意 - 潜力是一个百分比评分，它会比较该遗器与当前角色在该部件上最佳的+15遗物。该评分基于评分算法的权重。这意味着未强化的+0遗器有时潜力会高于现有的+15遗器，因为它们的副词条可能会升级到角色所需的属性。
-  p2: 所选角色：评分 - 遗器的当前权重由当前所选角色定义进行评分算法
-  p3: 所选角色：平均潜力 - 遗器的潜力权重如果副词条升级到遗器某个副词条属性的平均权重。
-  p4: 所选角色：最大潜力 - 遗器的最大潜力权重如果所有未来的副词条都升级到角色所需的属性。
+  p2: 选定角色：评分 - 遗器的当前权重由当前所选角色定义进行评分算法
+  p3: 选定角色：平均潜力 - 遗器的潜力权重如果副词条升级到遗器某个副词条属性的平均权重。
+  p4: 选定角色：最大潜力 - 遗器的最大潜力权重如果所有未来的副词条都升级到角色所需的属性。
   p5: 所有角色：最大潜力 - 遗器在游戏中所有角色中可能达到的最高潜力值。
 OptimizationDetails:
-  Title: Optimization details
-  p1: Shows how many relics are being used in the optimization search, after all filters are applied
-  p2: Perms - Number of permutations that need to be searched. Narrow your filters to reduce permutations & search time
-  p3: Searched - Number of permutations already searched
-  p4: Results - Number of displayed results that satisfy the stat filters
+  Title: 优化详情
+  p1: 显示在应用所有筛选条件后用于优化搜索的遗器数量
+  p2: 排列 - 需要搜索的排列数量。缩小筛选条件范围以减少排列数量和搜索时间
+  p3: 已搜索 - 已搜索的排列数量
+  p4: 结果 - 显示满足属性筛选条件的结果数量
 EnemyOptions:
-  Title: Enemy options
-  p1: Level - Enemy level, affects enemy DEF calculations
-  p2: Targets - Number of targets in the battle. The target enemy is always assumed to be in the center, and damage calculations are only for the single primary target.
-  p3: RES - Enemy elemental RES. RES is set to 0 when the enemy's elemental weakness is enabled.
-  p4: Max toughness - Enemy's maximum toughness bar value. Affects calculations related to break damage.
-  p5: Elemental weakness - Whether the enemy is weak to the character's type. Enabling this sets enemy elemental RES % to 0.
-  p6: Weakness broken - Whether the enemy's toughness bar is broken. Affects damage calculations and certain character passives.
+  Title: 敌人选项
+  p1: 等级 - 敌人等级，影响敌人防御计算
+  p2: 目标 - 战斗中的目标数量。假定目标敌人始终处于中心位置，且伤害计算仅针对单一主要目标。
+  p3: 抗性 - 敌人的元素抗性。当敌人元素弱点被启用时，抗性设为0。
+  p4: 最大韧性 - 敌人的最大韧性条值。影响与击破伤害相关的计算。
+  p5: 元素弱点 - 查看敌人是否被角色的元素类型克制。启用此选项将敌人的元素抗性百分比设为0。
+  p6: 弱点击破 - 敌人的韧性条是否被击破。影响伤害计算和某些角色被动效果。
 SubstatWeightFilter:
-  Title: Substat weight filter
-  p1: This filter is used to reduce the number of permutations the optimizer has to process.
-  p2: It works by first scoring each relic per slot by the weights defined, then filtering by the number of weighted min rolls the relic has.
-  p3: Only relics that have more than the specified number of weighted rolls will be used for the optimization search.
+  Title: 副词条权重筛选器
+  p1: 此筛选器用于减少优化器需要处理的排列数量。
+  p2: 它的工作原理是首先根据定义的权重为每个遗器部件打分，然后按遗物的加权最小副词条升级次数进行筛选。
+  p3: 仅使用加权副词条升级次数超过指定数量的遗器进行优化搜索。
   p4: >-
-    Note that setting the minimum rolls too low may result in some builds not being displayed, if the filter ends up excludes a key relic. Use this filter with caution, but on large searches it makes
-    a large impact on reducing search time.
+    请注意，设置过低的最小副词条升级次数可能导致某些配装未被显示，因为筛选器有可能最终排除了某个关键遗器。请谨慎使用此筛选器，但在大规模搜索中，它对减少搜索时间有很大影响。
 StatDisplay:
-  Title: Stat and filter view
-  p1: This allows for switching between viewing results as Base stats vs Combat stats. Stat filters will also be applied to the selected view.
-  p2: Base stats - The stats as shown on the character's screen ingame, with no in-combat buffs applied.
-  p3: 'Combat stats - The character"s stats with all stat modifiers in combat included: ability buffs, character & light cone passives, teammates, conditional set effects, etc.'
+  Title: 属性与筛选视图
+  p1: 这允许在查看结果时切换为基础属性与战斗属性。属性筛选也将应用于所选视图。
+  p2: 基础属性 - 在游戏中角色界面上显示的属性，不包含战斗中的增益。
+  p3: 战斗属性 - 角色在战斗中所有属性修正后的统计，包括：技能增益、角色和光锥被动、队友、套装条件触发效果等。
 ValueColumns:
-  Title: Value Columns
-  p1: You can optionally display a number of columns that assess the relative 'value' of a relic.
-  p2: Weight
-  p3: Weight columns assess the contribution of a particular relic to the overall letter grading of the selected recommendation character (if any).
-  p4: Weight can show the current value of a relic, the possible best case upgraded weight, or an 'average' weight that you're more likely to see
-  p5: Weight is useful to focus on a single character and see which relics might give them a higher letter grading.
-  p6: Potential
-  p7: Potential is a character-specific percentage of how good the relic could be (or 'is', if fully upgraded), compared against the stats on a fully upgraded 'perfect' relic in that slot.
-  p8: Potential can look at all characters or just owned. It then takes the maximum percentage for any character.
-  p9: Potential is useful for finding relics that aren't good on any character, or hidden gems that could be great when upgraded.
-  p10: 'Note: ordering by potential can be mismatched against weights, due to weight calculations preferring lower weight ideal mainstats.'
+  Title: 数值列
+  p1: 你可以选择性地显示一些列，以评估某个遗器的相对“价值”。
+  p2: 权重
+  p3: 权重列评估特定遗器对所选的角色遗器推荐的整体字母评分的贡献（如果有的话）。
+  p4: 权重可以显示遗物的当前价值、可能的最佳副词条升级权重或更可能看到的“平均”权重。
+  p5: 权重有助于专注于单个角色并查看哪些遗器可能使该角色获得更高的字母评分。
+  p6: 潜力
+  p7: 潜力是针对特定角色的百分比，表示该遗器可能的优秀程度（或在满强化后的优秀程度），与该部件上满强化的“完美”遗器的属性进行比较。
+  p8: 潜力可以查看所有角色或仅限于你持有的角色。然后，它会取所有角色中的最高百分比。
+  p9: 潜力有助于寻找在任何角色上都不优秀的遗器，或是那些强化后可能非常出色的隐秘宝物。
+  p10: 注意：按潜力排序可能与权重不匹配，因为权重计算更偏向于较低副词条权重的理想遗器主属性。
 RelicInsights:
-  Title: Relic Insight
-  p1: When a relic is selected in the table above, you can choose an analysis to view a plot of.
+  Title: 遗器洞察
+  p1: 当在上面的表格中选择一个遗器时，你可以选择一个分析方法以查看其图表。
   p2: >-
-    'Buckets' looks at how perfect this relic could be (with the best possible upgrade rolls) for each character, and buckets them into percentages.<0/>If you hover over a character portrait you'll
-    see the new stats and/or rolls necessary to reach the max potential of this relic.<1/>⚠️ Relics with missing substats may have misleadingly high buckets, as best-case upgrade analysis assumes the
-    best new substat per character.
-  p3: 'Top 10 takes the top 10 characters that this relic could be best for, and shows the range of "% perfection" upgrading this relic could result in.'
+   “分类” 会查看该遗器在每个角色中可能达到的完美程度（即最佳副词条升级），并将其分为不同的百分比。<0/>如果你将鼠标悬停在角色头像上，你将看到达到此遗器最大潜力所需的新副词条和/或副词条升级。<1/>⚠️ 缺少副词条的遗器可能会显示出误导性的过高分类，因为最佳升级分析会假设每个角色的最佳新副词条添加与该遗器上。
+  p3: 前十显示该遗器最适合的前十个角色，并展示强化此遗器可能达到的“完美”范围。
 RelicLocation:
-  Title: Relic Location
-  p1: When a relic is selected in the grid, its position in the ingame inventory is displayed here.
-  p2: If the set / part filters are active, apply those same filters ingame, then sort by Date Obtained (newest first) to find the relic.
-  p3: ⚠️Usage notes⚠️
-  p4: This is only supported with Reliquary Archiver import
-  p5: If new relics were deleted or obtained since the last import, they must be re-scanned and imported
-  p6: Select the appropriate Inventory width setting to get accurate locations. The width depends on the ingame screen and menu width
+  Title: 遗器位置
+  p1: 当在网格中选择一个遗物时，其在游戏内背包中的位置将在此显示。
+  p2: 如果套装/部件过滤器处于启用状态，请在游戏中应用相同的过滤器，然后按获得顺序（最新的优先）排序以找到遗器。
+  p3: ⚠️使用说明⚠️
+  p4: 这仅支持使用“Reliquary Archiver”导入的遗器
+  p5: 如果自上次导入以来有新的遗器被删除或获得，则必须重新扫描并导入。
+  p6: 选择适当的物品栏宽度设置以获取准确的位置。宽度取决于游戏内屏幕和菜单的宽度。
 LocatorParams:
-  Title: Relic Locator Options
-  p1: <0>Inventory Width</0> - Select the number of columns the inventory has ingame so that the relic locator can find your relic accurately
-  p2: <0>Auto Filter rows</0> - Maximum number of rows before the relic locator applies a part/set filter to try and bring the searched relic closer to the top of your inventory
+  Title: 遗器定位选项
+  p1: <0>物品栏宽度</0> - 选择游戏内物品栏的列数，以便遗器定位器能准确找到你的遗物。
+  p2: <0>自动筛选行</0> - 在遗器定位器应用部件/套装过滤器之前的最大行数，以尝试将搜索的遗物靠近你背包的顶部。
