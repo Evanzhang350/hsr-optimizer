@@ -1,0 +1,1573 @@
+BetaMessage: "当前版本：{{Version}} - 计算结果可能会发生变化。"
+Lightcones:
+  AlongThePassingShore:
+    Content:
+      emptyBubblesDebuff:
+        text: 【泡影】负面效果
+        content: >-
+           当装备者击中敌方目标时，使敌方陷入【泡影】状态，持续1回合。装备者每次攻击时，对每个目标只可触发1次。装备者对陷入【泡影】状态的目标造成的伤害提高{{DmgBoost}}%，终结技造成的伤害额外提高{{UltDmgBoost}}%。
+  AnInstantBeforeAGaze:
+    Content:
+      maxEnergyUltDmgStacks:
+        text: 最大能量
+        content: 当装备者施放终结技时，根据装备者的能量上限，提高装备者终结技造成的伤害：每点能量提高{{DmgStep}}%，最多计入180点。
+  BaptismOfPureThought:
+    Content:
+      debuffCdStacks:
+        text: 负面效果暴击伤害层数
+        content: 敌方目标每承受1个负面效果，装备者对其造成的暴击伤害额外提高{{DmgStep}}%，最多叠加3层。
+      postUltBuff:
+        text: 论辩增益
+        content: >-
+          施放终结技攻击敌方目标时，使装备者获得【论辩】效果，造成的伤害提高{{DmgStep}}%，追加攻击无视目标{{DefIgnore}}%的防御力，该效果持续2回合。
+  BeforeDawn:
+    Content:
+      fuaDmgBoost:
+        text: 追加攻击伤害增益
+        content: >-
+         当装备者施放战技或终结技后，获得【梦身】效果。触发追加攻击时，消耗【梦身】，使追加攻击造成的伤害提高{{DmgBuff}}%。
+  BrighterThanTheSun:
+    Content:
+      dragonsCallStacks:
+        text: 龙吟层数
+        content: >-
+          当装备者施放普攻时，获得1层【龙吟】，持续2回合。每层【龙吟】使装备者的攻击力提高{{AtkBuff}}% ，能量恢复效率提高{{RegenBuff}}%。【龙吟】最多叠加2层。
+  ButTheBattleIsntOver:
+    Content:
+      postSkillDmgBuff:
+        text: 技能后伤害增益
+        content: 当装备者施放战技后，使下一个行动的我方其他目标造成的伤害提高{{DmgBuff}}%，持续1回合。
+  CruisingInTheStellarSea:
+    Content:
+      enemyHp50CrBoost:
+        text: 敌人生命值≤50%时暴击率增益
+        content: 装备者对生命值百分比小于等于50%的敌方目标暴击率额外提高{{CritBuff}}%。
+      enemyDefeatedAtkBuff:
+        text: 击败敌人攻击力加成
+        content: 当装备者消灭敌方目标后，攻击力提高{{AtkBuff}}%，持续2回合。
+  DanceAtSunset:
+    Content:
+      fuaDmgStacks:
+        text: 追加攻击伤害提高层数
+        content: >-
+          当装备者施放终结技后，获得1层【火舞】，持续2回合，最多叠加2层。每层【火舞】使装备者追加攻击造成的伤害提高{{DmgBoost}}%。
+  EarthlyEscapade:
+    Content:
+      maskActive:
+        text: 假面效果激活
+        content: >-
+          战斗开始时，使装备者获得【假面】，持续3回合。当装备者持有【假面】时，装备者的队友暴击率提高{{CritRateBuff}}%，暴击伤害提高{{CritDmgBuff}}%。装备者每恢复1个战技点，获得1层【彩焰】，恢复时溢出的战技点也会被计算在内。当【彩焰】达到4层后，移除所有【彩焰】并获得【假面】，持续4回合。
+  EchoesOfTheCoffin:
+    Content:
+      postUltSpdBuff:
+        text: 终结技后速度提高
+        content: >-
+          当装备者施放攻击后，每击中1名不同的敌方目标，恢复{{EnergyRecovered}}点能量，每次攻击最多通过该方式恢复3次能量。当装备者施放终结技后，使我方全体速度提高{{SpdBuff}}点，持续1回合。
+  EternalCalculus:
+    Content:
+      atkBuffStacks:
+        text: 攻击力提升层数
+        content: 施放攻击后，每击中一名敌方目标，使攻击力额外提高{{AtkBuff}}%，该效果最多叠加5次，持续至下次攻击后.
+      spdBuff:
+        text: 击中3个目标后的速度提高
+        content: 若击中大于等于3名敌方目标，使自身速度提高{{SpdBuff}}%，持续1回合。
+  FlowingNightglow:
+    Content:
+      cadenzaActive:
+        text: 华彩效果激活
+        content: >-
+          我方角色每次攻击时，使装备者获得1层【歌咏】，每层【歌咏】使装备者的能量恢复效率提高{{RegenBuff}}%，最多叠加5层。装备者施放终结技时，移除【歌咏】并获得【华彩】，【华彩】使装备者的攻击力提高{{AtkBuff}}%，使我方全体造成的伤害提高{{DmgBuff}}%，持续1回合。
+      cantillationStacks:
+        text: 歌咏层数
+        content: >-
+          我方角色每次攻击时，使装备者获得1层【歌咏】，每层【歌咏】使装备者的能量恢复效率提高{{RegenBuff}}%，最多叠加5层。装备者施放终结技时，移除【歌咏】并获得【华彩】，【华彩】使装备者的攻击力提高{{AtkBuff}}%，使我方全体造成的伤害提高{{DmgBuff}}%，持续1回合。
+  IncessantRain:
+    Content:
+      enemy3DebuffsCrBoost:
+        text: 敌方≥3个负面效果时暴击率提高
+        content: 当装备者对同时处于大于等于 3 个负面效果的敌方目标造成伤害时，暴击率提高{{CritBuff}}%。
+      targetCodeDebuff:
+        text: 目标以太编码负面效果
+        content: >-
+          装备者施放普攻、战技、终结技后，有 100% 的基础概率对随机1个未持有【以太编码】的受击目标施加【以太编码】。持有【以太编码】的目标受到的伤害提高{{DmgIncrease}}%，持续1回合。
+  InherentlyUnjustDestiny:
+    Content:
+      shieldCdBuff:
+        text: 护盾爆伤增益
+        content: 当装备者为我方目标提供护盾时，使装备者的暴击伤害提高{{CritBuff}}%，持续2回合。
+      targetVulnerability:
+        text: 目标易伤负面效果
+        content: 当装备者发动追加攻击击中敌方目标时，有100%的基础概率使受到攻击的敌方目标受到的伤害提高{{Vulnerability}}%，持续2回合。
+  InTheNameOfTheWorld:
+    Content:
+      enemyDebuffedDmgBoost:
+        text: 敌人陷入负面效果时伤害提高
+        content: 使装备者对陷入负面效果的敌方目标造成的伤害提高{{DmgBuff}}%。
+      skillAtkBoost:
+        text: 战技攻击力提升（未实施）
+        content: 当装备者施放战技时，装备者此次攻击的效果命中提高{{EhrBuff}}%，攻击力提高{{AtkBuff}}%。
+  InTheNight:
+    Content:
+      spdScalingBuffs:
+        text: 速度转换增益
+        content: >-
+          当装备者在战斗中速度大于100时，每超过10点，普攻和战技造成的伤害提高{{DmgBuff}}%，同时终结技的暴击伤害提高{{CritBuff}}%。该效果可叠加6层。
+  IShallBeMyOwnSword:
+    Content:
+      eclipseStacks:
+        text: 月蚀层数
+        content: >-
+          当队友受到攻击或消耗生命值后，装备者获得1层【月蚀】，最多叠加3层。每层【月蚀】使装备者下一次攻击造成的伤害提高{{DmgBuff}}%。
+      maxStackDefPen:
+        text: 满层防御穿透
+        content: 叠满3层时，额外使该次攻击无视目标{{DefIgnore}}%的防御力。该效果在装备者施放攻击后解除。
+  IVentureForthToHunt:
+    Content:
+      luminfluxUltStacks:
+        text: 流光层数
+        content: >-
+          装备者施放追加攻击时，获得1层【流光】，最多叠加2层。每层【流光】使装备者造成的终结技伤害无视目标{{DefIgnore}}%的防御力。装备者回合结束时，移除1层【流光】。
+  MomentOfVictory:
+    Content:
+      selfAttackedDefBuff:
+        text: 被攻击时防御力增益
+        content: 使自身受到攻击的概率提高。当装备者受到攻击后，防御力额外提高{{DefBuff}}%，持续到自身回合结束。
+  NightOfFright:
+    Content:
+      atkBuffStacks:
+        text: 攻击力增益层数
+        content: 当装备者为我方目标提供治疗时，使该目标的攻击力提高{{AtkBuff}}%，该效果最多叠加5层，持续2回合。
+  NightOnTheMilkyWay:
+    Content:
+      enemyCountAtkBuff:
+        text: 敌人数量攻击力增益
+        content: 场上每有1个敌方目标，使装备者的攻击力提高{{AtkBuff}}%，该效果最多叠加5层。
+      enemyWeaknessBreakDmgBuff:
+        text: 敌人弱点击破时伤害增益
+        content: 当有敌方目标的弱点被击破时，装备者造成的伤害提高{{DmgBuff}}%，持续1回合。
+  OnTheFallOfAnAeon:
+    Content:
+      atkBoostStacks:
+        text: 攻击力增益层数
+        content: 当装备者施放攻击时，使装备者本场战斗中的攻击力提高{{AtkBuff}}%，该效果最多叠加4层。
+      weaknessBreakDmgBuff:
+        text: 弱点击破伤害增益
+        content: 当装备者击破敌方目标弱点后，造成的伤害提高{{DmgBuff}}%，持续2回合。
+  PastSelfInTheMirror:
+    Content:
+      postUltDmgBuff:
+        text: Post Ult DMG buff
+        content: 装备者施放终结技后，使我方全体造成的伤害提高{{DmgBuff}}%，持续3回合。
+  PatienceIsAllYouNeed:
+    Content:
+      spdStacks:
+        text: 速度增益层数
+        content: 装备者每次施放攻击后，速度提高{{SpdBuff}}%.最多叠加3层。
+      dotEffect:
+        text: 持续伤害效果（未实施）
+        content: >-
+          当装备者击中敌方目标时，如果该目标不处于【游丝】状态，则有 100% 的基础概率使其陷入【游丝】状态。当敌方目标处于【游丝】状态时，也会被视为陷入了触电状态。【游丝】状态下，敌方目标每回合开始时受到等同于装备者{{Multiplier}}%攻击力的雷属性持续伤害，持续1回合。
+  ReforgedRemembrance:
+    Content:
+      prophetStacks:
+        text: 先知层数
+        content: >-
+          装备者对陷入风化、灼烧、触电、裂伤状态的敌方目标造成伤害时，分别获得1层【先知】，最多叠加4层。单场战斗中，每种持续伤害状态类型仅可叠加1次【先知】效果。每层【先知】使装备者的攻击力提高{{AtkBuff}}%，造成的持续伤害无视目标{{DefIgnore}}%的防御力。
+  SailingTowardsASecondLife:
+    Content:
+      breakDmgDefShred:
+        text: 击破伤害防御穿透
+        content: 装备者造成的击破伤害无视目标{{DefIgnore}}%的防御力。
+      spdBuffConditional:
+        text: 击破特攻≥150时的速度增益
+        content: 当装备者在战斗中击破特攻大于等于150%时，速度提高{{SpdBuff}}%。
+  ScentAloneStaysTrue:
+    Content:
+      woefreeState:
+        text: 忘忧易伤
+        content: >-
+          装备者施放终结技攻击敌方目标后，使其陷入【忘忧】状态，持续2回合，【忘忧】状态下的敌方目标受到的伤害提高{{Vulnerability}}%，若装备者当前击破特攻大于等于150% ，受到的伤害提高效果额外提高{{AdditionalVulnerability}}%。
+    TeammateContent:
+      additionalVulnerability:
+        text: 额外易伤
+        content: >-
+          装备者施放终结技攻击敌方目标后，使其陷入【忘忧】状态，持续2回合，【忘忧】状态下的敌方目标受到的伤害提高{{Vulnerability}}%，若装备者当前击破特攻大于等于150% ，受到的伤害提高效果额外提高{{AdditionalVulnerability}}%。
+  SheAlreadyShutHerEyes:
+    Content:
+      hpLostDmgBuff:
+        text: 生命值降低伤害增益
+        content: 当装备者的生命值降低时，使我方全体造成的伤害提高{{DmgBuff}}%，持续2回合。
+  SleepLikeTheDead:
+    Content:
+      missedCritCrBuff:
+        text: 未暴击时暴击率增益
+        content: 当装备者的普攻或战技伤害未造成暴击时，使自身暴击率提高{{CritBuff}}%，持续1回合。该效果每3回合可以触发1次。
+  SolitaryHealing:
+    Content:
+      postUltDotDmgBuff:
+        text: 终结技后持续伤害增益
+        content: 当装备者施放终结技时，使装备者造成的持续伤害提高{{DmgBuff}}%，持续 2 回合。
+  SomethingIrreplaceable:
+    Content:
+      dmgBuff:
+        text: 击败敌人 / 受击后伤害增益
+        content: >-
+          当装备者消灭敌方目标或受到攻击后，立即回复等同于装备者攻击力{{Multiplier}}%的生命值，同时造成的伤害提高{{DmgBuff}}%，持续到自身下个回合结束。该效果不可叠加，每回合只可触发1次。
+  TextureOfMemories:
+    Content:
+      activeShieldDmgDecrease:
+        text: 持有护盾时受伤降低
+        content: >-
+          当装备者受到攻击后，如果自身未持有护盾，则获得1个等同于装备者{{ShieldHp}}%生命上限的护盾，持续2回合。该效果每3回合只能触发1次。如果装备者持有护盾，则使自身受到的伤害降低{{DmgReduction}}%。
+  TheUnreachableSide:
+    Content:
+      dmgBuff:
+        text: 消耗自身生命值 / 受击后伤害增益
+        content: 当装备者受到攻击或装备者消耗自身生命值后，造成的伤害提高{{DmgBuff}}%，该效果在装备者施放攻击后解除。
+  ThoseManySprings:
+    Content:
+      unarmoredVulnerability:
+        text: 卸甲易伤
+        content: >-
+          当装备者施放普攻、战技、终结技攻击敌方目标后，有60%的基础概率使其陷入【卸甲】状态。【卸甲】状态下，敌方目标受到的伤害提高{{UnarmoredVulnerability}}%持续2回合。若目标处于装备者施加的持续伤害状态，则有60%的基础概率将装备者施加的【卸甲】状态升级成【穷寇】状态，使敌方目标受到的伤害额外提高{{CorneredVulnerability}}%，持续2回合。
+      corneredVulnerability:
+        text: 穷寇易伤
+        content: >-
+          当装备者施放普攻、战技、终结技攻击敌方目标后，有60%的基础概率使其陷入【卸甲】状态。【卸甲】状态下，敌方目标受到的伤害提高{{UnarmoredVulnerability}}%持续2回合。若目标处于装备者施加的持续伤害状态，则有60%的基础概率将装备者施加的【卸甲】状态升级成【穷寇】状态，使敌方目标受到的伤害额外提高{{CorneredVulnerability}}%，持续2回合。
+  TimeWaitsForNoOne:
+    Content:
+      healingBasedDmgProc:
+        text: 基于治疗量的伤害触发（未实施）
+        content: >-
+          当装备者对我方目标提供治疗时，记录治疗量。当任意我方目标施放攻击后，根据记录治疗量的{{Multiplier}}%，对随机1个受到攻击的敌方目标造成基于装备者属性的附加伤害。该伤害不受加成影响，每回合最多结算1次。
+  WhereaboutsShouldDreamsRest:
+    Content:
+      routedVulnerability:
+        text: 溃败易伤
+        content: >-
+          当装备者对敌方目标造成击破伤害时，使敌方陷入【溃败】状态，持续2回合。【溃败】状态下目标受到装备者造成的击破伤害提高{{Vulnerability}}%，速度降低20%，同类效果无法叠加。
+  WorrisomeBlissful:
+    Content:
+      targetTameStacks:
+        text: 温驯层数
+        content: >-
+          装备者施放追加攻击后，使目标陷入【温驯】状态，该效果最多叠加2层。我方目标击中【温驯】状态下的敌方目标时，每层【温驯】使造成的暴击伤害提高{{CritBuff}}%。
+  YetHopeIsPriceless:
+    Content:
+      fuaDmgBoost:
+        text: 暴击伤害转至追加攻击伤害增益
+        content: 当装备者在战斗中暴击伤害大于120%时，每超过20% ，追加攻击造成的伤害提高{{DmgBuff}}%，该效果可叠加4层。
+      ultFuaDefShred:
+        text: 终结技 / 追加攻击防御力穿透
+        content: 战斗开始时和装备者施放普攻后，使终结技或追加攻击造成的伤害无视目标{{DefShred}}%的防御，持续2回合。
+  AfterTheCharmonyFall:
+    Content:
+      spdBuff:
+        text: 速度增益
+        content: 装备者施放终结技后，速度提高{{SpdBuff}}%，持续2回合。
+  ASecretVow:
+    Content:
+      enemyHpHigherDmgBoost:
+        text: 敌人生命值百分比高于装备者时伤害提高
+        content: 装备者对当前生命值百分比大于等于装备者自身当前生命值百分比的敌方目标造成的伤害额外提高{{DmgBuff}}%。
+  BoundlessChoreo:
+    Content:
+      enemyDefReducedSlowed:
+        text: 敌人防御降低 / 减速状态时暴击伤害提升
+        content: 装备者对处于防御降低或减速状态下的敌人造成的暴击伤害提高{{CritBuff}}%。
+  CarveTheMoonWeaveTheClouds:
+    Content:
+      atkBuffActive:
+        text: 持有攻击力增益
+        content: >-
+          在战斗开始时以及当装备者回合开始时，随机生效1个效果。该效果生效时，替换上次的效果且本次不会与上次重复。效果包含：::BR::使我方全体攻击力提高{{AtkBuff}}%；::BR::使我方全体暴击伤害提高{{CritBuff}}%；::BR::使我方全体能量恢复效率提高{{RegenBuff}}%。::BR::同类效果无法叠加，在装备者陷入无法战斗状态时解除。
+      cdBuffActive:
+        text: 持有暴击伤害增益
+        content: >-
+          在战斗开始时以及当装备者回合开始时，随机生效1个效果。该效果生效时，替换上次的效果且本次不会与上次重复。效果包含：::BR::使我方全体攻击力提高{{AtkBuff}}%；::BR::使我方全体暴击伤害提高{{CritBuff}}%；::BR::使我方全体能量恢复效率提高{{RegenBuff}}%。::BR::同类效果无法叠加，在装备者陷入无法战斗状态时解除。
+      errBuffActive:
+        text: 持有能量恢复效率增益
+        content: >-
+          在战斗开始时以及当装备者回合开始时，随机生效1个效果。该效果生效时，替换上次的效果且本次不会与上次重复。效果包含：::BR::使我方全体攻击力提高{{AtkBuff}}%；::BR::使我方全体暴击伤害提高{{CritBuff}}%；::BR::使我方全体能量恢复效率提高{{RegenBuff}}%。::BR::同类效果无法叠加，在装备者陷入无法战斗状态时解除。
+  ConcertForTwo:
+    Content:
+      teammateShieldStacks:
+        text: 队友护盾数量增伤层数
+        content: 场上每有一名持有护盾的角色，装备者造成的伤害提高{{DmgBuff}}%。
+  DayOneOfMyNewLife:
+    Content:
+      dmgResBuff:
+        text: 伤害抗性增益
+        content: 进入战斗后，使我方全体的全属性抗性提高{{ResBuff}}%。同类技能无法重复生效。
+  DreamvilleAdventure:
+    Content:
+      ultDmgBuff:
+        text: 终结技伤害提高
+        content: >-
+          装备者施放普攻、战技、终结技中某一类型的技能后，为我方全体附加【童心】，【童心】可以使我方目标对应类型的技能所造成的伤害提高{{DmgBuff}}%。【童心】仅对装备者最新使用的技能类型生效，且不可叠加。
+      skillDmgBuff:
+        text: 战技伤害提高
+        content: >-
+          装备者施放普攻、战技、终结技中某一类型的技能后，为我方全体附加【童心】，【童心】可以使我方目标对应类型的技能所造成的伤害提高{{DmgBuff}}%。【童心】仅对装备者最新使用的技能类型生效，且不可叠加。
+      basicDmgBuff:
+        text: 普攻伤害提高
+        content: >-
+          装备者施放普攻、战技、终结技中某一类型的技能后，为我方全体附加【童心】，【童心】可以使我方目标对应类型的技能所造成的伤害提高{{DmgBuff}}%。【童心】仅对装备者最新使用的技能类型生效，且不可叠加。
+  Fermata:
+    Content:
+      enemyShockWindShear:
+        text: 敌人处于触电 / 风化状态时伤害提高
+        content: 使装备者对处于触电或风化状态的敌方目标造成的伤害提高{{DmgBuff}}%，该效果对持续伤害也会生效。
+  FinalVictor:
+    Content:
+      goodFortuneStacks:
+        text: 好运层数
+        content: >-
+          当装备者对敌方目标造成暴击后获得一层【好运】，最多叠加 4 层。每层【好运】使装备者的暴击伤害提高{{CritBuff}}%。【好运】在装备者的回合结束时移除。
+  FlamesAfar:
+    Content:
+      dmgBuff:
+        text: 伤害增益
+        content: >-
+          当装备者在单次受到攻击中累计损失的生命值超过最大生命值的25%，或单次消耗自身生命值超过最大生命值的25%，则立即回复等同于装备者生命上限15%的生命值，同时使装备者造成的伤害提高{{DmgBuff}}%，持续2回合。该效果每3回合只能触发1次。
+  ForTomorrowsJourney:
+    Content:
+      ultDmgBuff:
+        text: 施放终结技后伤害增益
+        content: 装备者施放终结技后，造成的伤害提高{{DmgBuff}}%，持续1回合。
+  GeniusesRepose:
+    Content:
+      defeatedEnemyCdBuff:
+        text: 消灭敌人后暴击伤害增益
+        content: 当装备者消灭敌方目标后，暴击伤害提高{{DmgBuff}}%，持续 3 回合。
+  GoodNightAndSleepWell:
+    Content:
+      debuffStacksDmgIncrease:
+        text: 负面效果层数伤害提高
+        content: 敌方目标每承受1个负面效果，装备者对其造成的伤害提高{{DmgBuff}}%，最多叠加 3 层。该效果对持续伤害也会生效。
+  HeyOverHere:
+    Content:
+      postSkillHealBuff:
+        text: 施放战技后治疗量增益
+        content: 当装备者施放战技时，治疗量提高{{HealingBoost}}%，持续 2 回合。
+  IndeliblePromise:
+    Content:
+      crBuff:
+        text: 施放终结技后暴击率增益
+        content: 当装备者施放终结技时，暴击率提高{{CritBuff}}%，持续 2 回合。
+  ItsShowtime:
+    Content:
+      trickStacks:
+        text: 戏法层数
+        content: >-
+          装备者对敌方目标施加负面状态后，获得一层【戏法】，每层【戏法】使装备者造成的伤害提高{{DmgBuff}}%最多叠加 3 层，持续 1 回合。当装备者的效果命中大于等于 80% 时，攻击力提高{{AtkBuff}}%。
+  MakeTheWorldClamor:
+    Content:
+      ultDmgBuff:
+        text: 终结技伤害增益
+        content: 使装备者进入战斗时立即恢复{{Energy}}点能量，同时使其终结技造成的伤害提高{{DmgBuff}}%。
+  NinjaRecordSoundHunt:
+    Content:
+      cdBuff:
+        text: 生命变化时暴击伤害增益
+        content: 损失或回复自身生命值后，暴击伤害提高{{CritBuff}}%，持续 2 回合，该效果每回合只可触发1次。
+  OnlySilenceRemains:
+    Content:
+      enemies2CrBuff:
+        text: '≤2个敌人时暴击率增益'
+        content: 当场上的敌方目标数量小于等于2时，装备者的暴击率提高{{CritBuff}}%.
+  PastAndFuture:
+    Content:
+      postSkillDmgBuff:
+        text: 技能后伤害增益
+        content: 当装备者施放战技后，使下一个行动的我方其他目标造成的伤害提高{{DmgBuff}}%，持续1回合。
+  PerfectTiming:
+    Content:
+      resToHealingBoost:
+        text: 效果抵抗转至治疗量提高
+        content: 使装备者的治疗量提高，提高数值等同于效果抵抗的{{Scaling}}%，最多使治疗量提高{{Limit}}%。
+  PlanetaryRendezvous:
+    Content:
+      alliesSameElement:
+        text: 同属性队友伤害提高
+        content: 进入战斗后，当我方目标造成与装备者相同属性的伤害时，造成的伤害提高{{DmgBuff}}%。
+  PoisedToBloom:
+    Content:
+      cdBuff:
+        text: 相同命途暴击伤害增益
+        content: "进入战斗时，若有两名及以上我方角色拥有任意相同命途，使这些角色的暴击伤害提高{{CritBuff}}%。同类技能无法重复生效。"
+  PostOpConversation:
+    Content:
+      postUltHealingBoost:
+        text: 终结技治疗量提高
+        content: 使装备者在施放终结技时治疗量提高{{HealingBoost}}%。
+  ResolutionShinesAsPearlsOfSweat:
+    Content:
+      targetEnsnared:
+        text: 敌人陷入攻陷状态
+        content: 当装备者击中敌方目标时，如果该目标不处于【攻陷】状态，则有概率使其陷入【攻陷】状态。【攻陷】状态下的敌方目标防御力降低{{DefShred}}%，持续1回合。
+  RiverFlowsInSpring:
+    Content:
+      spdDmgBuff:
+        text: 速度 / 伤害增益启用中
+        content: >-
+          进入战斗后，使装备者速度提高{{SpdBuff}}%，造成的伤害提高{{DmgBuff}}%。当装备者受到伤害后该效果失效，下个回合结束时该效果恢复。
+  ShadowedByNight:
+    Content:
+      spdBuff:
+        text: 速度增益
+        content: 进入战斗时或造成击破伤害后，速度提高{{SpdBuff}}%，持续2回合，该效果每回合只可触发1次。
+  SubscribeForMore:
+    Content:
+      maxEnergyDmgBoost:
+        text: 满能量伤害提高
+        content: 使装备者普攻和战技造成的伤害提高{{DmgBuff}}%，当装备者的当前能量值等于其能量上限时，该效果额外提高{{DmgBuff}}%。
+  Swordplay:
+    Content:
+      sameTargetHitStacks:
+        text: 同一目标击中层数
+        content: 当装备者多次击中同一敌方目标时，每次造成的伤害提高{{DmgBuff}}%，该效果最多叠加5层。若攻击目标发生变化，立即解除当前的增益效果。
+  TheBirthOfTheSelf:
+    Content:
+      enemyHp50FuaBuff:
+        text: 敌人生命值≤50%时追加攻击伤害增益
+        content: 若该敌方目标当前生命值百分比小于等于50% ，则追加攻击造成的伤害额外提高{{DmgBuff}}%。
+  TheDayTheCosmosFell:
+    Content:
+      cdBuffActive:
+        text: '≥2个对应属性弱点目标暴击伤害增益'
+        content: 装备者施放攻击后，若有不少于2个被攻击的敌方目标具有对应属性弱点，装备者的暴击伤害提高{{CritBuff}}%，持续2回合。
+  TheMolesWelcomeYou:
+    Content:
+      atkBuffStacks:
+        text: 攻击力增益层数
+        content: 装备者施放普攻、战技或终结技攻击敌方目标后，分别获取一层【淘气值】。每层使装备者的攻击力提高{{AtkBuff}}%。
+  TheSeriousnessOfBreakfast:
+    Content:
+      dmgBoost:
+        text: 伤害提高
+        content: 使装备者造成伤害提高{{DmgBuff}}%。
+      defeatedEnemyAtkStacks:
+        text: 消灭敌人后攻击力增益层数
+        content: 每消灭1个敌方目标，装备者的攻击力提高{{AtkBuff}}%，该效果最多叠加3层。
+  ThisIsMe:
+    Content:
+      defScalingUltDmg:
+        text: 基于防御力的终结技伤害（未实施）
+        content: >-
+          使装备者施放终结技时造成的伤害值提高，提高数值等同于装备者防御力的{{Multiplier}}%，该效果每次施放终结技时对每个敌方目标仅生效1次。
+  TodayIsAnotherPeacefulDay:
+    Content:
+      maxEnergyStacks:
+        text: 能量上限
+        content: 进入战斗后，根据装备者的能量上限，提高装备者造成的伤害：每点能量提高{{DmgStep}}%，最多计入160点。
+  UnderTheBlueSky:
+    Content:
+      defeatedEnemyCrBuff:
+        text: 消灭敌人后暴击率增益
+        content: 当装备者消灭敌方目标后，暴击率提高{{CritBuff}}%，持续3回合。
+  WeAreWildfire:
+    Content:
+      initialDmgReductionBuff:
+        text: 初始伤害减免增益
+        content: >-
+          战斗开始时，使我方全体受到的伤害降低{{DmgReduction}}%，持续5回合。同时立即为我方全体回复等同于各自已损失生命值{{Healing}}%的生命值。
+  WeWillMeetAgain:
+    Content:
+      extraDmgProc:
+        text: 额外伤害触发
+        content: 装备者施放普攻或战技后，对随机1个受到攻击的敌方目标造成等同于自身{{Multiplier}}%攻击力的附加伤害。
+  WoofWalkTime:
+    Content:
+      atkBoost:
+        text: 敌人处于灼烧 / 裂伤状态时伤害提高
+        content: 使装备者对处于灼烧或裂伤状态的敌方目标造成的伤害提高{{DmgBuff}}%，该效果对持续伤害也会生效。
+  Adversarial:
+    Content:
+      defeatedEnemySpdBuff:
+        text: 消灭敌人后速度增益
+        content: 使装备者在消灭敌方目标后，速度提高{{SpdBuff}}%，持续2回合。
+  Amber:
+    Content:
+      hp50DefBuff:
+        text: 生命值<50%时防御力增益
+        content: 当装备者当前生命值百分比小于 50% 时，其防御力额外提高{{DefBuff}}%。
+  Arrows:
+    Content:
+      critBuff:
+        text: 初始暴击率增益
+        content: 战斗开始时，使装备者的暴击率提高{{CritBuff}}%持续 3 回合。
+  Chorus:
+    Content:
+      inBattleAtkBuff:
+        text: 初始攻击力增益
+        content: 进入战斗后，使我方全体的攻击力提高{{AtkBuff}}%。同类技能无法重复生效。
+  CollapsingSky:
+    Content:
+      basicSkillDmgBuff:
+        text: 普攻 / 战技伤害增益
+        content: 使装备者普攻和战技造成的伤害提高{{DmgBuff}}%。
+  Cornucopia:
+    Content:
+      healingBuff:
+        text: 治疗量增益
+        content: 装备者施放战技和终结技时，治疗量提高{{HealingBuff}}%。
+  DartingArrow:
+    Content:
+      defeatedEnemyAtkBuff:
+        text: 消灭敌人后攻击力增益
+        content: 使装备者消灭敌方目标后，攻击力提高{{AtkBuff}}%，持续3回合。
+  DataBank:
+    Content:
+      ultDmgBuff:
+        text: 终结技伤害增益
+        content: 使装备者终结技造成的伤害提高{{DmgBuff}}%。
+  HiddenShadow:
+    Content:
+      basicAtkBuff:
+        text: 普攻额外伤害
+        content: 施放战技后，使装备者的下一次普攻对敌方目标造成等同于自身{{MultiplierBonus}}%攻击力的附加伤害。
+  Loop:
+    Content:
+      enemySlowedDmgBuff:
+        text: 敌人处于减速状态时伤害增益
+        content: 使装备者对减速状态下的敌方目标造成的伤害提高{{DmgBuff}}%。
+  Mediation:
+    Content:
+      initialSpdBuff:
+        text: 初始速度增益
+        content: 进入战斗时，我方全体速度提高{{SpdBuff}}点，持续1回合。
+  MutualDemise:
+    Content:
+      selfHp80CrBuff:
+        text: 自身生命值<80%时暴击率增益
+        content: 装备者当前生命值百分比小于80%时，暴击率提高{{CritBuff}}%。
+  Sagacity:
+    Content:
+      postUltAtkBuff:
+        text: 终结技后攻击力增益
+        content: 当装备者施放终结技时，攻击力提高{{AtkBuff}}%，持续2回合。
+  ShatteredHome:
+    Content:
+      enemyHp50Buff:
+        text: 敌人生命值>50%时伤害增益
+        content: 使装备者对当前生命值百分比大于 50% 的敌方目标造成的伤害提高{{DmgBuff}}%。
+  Void:
+    Content:
+      initialEhrBuff:
+        text: 初始效果命中增益
+        content: 战斗开始时，使装备者的效果命中提高{{EhrBuff}}%，持续3回合。
+Characters:
+  Acheron:
+    Content:
+      crimsonKnotStacks:
+        text: 集真赤层数
+        content: >-
+          【啼泽雨斩】：对指定敌方单体造成等同于黄泉攻击力{{RainbladeScaling}}%的雷属性伤害，并消去目标最多3层【集真赤】。消去【集真赤】时，立即对敌方全体造成等同于黄泉{{CrimsonKnotScaling}}%每消去1层【集真赤】本次伤害倍率额外提高。::BR::终结技的【啼泽雨斩】击中持有【集真赤】的敌方目标时，使黄泉造成的伤害提高30%，该效果最多叠加3层。
+      nihilityTeammates:
+        text: 虚无队友数量
+        content: >-
+          When there are 1 or 2 Nihility characters other than Acheron in the team, the DMG dealt by Acheron's Basic ATK, Skill, and Ultimate increases to 115% or 160% of the original DMG respectively.::BR::E2: The number of Nihility characters required for the Trace The Abyss to achieve its highest possible effect is reduced by 1. When this unit's turn starts, gains 1 point of Slashed Dream and inflicts 1 stack of Crimson Knot on the enemy with the most Crimson Knot stacks.
+      thunderCoreStacks:
+        text: Thunder Core stacks
+        content: When the Rainblade from Acheron's Ultimate hits enemy targets with Crimson Knot, her DMG increases by 30%, stacking up to 3 time(s) and lasting for 3 turn(s).
+      stygianResurgeHitsOnTarget:
+        text: Stygian Resurge hits
+        content: >-
+          When Stygian Resurge triggers, additionally deals DMG for 6 times. Each time deals Lightning DMG equal to 25% of Acheron's ATK to a single random enemy and is viewed as part of the Ultimate DMG.
+      e1EnemyDebuffed:
+        text: E1 CR boost
+        content: When dealing DMG to debuffed enemies, increases the CRIT Rate by 18%.
+      e4UltVulnerability:
+        text: E4 Ult vulnerability
+        content: When enemy targets enter combat, inflicts them with the Ultimate DMG Vulnerability, increasing the amount of Ultimate DMG they take by 8%.
+      e6UltBuffs:
+        text: E6 Ult buffs
+        content: >-
+          Increases the All-Type RES PEN for the Ultimate DMG dealt by Acheron by 20%. The DMG dealt by Basic ATK and Skill will also be considered as Ultimate DMG and can reduce enemy toughness regardless of Weakness Types. When breaking Weaknesses, triggers the Lightning Weakness Break effect.
+  Argenti:
+    Content:
+      ultEnhanced:
+        text: Enhanced Ult
+        content: >-
+          Consumes 180 Energy and deals Physical DMG equal to {{ultEnhancedScaling}}% of Argenti's ATK to all enemies, and further deals DMG for 6 extra time(s), with each time dealing Physical DMG equal to {{ultEnhancedExtraHitScaling}}% of Argenti's ATK to a random enemy.
+      enemyHp50:
+        text: Enemy HP ≤ 50% DMG boost
+        content: Deals 15% more DMG to enemies whose HP percentage is 50% or less.
+      talentStacks:
+        text: Apotheosis stacks
+        content: Increases CR by {{talentCrStackValue}}% per stack, max of {{talentMaxStacks}} stacks.
+      ultEnhancedExtraHits:
+        text: Enhanced Ult extra hits on target
+        content: Enhanced Ult hits a random enemy for {{ultEnhancedExtraHitScaling}}% ATK per hit.
+      e2UltAtkBuff:
+        text: E2 Ult ATK buff
+        content: "E2: If the number of enemies on the field equals to 3 or more, increases ATK by 40% for 1 turn."
+  Arlan:
+    Content:
+      selfCurrentHpPercent:
+        text: Self current HP%
+        content: Based on Arlan's current missing HP percentage, gains DMG bonus, up to a maximum increase of {{talentMissingHpDmgBoostMax}}% DMG dealt by Arlan.
+  Asta:
+    Content:
+      skillExtraDmgHits:
+        text: Skill extra hits
+        content: "Deals 50% ATK DMG equal to a single enemy. Deals DMG for {{skillExtraDmgHitsMax}} extra times to a random enemy.::BR::E1: When using Skill, deals DMG for 1 extra time to a random enemy."
+      talentBuffStacks:
+        text: Talent ATK buff stacks
+        content: "Increases allies' ATK by {{talentStacksAtkBuff}}% for every stack.::BR::E4: Asta's Energy Regeneration Rate increases by 15% when she has 2 or more Charging stacks."
+      ultSpdBuff:
+        text: Ult SPD buff active
+        content: Increases SPD of all allies by {{ultSpdBuffValue}} for 2 turn(s).
+      fireDmgBoost:
+        text: Fire DMG buff
+        content: When Asta is on the field, all allies' Fire DMG increases by 18%.
+  Aventurine:
+    Content:
+      defToCrBoost:
+        text: DEF to CR buff
+        content: For every 100 of Aventurine's DEF that exceeds 1600, increases his own CRIT Rate by 2%, up to a maximum increase of 48%.
+      fortifiedWagerBuff:
+        text: Fortified Wager buff
+        content: >-
+          For any single ally with Fortified Wager, their Effect RES increases by {{talentResScaling}}%, and when they get attacked, Aventurine gains 1 point of Blind Bet.::BR::E1: Increases CRIT DMG by 20% for allies with Fortified Wager. After using the Ultimate, provides all allies with a Fortified Wager shield, whose Shield effect is equal to 100% of the one provided by the Skill, lasting for 3 turn(s).
+      enemyUnnervedDebuff:
+        text: Enemy Unnerved
+        content: When an ally hits an Unnerved enemy target, the CRIT DMG dealt increases by {{ultCdBoost}}%.
+      fuaHitsOnTarget:
+        text: FUA hits on target
+        content: >-
+          Upon reaching 7 points of Blind Bet, Aventurine consumes the 7 points to launch a 7-hit follow-up attack, with each hit dealing Imaginary DMG equal to {{talentDmgScaling}}% of Aventurine's DEF to a single random enemy. Blind Bet is capped at 10 points.::BR::E4: When triggering his Talent's follow-up attack, first increases Aventurine's DEF by 40% for 2 turn(s), and additionally increases the Hits Per Action for his talent's follow-up attack by 3.
+      e2ResShred:
+        text: E2 RES shred
+        content: When using the Basic ATK, reduces the target's All-Type RES by 12% for 3 turn(s).
+      e4DefBuff:
+        text: E4 DEF buff
+        content: "E4: When triggering his Talent's follow-up attack, first increases Aventurine's DEF by 40% for 2 turn(s)"
+      e6ShieldStacks:
+        text: E6 shield stacks
+        content: "E6: For every ally that holds a Shield, the DMG dealt by Aventurine increases by 50%, up to a maximum of 150%."
+  Bailu:
+    Content:
+      healingMaxHpBuff:
+        text: Healing max HP buff
+        content: When Bailu heals a target ally above their normal Max HP, the target's Max HP increases by 10% for 2 turns.
+      talentDmgReductionBuff:
+        text: Invigoration DMG reduction
+        content: Characters with Invigoration take 10% less DMG.
+      e2UltHealingBuff:
+        text: E2 Ult healing buff
+        content: "E2: Increases healing by 15% after Ultimate."
+      e4SkillHealingDmgBuffStacks:
+        text: E4 Skill DMG boost stacks
+        content: "E4: Every healing provided by Bailu's Skill makes the recipient deal 10% more DMG for 2 turns. This effect can stack up to 3 times."
+  BlackSwan:
+    Content:
+      ehrToDmgBoost:
+        text: EHR to DMG boost
+        content: Increases this unit's DMG by an amount equal to 60% of Effect Hit Rate, up to a maximum DMG increase of 72%.
+      epiphanyDebuff:
+        text: Epiphany debuff
+        content: Enemies affected by Epiphany take {{epiphanyDmgTakenBoost}}% more DMG in their turn.
+      defDecreaseDebuff:
+        text: DEF shred debuff
+        content: Enemies DEF is decreased by {{defShredValue}}
+      arcanaStacks:
+        text: Arcana stacks
+        content: >-
+          While afflicted with Arcana, enemy targets receive Wind DoT equal to {{dotScaling}}% of Black Swan's ATK at the start of each turn. Each stack of Arcana increases this DoT DMG multiplier by {{arcanaStackMultiplier}}%. Arcana can stack up to 50 times.::BR::When there are 3 or more Arcana stacks, deals Wind DoT to adjacent targets. When there are 7 or more Arcana stacks, enables the current DoT dealt this time to ignore 20% of the target's and adjacent targets' DEF.
+      e1ResReduction:
+        text: E1 RES shred
+        content: >-
+          E1: While Black Swan is active in battle, enemies afflicted with Wind Shear, Bleed, Burn, or Shock will have their corresponding Wind, Physical, Fire, or Lightning RES respectively reduced by 25%.
+  Blade:
+    Content:
+      enhancedStateActive:
+        text: Hellscape state
+        content: "Increases DMG by {{enhancedStateDmgBoost}}% and his Basic ATK Shard Sword is enhanced to Forest of Swords for 3 turn(s).::BR::E2: Increases CRIT Rate by 15%."
+      hpPercentLostTotal:
+        text: HP% lost total
+        content: Ultimate DMG scales off of the tally of Blade's HP loss in the current battle. The tally of Blade's HP loss in the current battle is capped at {{hpPercentLostTotalMax}}% of his Max HP.
+      e4MaxHpIncreaseStacks:
+        text: E4 max HP stacks
+        content: "E4: Increases HP by 20%, stacks up to 2 times."
+  Boothill:
+    Content:
+      standoffActive:
+        text: Standoff Active
+        content: >-
+          Forces Boothill and a single target enemy into the Standoff state. Boothill's Basic ATK gets Enhanced, and he cannot use his Skill, lasting for 2 turn(s). This duration reduces by 1 at the start of Boothill's every turn. The enemy target in the Standoff becomes Taunted. When this enemy target/Boothill gets attacked by the other party in the Standoff, the DMG they receive increases by {{standoffVulnerabilityBoost}}%/15%.
+      pocketTrickshotStacks:
+        text: Pocket Trickshots
+        content: Each stack of Pocket Trickshot increases the Enhanced Basic Attack's Toughness Reduction by 50%, stacking up to 3 time(s).
+      beToCritBoost:
+        text: BE to CR / CD buff
+        content: Increase this character's CRIT Rate/CRIT DMG, by an amount equal to 10%/50% of Break Effect, up to a max increase of 30%/150%.
+      talentBreakDmgScaling:
+        text: Talent Break DMG (force weakness break)
+        content: >-
+          If the target is Weakness Broken while the Enhanced Basic ATK is being used, based on the number of Pocket Trickshot stacks, deals Break DMG to this target based on Boothill's Physical Break DMG. The max Toughness taken into account for this DMG cannot exceed 16 times the base Toughness Reduction of the Basic Attack Skullcrush Spurs.
+      e1DefShred:
+        text: E1 DEF PEN
+        content: When the battle starts, obtains 1 stack of Pocket Trickshot. When Boothill deals DMG, ignores 16% of the enemy target's DEF.
+      e2BeBuff:
+        text: E2 BE buff
+        content: >-
+          When in Standoff and gaining Pocket Trickshot, recovers 1 Skill Point(s) and increases Break Effect by 30%, lasting for 2 turn(s). Can also trigger this effect when gaining Pocket Trickshot stacks that exceed the max limit. But cannot trigger repeatedly within one turn.
+      e4TargetStandoffVulnerability:
+        text: E4 Skill vulnerability
+        content: >-
+          When the enemy target in the Standoff is attacked by Boothill, the DMG they receive additionally increases by 12%. When Boothill is attacked by the enemy target in the Standoff, the effect of him receiving increased DMG is offset by 12%.
+      e6AdditionalBreakDmg:
+        text: E6 Break DMG boost
+        content: >-
+          When triggering the Talent's Break DMG, additionally deals Break DMG to the target equal to 40% of the original DMG multiplier and additionally deals Break DMG to adjacent targets equal to 70% of the original DMG multiplier.
+  Bronya:
+    Content:
+      teamDmgBuff:
+        text: Team DMG buff
+        content: When Bronya is on the field, all allies deal 10% more DMG.
+      skillBuff:
+        text: Skill DMG buff
+        content: Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by {{skillDmgBoostValue}}% for 1 turn(s).
+      ultBuff:
+        text: Ult ATK / CD buffs
+        content: Increases the ATK of all allies by {{ultAtkBoostValue}}% and CRIT DMG by {{ultCdBoostValue}}% of Bronya's CRIT DMG plus {{ultCdBoostBaseValue}}% for 2 turns.
+      battleStartDefBuff:
+        text: Initial DEF buff
+        content: At the start of the battle, all allies' DEF increases by 20% for 2 turn(s).
+      techniqueBuff:
+        text: Technique ATK buff
+        content: After using Bronya's Technique, at the start of the next battle, all allies' ATK increases by 15% for 2 turn(s).
+      e2SkillSpdBuff:
+        text: E2 Skill SPD buff
+        content: When using Skill, the target ally's SPD increases by 30% after taking action, lasting for 1 turn.
+    TeammateContent:
+      teammateCDValue:
+        text: Bronya's Combat CD
+        content: Increases the ATK of all allies by {{ultAtkBoostValue}}% and CRIT DMG by {{ultCdBoostValue}}% of Bronya's CRIT DMG plus {{ultCdBoostBaseValue}}% for 2 turns.
+  Clara:
+    Content:
+      ultBuff:
+        text: Ult buffs
+        content: Increases Svarog Counter DMG by {{ultFuaExtraScaling}}% during Ultimate. DMG dealt to Clara is reduced by an extra {ultDmgReductionValue}}% for 2 turns
+      talentEnemyMarked:
+        text: Enemy Marked
+        content: Additionally deals Physical DMG equal to {{skillScaling}}% of Clara's ATK to enemies marked by Svarog with a Mark of Counter.
+      e2UltAtkBuff:
+        text: E2 Ult ATK buff
+        content: "E2: After using Ultimate, increases ATK by 30% for 2 turns."
+      e4DmgReductionBuff:
+        text: E4 DMG reduction buff
+        content: "E4: Decreases DMG taken by 30%."
+  DanHeng:
+    Content:
+      talentPenBuff:
+        text: Talent RES PEN buff
+        content: When Dan Heng is the target of an ally's Ability, his next attack's Wind RES PEN increases by {{extraPenValue}}%.
+      enemySlowed:
+        text: Enemy slowed
+        content: Basic ATK deals 40% more damage to Slowed enemies.
+      e1EnemyHp50:
+        text: E1 enemy HP ≥ 50% CR boost
+        content: "E1: When the target enemy's current HP percentage is greater than or equal to 50%, CRIT Rate increases by 12%."
+  DrRatio:
+    Content:
+      summationStacks:
+        text: Summation stacks
+        content: When Dr. Ratio uses his Skill, for every debuff on the target, his CRIT Rate increases by 2.5% and CRIT DMG by 5%. This effect can stack up to {{summationStacksMax}} time(s).
+      enemyDebuffStacks:
+        text: Enemy debuff stacks
+        content: >-
+          When using his Skill, Dr. Ratio has a 40% fixed chance of launching a follow-up attack against his target for 1 time, dealing Imaginary DMG equal to {{FuaScaling}}% of Dr. Ratio's ATK. For each debuff the target enemy has, the fixed chance of launching follow-up attack increases by 20%. If the target enemy is defeated before the follow-up attack triggers, the follow-up attack will be directed at a single random enemy instead.::BR::When dealing DMG to a target that has 3 or more debuff(s), for each debuff the target has, the DMG dealt by Dr. Ratio to this target increases by 10%, up to a maximum increase of 50%.::BR::E2: When his Talent's follow-up attack hits a target, for every debuff the target has, additionally deals Imaginary Additional DMG equal to 20% of Dr. Ratio's ATK. This effect can be triggered for a maximum of 4 times during each follow-up attack.
+  Feixiao:
+    Content:
+      weaknessBrokenUlt:
+        text: Weakness broken ult (force weakness break)
+        content: Overrides weakness break to be enabled.
+      talentDmgBuff:
+        text: Talent DMG buff
+        content: >-
+          After Feixiao's teammates attack enemy targets, Feixiao immediately launches follow-up attack against the primary target, dealing Wind DMG equal to {{FuaMultiplier}}% of Feixiao's ATK. If there is no primary target available to attack, Feixiao attacks a single random enemy instead. This effect can only trigger once per turn and the trigger count resets at the start of Feixiao's turn. When using this attack, increases DMG dealt by this unit by {{DmgBuff}}%, lasting for 2 turn(s).
+      skillAtkBuff:
+        text: Skill ATK buff
+        content: When using Skill, increases ATK by 48.0%, lasting for 3.0 turn(s).
+      e1OriginalDmgBoost:
+        text: E1 original DMG boost
+        content: >-
+          E1: After launching Boltsunder Blitz or Waraxe Skyward, additionally increases the Ultimate DMG dealt by Feixiao by an amount equal to 10.0% of the original DMG, stacking up to 5.0 time(s) and lasting until the end of the Ultimate action.
+      e4Buffs:
+        text: E4 buffs
+        content: The Toughness Reduction from the Talent's Follow-up ATK increases by 100.0% and, when launched, increases this unit's SPD by 8.0%, lasting for 2.0 turn(s).
+      e6Buffs:
+        text: E6 buffs
+        content: >-
+          Increases the All-Type RES PEN of Ultimate DMG dealt by Feixiao by 20.0%. Talent's follow-up attack DMG is considered as Ultimate DMG at the same time, and its DMG multiplier increases by 140.0%.
+  Firefly:
+    Content:
+      enhancedStateActive:
+        text: Enhanced state
+        content: Enters the Complete Combustion state, advances this unit's Action by 100%, and gains Enhanced Basic ATK and Enhanced Skill.
+      enhancedStateSpdBuff:
+        text: Enhanced SPD buff
+        content: While in Complete Combustion, increases SPD by {{ultSpdBuff}}.
+      superBreakDmg:
+        text: Super Break enabled (force weakness break)
+        content: >-
+          When SAM is in Complete Combustion with a Break Effect that is equal to or greater than 200%/360%, attacking a Weakness-Broken enemy target will convert the Toughness Reduction of this attack into 1 instance of 35%/50% Super Break DMG.
+      atkToBeConversion:
+        text: ATK to BE buff
+        content: For every 10 point(s) of SAM's ATK that exceeds 1800, increases this unit's Break Effect by 0.8%.
+      talentDmgReductionBuff:
+        text: Max EHP buff
+        content: >-
+          The lower the HP, the less DMG received. When HP is 20% or lower, the DMG Reduction reaches its maximum effect, reducing up to {{talentDmgReductionBuff}}%. During the Complete Combustion, the DMG Reduction remains at its maximum effect, and the Effect RES increases by {{talentResBuff}}%.
+      e1DefShred:
+        text: E1 DEF PEN
+        content: When using the Enhanced Skill, ignores 15% of the target's DEF. The Enhanced Skill does not consume Skill Points.
+      e4ResBuff:
+        text: E4 RES buff
+        content: While in Complete Combustion, increases SAM's Effect RES by 50%.
+      e6Buffs:
+        text: E6 buffs
+        content: While in Complete Combustion, increases SAM's Fire RES PEN by 20%. When using the Enhanced Basic ATK or Enhanced Skill, increases the Weakness Break efficiency by 50%.
+  FuXuan:
+    Content:
+      talentActive:
+        text: Team DMG reduction
+        content: While Fu Xuan is still active in battle, Misfortune Avoidance is applied to the entire team. With Misfortune Avoidance, allies take {{talentDmgReductionValue}}% less DMG.
+      skillActive:
+        text: Skill active
+        content: >-
+          Activates Matrix of Prescience, via which other team members will Distribute 65% of the DMG they receive (before this DMG is mitigated by any Shields) to Fu Xuan for 3 turn(s). While affected by Matrix of Prescience, all team members gain the Knowledge effect, which increases their respective Max HP by {{skillHpBuffValue}}% of Fu Xuan's Max HP, and increases CRIT Rate by {{skillCrBuffValue}}%.
+      e6TeamHpLostPercent:
+        text: E6 team HP lost
+        content: >-
+          E6: Once Matrix of Prescience is activated, it will keep a tally of the total HP lost by all team members in the current battle. Fu Xuan's Ultimate DMG will increase by 200% of this tally of HP loss. This tally is also capped at 120% of Fu Xuan's Max HP.
+    TeammateContent:
+      teammateHPValue:
+        text: Fu Xuan's Combat HP
+        content: While affected by Matrix of Prescience, all team members gain the Knowledge effect, which increases their respective Max HP by {{skillHpBuffValue}}% of Fu Xuan's Max HP
+  Gallagher:
+    Content:
+      basicEnhanced:
+        text: Enhanced Basic
+        content: Ultimate enhances his next Basic ATK to Nectar Blitz.
+      breakEffectToOhbBoost:
+        text: BE to OHB buff
+        content: Increases this unit's Outgoing Healing by an amount equal to 50% of Break Effect, up to a maximum Outgoing Healing increase of 75%.
+      targetBesotted:
+        text: Target Besotted
+        content: The Besotted state makes targets receive {{talentBesottedScaling}}% more Break DMG.
+      e1ResBuff:
+        text: E1 RES buff
+        content: "E1: When entering the battle, Gallagher regenerates 20 Energy and increases Effect RES by 50%."
+      e2ResBuff:
+        text: E2 RES buff
+        content: "E2: When using the Skill, removes 1 debuff(s) from the target ally. At the same time, increases their Effect RES by 30%, lasting for 2 turn(s)."
+      e6BeBuff:
+        text: E6 BE buff
+        content: "E6: Increases Gallagher's Break Effect by 20% and Weakness Break Efficiency by 20%."
+  Gepard:
+    Content:
+      e4TeamResBuff:
+        text: E4 team RES buff
+        content: "E4: When Gepard is in battle, all allies' Effect RES increases by 20%."
+  Guinaifen:
+    Content:
+      talentDebuffStacks:
+        text: Firekiss stacks
+        content: While inflicted with Firekiss, the enemy receives {{talentDebuffDmgIncreaseValue}}% increased DMG, which lasts for 3 turns and can stack up to {{talentDebuffMax}} times.
+      enemyBurned:
+        text: Enemy burned
+        content: Increases DMG by 20% against enemies affected by Burn.
+      skillDot:
+        text: Use Skill DoT chance
+        content: When enabled, uses the Skill's 100% DoT chance instead of the Basic's 80% DoT chance.
+      e1EffectResShred:
+        text: E1 Effect RES shred
+        content: "E1: When Skill is used, there is a 100% base chance to reduce the attacked target enemy's Effect RES by 10% for 2 turn(s)."
+      e2BurnMultiBoost:
+        text: E2 burn multi boost
+        content: "E2: When an enemy target is Burned, Guinaifen's Basic ATK and Skill can increase the DMG multiplier of their Burn status by 40%."
+  Hanya:
+    Content:
+      ultBuff:
+        text: Ult SPD / ATK buff
+        content: Increases the SPD of a target ally by {{ultSpdBuffValue}}% of Hanya's SPD and increases the same target ally's ATK by {{ultAtkBuffValue}}%.
+      targetBurdenActive:
+        text: Target Burden debuff
+        content: When an ally uses a Basic ATK, Skill, or Ultimate on an enemy inflicted with Burden, the DMG dealt increases by {{talentDmgBoostValue}}% for 2 turn(s).
+      burdenAtkBuff:
+        text: Burden ATK buff
+        content: Allies triggering Burden's Skill Point recovery effect have their ATK increased by 10% for 1 turn(s).
+      e2SkillSpdBuff:
+        text: E2 Skill SPD buff
+        content: "E2: After Skill, increases SPD by 20% for 1 turn."
+    TeammateContent:
+      teammateSPDValue:
+        text: Hanya's SPD
+        content: Increases the SPD of a target ally by {{ultSpdBuffValue}}% of Hanya's SPD and increases the same target ally's ATK by {{ultAtkBuffValue}}%.
+  Herta:
+    Content:
+      fuaStacks:
+        text: Followup attack hits
+        content: When an ally's attack causes an enemy's HP percentage to fall to 50% or lower, Herta will launch a follow-up attack, dealing Ice DMG.
+      targetFrozen:
+        text: Target frozen
+        content: When Ultimate is used, deals 20% more DMG to Frozen enemies.
+      enemyHpGte50:
+        text: Skill DMG boost
+        content: If the enemy's HP percentage is 50% or higher, DMG dealt to this target increases by 20%.
+      techniqueBuff:
+        text: Technique ATK buff
+        content: Increases ATK by 40% for 3 turns.
+      enemyHpLte50:
+        text: E1 Basic scaling boost
+        content: "E1: If the enemy's HP percentage is at 50% or less, Herta's Basic ATK deals Additional Ice DMG equal to 40% of Herta's ATK."
+      e2TalentCritStacks:
+        text: E2 Talent CR stacks
+        content: "E2: Increases CRIT Rate by 3% per stack. Stacks up to 5 times."
+      e6UltAtkBuff:
+        text: E6 Ult ATK buff
+        content: "E6: After Ult, increases ATK by 25% for 1 turn."
+  Himeko:
+    Content:
+      targetBurned:
+        text: Target burned
+        content: Skill deals 20% more DMG to enemies currently afflicted with Burn.
+      selfCurrentHp80Percent:
+        text: Self HP ≥ 80% CR buff
+        content: When current HP percentage is 80% or higher, CRIT Rate increases by 15%.
+      e1TalentSpdBuff:
+        text: E1 SPD buff
+        content: "E1: After Victory Rush is triggered, Himeko's SPD increases by 20% for 2 turns."
+      e2EnemyHp50DmgBoost:
+        text: E2 enemy HP ≤ 50% DMG boost
+        content: "E2: Deals 15% more DMG to enemies whose HP percentage is 50% or less."
+      e6UltExtraHits:
+        text: E6 Ult extra hits
+        content: Ultimate deals DMG 2 extra times. Extra hits deals 40% of the original DMG per hit.
+  Hook:
+    Content:
+      enhancedSkill:
+        text: Enhanced Skill
+        content: >-
+          After using Ultimate, the next Skill to be used is Enhanced. Enhanced Skill deals Fire DMG equal to {{skillEnhancedScaling}}% of Hook's ATK to a single enemy and reduced DMG to adjacent enemies.
+      targetBurned:
+        text: Target burned
+        content: >-
+          When attacking a target afflicted with Burn, deals Additional Fire DMG equal to {{targetBurnedExtraScaling}}% of Hook's ATK.::BR::E6: Hook deals 20.0% more DMG to enemies afflicted with Burn.
+  Huohuo:
+    Content:
+      ultBuff:
+        text: Ult ATK buff
+        content: Increases all allies' ATK by {{ultBuffValue}}% for 2 turns after using Ultimate.
+      skillBuff:
+        text: E1 SPD buff
+        content: "E1: When Huohuo possesses Divine Provision, all allies' SPD increases by 12%."
+      e6DmgBuff:
+        text: E6 DMG buff
+        content: "E6: When healing a target ally, increases the target ally's DMG dealt by 50% for 2 turns."
+  ImbibitorLunae:
+    Content:
+      basicEnhanced:
+        text: Basic enhancements
+        content: >-
+          0 stack(s): Uses a 2-hit attack and deals Imaginary DMG equal to {{basicScaling}}% ATK to a single enemy target.::BR::1 stack(s): Uses a 3-hit attack and deals Imaginary DMG equal to {{basicEnhanced1Scaling}}% ATK to a single enemy target.::BR::2 stack(s): Uses a 5-hit attack and deals Imaginary DMG equal to {{basicEnhanced2Scaling}}% ATK to a single enemy target and reduced DMG to adjacent targets.::BR::3 stack(s): Uses a 7-hit attack and deals Imaginary DMG equal to {{basicEnhanced3Scaling}}% ATK to a single enemy target and reduced DMG to adjacent targets.
+      skillOutroarStacks:
+        text: Outroar stacks
+        content: >-
+          Divine Spear or Fulgurant Leap, starting from the fourth hit, 1 stack of Outroar is gained before every hit. Each stack of Outroar increases Dan Heng • Imbibitor Lunae's CRIT DMG by {{outroarStackCdValue}}%, for a max of 4 stacks. (applied to all hits)
+      talentRighteousHeartStacks:
+        text: Righteous Heart stacks
+        content: After each hit dealt during an attack, Dan Heng • Imbibitor Lunae gains 1 stack of Righteous Heart, increasing his DMG by {{righteousHeartDmgValue}}%. (applied to all hits)
+      e6ResPenStacks:
+        text: E6 RES PEN stacks
+        content: "E6: After any other ally uses their Ultimate, the Imaginary RES PEN of Dan Heng • Imbibitor Lunae's next Fulgurant Leap attack increases by 20%, up to 3 stacks."
+  Jade:
+    Content:
+      enhancedFollowUp:
+        text: Enhanced FuA
+        content: Jade enhances her Talent's follow-up attack, increasing its DMG multiplier by {{ultFuaScalingBuff}}%.
+      pawnedAssetStacks:
+        text: Pawned Asset stacks
+        content: >-
+          When launching her Talent's follow-up attack, Jade immediately gains 5 stack(s) of Pawned Asset, with each stack increasing CRIT DMG by {{pawnedAssetCdScaling}}%, stacking up to 50 times. Each Pawned Asset stack from the Talent additionally increases Jade's ATK by 0.5%.
+      e1FuaDmgBoost:
+        text: E1 FUA DMG boost
+        content: >-
+          E1: The follow-up attack DMG from Jade's Talent increases by 32%. After the Debt Collector character attacks and the number of the enemy target(s) hit is either 2 or 1, Jade additionally gains 1 or 2 point(s) of Charge respectively.
+      e2CrBuff:
+        text: E2 CR buff
+        content: "E2: When there are 15 stacks of Pawned Asset, Jade's CRIT Rate increases by 18%."
+      e4DefShredBuff:
+        text: E4 DEF shred buff
+        content: "E4: When using Ultimate, enables the DMG dealt by Jade to ignore 12% of enemy targets' DEF, lasting for 3 turn(s)."
+      e6ResShredBuff:
+        text: E6 RES PEN buff
+        content: "E6: When the Debt Collector character exists on the field, Jade's Quantum RES PEN increases by 20%, and Jade gains the Debt Collector state."
+    TeammateContent:
+      debtCollectorSpdBuff:
+        text: Debt Collector SPD buff
+        content: Makes a single target ally become the Debt Collector and increases their SPD by 30, lasting for 3 turn(s).
+  Jiaoqiu:
+    Content:
+      ashenRoastStacks:
+        text: Ashen Roast stacks
+        content: >-
+          When Jiaoqiu hits an enemy with Basic ATK, Skill or Ultimate, there is a 100% base chance to inflict 1 stack of Ashen Roast on them. At 1 stack, increases DMG received by the enemy by {{AshenRoastInitialVulnerability}}%. Then, each subsequent stack increases this by {{AshenRoastAdditionalVulnerability}}%.::BR::Ashen Roast is capped at 5 stack(s) and lasts for 2 turn(s).::BR::When an enemy target is afflicted with Ashen Roast, they are also considered as being Burned at the same time, taking Fire DoT equal to {{AshenRoastDotMultiplier}}% of Jiaoqiu's ATK at the start of each turn.
+      ultFieldActive:
+        text: Ult field active
+        content: >-
+          Sets the number of Ashen Roast stacks on enemy targets to the highest number of Ashen Roast stacks present on the battlefield. Then, activates a Zone and deals Fire DMG equal to {{UltScaling}}% of Jiaoqiu's ATK to all enemies.::BR::While inside the Zone, enemy targets receive {{UltVulnerability}}% increased Ultimate DMG, with a {{ZoneDebuffChance}}% base chance of being inflicted with 1 stack of Ashen Roast when taking action. While the Zone exists, this effect can trigger up to 6 time(s). And for each enemy target, it can only trigger once per turn. This trigger count resets every time Jiaoqiu uses Ultimate.
+      ehrToAtkBoost:
+        text: EHR to ATK buff
+        content: For every 15.0% of Jiaoqiu's Effect Hit Rate that exceeds 80.0%, additionally increases ATK by 60.0%, up to 240.0%.
+      e1DmgBoost:
+        text: E1 DMG boost
+        content: "E1: Allies deal 40.0% increased DMG to enemy targets afflicted with Ashen Roast."
+      e2Dot:
+        text: E2 DoT scaling
+        content: "E2: When an enemy target is afflicted with Ashen Roast, increases the multiplier for the Fire DoT dealt by Ashen Roast to this target by 300.0%."
+      e6ResShred:
+        text: E6 RES shred
+        content: "E6: The maximum stack limit of Ashen Roast increases to 9.0, and each Ashen Roast stack reduces the target's All-Type RES by 3.0%."
+  Jingliu:
+    Content:
+      talentEnhancedState:
+        text: Enhanced state
+        content: >-
+          When Jingliu has 2 stacks of Syzygy, she enters the Spectral Transmigration state with her Action Advanced by 100% and her CRIT Rate increases by {{talentCrBuff}}%. Then, Jingliu's Skill Transcendent Flash becomes enhanced and turns into Moon On Glacial River, and becomes the only ability she can use in battle.
+      talentHpDrainAtkBuff:
+        text: HP drain ATK buff
+        content: >-
+          When Jingliu uses an attack in the Spectral Transmigration state, she consumes HP from all other allies and Jingliu's ATK increases based on the total HP consumed from all allies in this attack, capped at {{talentHpDrainAtkBuffMax}}% of her base ATK, lasting until the current attack ends.
+      e1CdBuff:
+        text: E1 Ult active
+        content: >-
+          E1: When using her Ultimate or Enhanced Skill, Jingliu's CRIT DMG increases by 24% for 1 turn. If only one enemy target is attacked, the target will additionally be dealt Ice DMG equal to 100% of Jingliu's ATK.
+      e2SkillDmgBuff:
+        text: E2 Skill buff
+        content: "E2: After using Ultimate, increases the DMG of the next Enhanced Skill by 80%."
+  JingYuan:
+    Content:
+      skillCritBuff:
+        text: Skill CR buff
+        content: After using Skill, CRIT Rate increases by 10% for 2 turns.
+      talentHitsPerAction:
+        text: Lightning Lord stacks
+        content: Lightning Lord hits-per-action stack up to 10 times.
+      talentAttacks:
+        text: Lightning Lord hits on target
+        content: Count of hits on target. Should usually be set to the same value as Lightning Lord Stacks.
+      e2DmgBuff:
+        text: E2 DMG boost
+        content: "E2: After Lightning-Lord takes action, DMG caused by Jing Yuan's Basic ATK, Skill, and Ultimate increases by 20% for 2 turns."
+      e6FuaVulnerabilityStacks:
+        text: E6 Vulnerable stacks
+        content: >-
+          E6: Each hit performed by the Lightning-Lord when it takes action will make the target enemy Vulnerable. While Vulnerable, enemies receive 12% more DMG until the end of the Lightning-Lord's current turn, stacking up to 3 time(s). (applies to all hits)
+  Kafka:
+    Content:
+      e1DotDmgReceivedDebuff:
+        text: E1 DoT vulnerability
+        content: "E1: When the Talent triggers a follow-up attack, there is a 100% base chance to increase the DoT received by the target by 30% for 2 turn(s)."
+      e2TeamDotBoost:
+        text: E2 Team DoT DMG boost
+        content: "E2: While Kafka is on the field, DoT dealt by all allies increases by 25%."
+  Lingsha:
+    Content:
+      beConversion:
+        text: BE to ATK / OHB buff
+        content: Increases this unit's ATK or Outgoing Healing by an amount equal to 25.0%/10.0% of Break Effect, up to a maximum increase of 50.0%/20.0% respectively.
+      befogState:
+        text: Befog state
+        content: While in Befog, targets receive {{BefogVulnerability}}% increased Break DMG.
+      e1DefShred:
+        text: E1 weakness break buffs
+        content: "E1: Lingsha's Weakness Break Efficiency increases by 50%. When an enemy unit's Weakness is Broken, reduces their DEF by 20%."
+      e2BeBuff:
+        text: E2 BE buff
+        content: "E2: When using Ultimate, increases all allies' Break Effect by 40.0%."
+      e6ResShred:
+        text: E6 RES shred
+        content: "E6: While Fuyuan is on the field, reduces all Enemy units' All-Type RES by 20.0%."
+  Luka:
+    Content:
+      basicEnhanced:
+        text: Enhanced Basic
+        content: Enhances Basic ATK to deal additional damage, and has a chance to trigger extra hits.
+      targetUltDebuffed:
+        text: Ult vulnerability debuff
+        content: Increase the target's DMG received by {{targetUltDebuffDmgTakenValue}}% for 3 turn(s).
+      basicEnhancedExtraHits:
+        text: Enhanced basic extra hits
+        content: Increases the number of hits of Basic Enhanced.
+      e1TargetBleeding:
+        text: E1 target bleeding
+        content: "E1: When Luka takes action, if the target enemy is Bleeding, increases DMG dealt by Luka by 15% for 2 turn(s)."
+      e4TalentStacks:
+        text: E4 Talent stacks
+        content: "E4: For every stack of Fighting Will obtained, increases ATK by 5%, stacking up to 4 time(s)."
+  Luocha:
+    Content:
+      fieldActive:
+        text: Field active
+        content: "E1: While the Field is active, ATK of all allies increases by 20%."
+      e6ResReduction:
+        text: E6 RES shred
+        content: "E6: When Ultimate is used, reduces all enemies' All-Type RES by 20% for 2 turn(s)."
+  Lynx:
+    Content:
+      skillBuff:
+        text: Skill max HP buff
+        content: >-
+          Applies Survival Response to a single target ally and increases their Max HP by {{skillHpPercentBuff}}% of Lynx's Max HP plus {{skillHpFlatBuff}}.::BR::E4: When Survival Response is gained, increases the target's ATK by an amount equal to 3% of Lynx's Max HP for 1 turn(s).::BR::E6: Additionally boosts the Max HP increasing effect of Survival Response by an amount equal to 6% of Lynx's Max HP and increases Effect RES by 30%.
+    TeammateContent:
+      teammateHPValue:
+        text: Lynx's HP
+        content: >-
+          Applies Survival Response to a single target ally and increases their Max HP by {{skillHpPercentBuff}}% of Lynx's Max HP plus {{skillHpFlatBuff}}.::BR::E4: When Survival Response is gained, increases the target's ATK by an amount equal to 3% of Lynx's Max HP for 1 turn(s).::BR::E6: Additionally boosts the Max HP increasing effect of Survival Response by an amount equal to 6% of Lynx's Max HP and increases Effect RES by 30%.
+  March7thImaginary:
+    Content:
+      enhancedBasic:
+        text: Enhanced Basic
+        content: >-
+          Initially, deals 3 hits, each causing Imaginary DMG equal to {{BasicEnhancedScaling}}% of March 7th's ATK to a single target enemy. Whenever dealing the final hit, there is a 60% fixed chance to deal 1 additional hit of DMG, up to a max of 3 additional hit(s).
+      basicAttackHits:
+        text: Enhanced Basic hits
+        content: >-
+          Initially, deals 3 hits, each causing Imaginary DMG equal to {{BasicEnhancedScaling}}% of March 7th's ATK to a single target enemy. Whenever dealing the final hit, there is a 60% fixed chance to deal 1 additional hit of DMG, up to a max of 3 additional hit(s).
+      masterAdditionalDmgBuff:
+        text: DPS Shifu buff
+        content: Whenever using Basic ATK or dealing 1 hit of Enhanced Basic ATK's DMG, deals Additional DMG equal to {{ShifuDmgBuff}}% of March 7th's ATK.
+      masterToughnessRedBuff:
+        text: Support Shifu buff
+        content: Whenever using Basic ATK or dealing 1 hit of Enhanced Basic ATK's DMG, increases the Toughness Reduction of this instance of DMG by 100%.
+      talentDmgBuff:
+        text: Talent Basic DMG buff
+        content: >-
+          After Shifu uses an attack or Ultimate, March 7th gains up to 1 point of Charge each time.::BR::Upon reaching 7 or more points of Charge, March 7th immediately takes action and increases the DMG she deals by {{TalentDmgBuff}}%.
+      selfSpdBuff:
+        text: E1 SPD buff
+        content: "E1: When Shifu is on the field, increases March 7th's SPD by 10.0%."
+      e6CdBuff:
+        text: E6 Basic CD boost
+        content: "E6: After using Ultimate, increases the CRIT DMG dealt by the next Enhanced Basic ATK by 50.0%."
+    TeammateContent:
+      masterBuff:
+        text: Shifu buff
+        content: Designates a single ally (excluding this unit) as Shifu and increases Shifu's SPD by {{ShifuSpeedBuff}}%.
+      masterCdBeBuffs:
+        text: Shifu CD / BE buffs
+        content: After using Enhanced Basic ATK, increases Shifu's CRIT DMG by 60.0% and Break Effect by 36.0%, lasting for 2.0 turn(s).
+  Misha:
+    Content:
+      ultHitsOnTarget:
+        text: Ult hits on target
+        content: Number of Ultimate hits on the primary target, dealing DMG equal to {{ultStackScaling}}% ATK per hit.
+      enemyFrozen:
+        text: Enemy frozen
+        content: When dealing DMG to Frozen enemies, increases CRIT DMG by 30%.
+      e2DefReduction:
+        text: E2 DEF shred
+        content: "E2: Reduces the target's DEF by 16% for 3 turn(s)."
+      e6UltDmgBoost:
+        text: E6 Ult DMG boost
+        content: "E6: When using the Ultimate, increases own DMG by 30%, lasting until the end of the turn."
+  Moze:
+    Content:
+      preyMark:
+        text: Prey marked
+        content: >-
+          When Prey exists on the field, Moze will enter the Departed state.::BR::After allies attack Prey, Moze will additionally deal 1 instance of Lightning Additional DMG equal to {{PreyAdditionalMultiplier}}% of his ATK and consumes 1 point of Charge. For every 3 point(s) of Charge consumed, Moze launches 1 follow-up attack to Prey, dealing Lightning DMG equal to {{FuaScaling}}% of his ATK. When Charge reaches 0, dispels the target's Prey state and resets the tally of Charge points required to launch follow-up attack.
+      e2CdBoost:
+        text: E2 CD boost
+        content: "E2: When all allies deal DMG to the enemy target marked as Prey, increases CRIT DMG by 40.0%."
+      e4DmgBuff:
+        text: E4 DMG buff
+        content: When using Ultimate, increases the DMG dealt by Moze by 30.0%, lasting for 2.0 turn(s).
+      e6MultiplierIncrease:
+        text: E6 FUA multiplier buff
+        content: Increases the DMG multiplier of the Talent's follow-up attack by 25.0%.
+  Pela:
+    Content:
+      teamEhrBuff:
+        text: Team EHR buff
+        content: When Pela is on the battlefield, all allies' Effect Hit Rate increases by 10%.
+      enemyDebuffed:
+        text: Enemy debuffed
+        content: Deals 20% more DMG to debuffed enemies.
+      skillRemovedBuff:
+        text: Enemy buff removed Skill buffs
+        content: "Using Skill to remove buff(s) increases the DMG of Pela's next attack by 20%.::BR::E2: Using Skill to remove buff(s) increases SPD by 10% for 2 turn(s)."
+      ultDefPenDebuff:
+        text: Ult DEF shred
+        content: When Exposed, enemies' DEF is reduced by {{ultDefPenValue}}% for 2 turn(s).
+      e4SkillResShred:
+        text: E4 Skill Ice RES shred
+        content: "E4: When using Skill, there is a 100% base chance to reduce the target enemy's Ice RES by 12% for 2 turn(s)."
+  Qingque:
+    Content:
+      basicEnhanced:
+        text: Enhanced Basic
+        content: Qingque's ATK increases by {{talentAtkBuff}}%, and her Basic ATK Flower Pick is enhanced, becoming Cherry on Top!
+      basicEnhancedSpdBuff:
+        text: Enhanced Basic SPD buff
+        content: Qingque's SPD increases by 10% for 1 turn after using the Enhanced Basic ATK.
+      skillDmgIncreaseStacks:
+        text: Skill DMG boost stacks
+        content: Immediately draws 2 jade tile(s) and increases DMG by {{skillStackDmg}}% until the end of the current turn. This effect can stack up to 4 time(s).
+  Rappa:
+    Content:
+      sealformActive:
+        text: Sealform state (force weakness break)
+        content:
+      atkToBreakVulnerability:
+        text: ATK to Break vulnerability
+        content:
+      chargeStacks:
+        text: Charge stacks
+        content:
+      e1DefPen:
+        text: E1 DEF PEN
+        content:
+      e2Buffs:
+        text: E2 break buffs
+        content:
+      e4SpdBuff:
+        text: E4 SPD buff
+        content:
+    TeammateContent:
+      teammateBreakVulnerability:
+        text: Break vulnerability
+        content:
+      e4SpdBuff:
+        text: E4 SPD buff
+        content:
+  Robin:
+    Content:
+      concertoActive:
+        text: Concerto active
+        content: >-
+          While in the Concerto state, increases all allies' ATK by {{ultAtkBuffScalingValue}}% of Robin's ATK plus {{ultAtkBuffFlatValue}}. Moreover, after every attack by allies, Robin deals Additional Physical DMG equal to {{ultScaling}}% of her ATK for 1 time, with a fixed CRIT Rate for this damage set at 100% and fixed CRIT DMG set at 150%.
+      skillDmgBuff:
+        text: Skill DMG buff
+        content: Increase DMG dealt by all allies by {{skillDmgBuffValue}}%, lasting for 3 turn(s).
+      talentCdBuff:
+        text: Talent CD buff
+        content: Increase all allies' CRIT DMG by {{talentCdBuffValue}}%.
+      e1UltResPen:
+        text: E1 Ult RES PEN
+        content: While the Concerto state is active, all allies' All-Type RES PEN increases by 24%.
+      e4TeamResBuff:
+        text: E4 team RES buff
+        content: When using the Ultimate, dispels Crowd Control debuffs from all allies. While Robin is in the Concerto state, increases the Effect RES of all allies by 50%.
+      e6UltCDBoost:
+        text: E6 Ult DMG CD boost
+        content: >-
+          While the Concerto state is active, the CRIT DMG for the Additional Physical DMG caused by the Ultimate increases by 450%. The effect of Moonless Midnight can trigger up to 8 time(s). And the trigger count resets each time the Ultimate is used.
+    TeammateContent:
+      teammateATKValue:
+        text: Robin's Combat ATK
+        content: >-
+          While in the Concerto state, increases all allies' ATK by {{ultAtkBuffScalingValue}}% of Robin's ATK plus {{ultAtkBuffFlatValue}}::BR::Set this to the Robin's self ATK stat that she uses to buff teammates.
+      traceFuaCdBoost:
+        text: FUA CD boost
+        content: While the Concerto state is active, the CRIT DMG dealt when all allies launch follow-up attacks increases by 25%.
+      e2UltSpdBuff:
+        text: E2 Ult SPD buff
+        content: While the Concerto state is active, all allies' SPD increases by 16%.
+  RuanMei:
+    Content:
+      skillOvertoneBuff:
+        text: Overtone buff
+        content: >-
+          After using her Skill, Ruan Mei gains Overtone, lasting for 3 turn(s). This duration decreases by 1 at the start of Ruan Mei's turn. When Ruan Mei has Overtone, all allies' DMG increases by {{skillScaling}}% and Weakness Break Efficiency increases by 50%
+      teamBEBuff:
+        text: Team BE buff
+        content: Increases Break Effect by 20% for all allies.
+      ultFieldActive:
+        text: Ult field active
+        content: >-
+          While inside the field, all allies' All-Type RES PEN increases by {{fieldResPenValue}}%.::BR::E1: While the Ultimate's field is deployed, the DMG dealt by all allies ignores 20% of the target's DEF.
+      e2AtkBoost:
+        text: E2 weakness ATK boost
+        content: "E2: With Ruan Mei on the field, all allies increase their ATK by 40% when dealing DMG to enemies with Weakness Break."
+      e4BeBuff:
+        text: E4 BE buff
+        content: "E4: When an enemy target's Weakness is Broken, Ruan Mei's Break Effect increases by 100% for 3 turn(s)."
+    TeammateContent:
+      teamSpdBuff:
+        text: Team SPD buff
+        content: Increases SPD by {{talentSpdScaling}}% for the team (excluding this character).
+      teamDmgBuff:
+        text: BE to DMG boost
+        content: In battle, for every 10% of Ruan Mei's Break Effect that exceeds 120%, her Skill additionally increases allies' DMG by 6%, up to a maximum of 36%.
+  Sampo:
+    Content:
+      targetDotTakenDebuff:
+        text: Ult DoT vulnerability
+        content: When debuffed by Sampo's Ultimate, increase the targets' DoT taken by {{dotVulnerabilityValue}}% for 2 turn(s).
+      skillExtraHits:
+        text: Skill extra hits
+        content: Number of extra hits from Skill.
+      targetWindShear:
+        text: Target wind sheared
+        content: Enemies with Wind Shear effect deal 15% less damage to Sampo.
+  Seele:
+    Content:
+      buffedState:
+        text: Buffed state
+        content: >-
+          Enters the buffed state upon defeating an enemy with Basic ATK, Skill, or Ultimate, and receives an extra turn. While in the buffed state, the DMG of Seele's attacks increases by {{buffedStateDmgBuff}}% for 1 turn(s).::BR::While Seele is in the buffed state, her Quantum RES PEN increases by 20%.
+      speedBoostStacks:
+        text: Speed buff stacks
+        content: Increases SPD by 25% per stack. Stacks up to {{speedBoostStacksMax}} time(s).
+      e1EnemyHp80CrBoost:
+        text: E1 enemy HP ≤ 80% CR boost
+        content: "E1: When dealing DMG to an enemy whose HP percentage is 80% or lower, CRIT Rate increases by 15%."
+      e6UltTargetDebuff:
+        text: E6 Butterfly Flurry
+        content: >-
+          E6: After Seele uses her Ultimate, inflict the target enemy with Butterfly Flurry for 1 turn(s). Enemies suffering from Butterfly Flurry will take Additional Quantum DMG equal to 15% of Seele's Ultimate DMG every time they are attacked.
+  Serval:
+    Content:
+      targetShocked:
+        text: Target shocked
+        content: After Serval attacks, deals Additional Lightning DMG equal to {{talentExtraDmgScaling}}% of Serval's ATK to all Shocked enemies.
+      enemyDefeatedBuff:
+        text: Enemy defeated buff
+        content: Upon defeating an enemy, ATK increases by 20% for 2 turn(s).
+  SilverWolf:
+    Content:
+      skillResShredDebuff:
+        text: Skill RES shred
+        content: >-
+          Decreases the target's All-Type RES of the enemy by {{skillResShredValue}}% for 2 turn(s).::BR::If there are 3 or more debuff(s) affecting the enemy when the Skill is used, then the Skill decreases the enemy's All-Type RES by an additional 3%.
+      skillWeaknessResShredDebuff:
+        text: Skill weakness implanted RES shred
+        content: >-
+          There is a chance to add 1 Weakness of an on-field character's Type to the target enemy. This also reduces the enemy's DMG RES to that Weakness Type by 20% for 2 turn(s). If the enemy already has that Type Weakness, the effect of DMG RES reduction to that Weakness Type will not be triggered.
+      talentDefShredDebuff:
+        text: Bug DEF shred
+        content: Silver Wolf's bug reduces the target's DEF by {{talentDefShredDebuffValue}}% for 3 turn(s).
+      ultDefShredDebuff:
+        text: Ult DEF shred
+        content: Decreases the target's DEF by {{ultDefShredValue}}% for 3 turn(s).
+      targetDebuffs:
+        text: Target debuffs
+        content: >-
+          If there are 3 or more debuff(s) affecting the enemy when the Skill is used, then the Skill decreases the enemy's All-Type RES by an additional 3%.::BR::E4: After using her Ultimate to attack enemies, deals Additional Quantum DMG equal to 20% of Silver Wolf's ATK for every debuff currently on the enemy target. This effect can be triggered for a maximum of 5 time(s) during each use of her Ultimate.::BR::E6: For every debuff the target enemy has, the DMG dealt by Silver Wolf increases by 20%, up to a limit of 100%.
+  Sparkle:
+    Content:
+      skillCdBuff:
+        text: Skill CD buff
+        content: >-
+          Increases the CRIT DMG of a single ally by {{skillCdBuffScaling}}% of Sparkle's CRIT DMG plus {{skillCdBuffBase}}%, lasting for 1 turn(s).::BR::E6: The CRIT DMG Boost effect of Sparkle's Skill additionally increases by 30% of Sparkle's CRIT DMG, and when she uses her Skill, the CRIT DMG Boost effect will apply to all allies currently with Cipher. When Sparkle uses her Ultimate, this effect will spread to all allies with Cipher should the allied target have the CRIT DMG increase effect provided by the Skill active on them.
+      cipherBuff:
+        text: Cipher buff
+        content: >-
+          When allies with Cipher trigger the DMG Boost effect provided by Sparkle's Talent, each stack additionally increases its effect by {{cipherTalentStackBoost}}%, lasting for 2 turns.::BR::E1: The Cipher effect applied by the Ultimate lasts for 1 extra turn. All allies affected by Cipher have their ATK increased by 40%.
+      talentStacks:
+        text: Talent DMG stacks
+        content: >-
+          Whenever an ally consumes 1 Skill Point, all allies' DMG increases by {talentBaseStackBoost}}%. This effect lasts for 2 turn(s) and can stack up to 3 time(s).::BR::E2: Each Talent stack allows allies to ignore 8% of the enemy target's DEF when dealing DMG to enemies.
+      quantumAllies:
+        text: Quantum allies
+        content: When there are 1/2/3 Quantum allies in your team, Quantum-Type allies' ATK are increased by 5%/15%/30%.
+    TeammateContent:
+      teammateCDValue:
+        text: Sparkle's Combat CD
+        content: Increases the CRIT DMG of a single ally by {{skillCdBuffScaling}}% of Sparkle's CRIT DMG plus {{skillCdBuffBase}}%, lasting for 1 turn(s).
+  Sushang:
+    Content:
+      ultBuffedState:
+        text: Ult buffed state
+        content: >-
+          Sushang's ATK increases by {{ultBuffedAtk}}% and using her Skill has 2 extra chances to trigger Sword Stance for 2 turn(s). Sword Stance triggered from the extra chances deals 50% of the original DMG.
+      skillExtraHits:
+        text: Skill extra hits
+        content: Increases the number of Sword Stance extra hits of the Skill.
+      skillTriggerStacks:
+        text: Skill trigger stacks
+        content: For every Sword Stance triggered, the DMG dealt by Sword Stance increases by 2.5%. Stacks up to 10 time(s).
+      talentSpdBuffStacks:
+        text: Talent SPD buff stacks
+        content: >-
+          When an enemy has their Weakness Broken on the field, Sushang's SPD increases by {{talentSpdBuffValue}}% per stack for 2 turn(s).::BR::E6: Talent's SPD Boost is stackable and can stack up to 2 times.
+      e2DmgReductionBuff:
+        text: E2 DMG reduction buff
+        content: "E2: After triggering Sword Stance, the DMG taken by Sushang is reduced by 20% for 1 turn."
+  Tingyun:
+    Content:
+      benedictionBuff:
+        text: Benediction buff
+        content: >-
+          Grants a single ally with Benediction to increase their ATK by {{skillAtkBoostScaling}}%, up to {{skillAtkBoostMax}}% of Tingyun's current ATK. When the ally with Benediction attacks, it deals lightning damage equal to {{skillLightningDmgBoostScaling}}% of that ally's ATK. This effect lasts for 3 turns.
+      skillSpdBuff:
+        text: Skill SPD buff
+        content: Tingyun's SPD increases by 20% for 1 turn after using Skill.
+      ultDmgBuff:
+        text: Ult DMG buff
+        content: Regenerates 50 Energy for a single ally and increases the target's DMG by {{ultDmgBoost}}% for 2 turn(s).
+      ultSpdBuff:
+        text: E1 Ult SPD buff
+        content: "E1: After using their Ultimate, the ally with Benediction gains a 20% increase in SPD for 1 turn."
+    TeammateContent:
+      teammateAtkBuffValue:
+        text: Skill ATK buff value
+        content: >-
+          Grants a single ally with Benediction to increase their ATK by {{skillAtkBoostScaling}}%, up to {{skillAtkBoostMax}}% of Tingyun's current ATK. When the ally with Benediction attacks, it deals lightning damage equal to {{skillLightningDmgBoostScaling}}% of that ally's ATK. This effect lasts for 3 turns.
+  Topaz:
+    Content:
+      enemyProofOfDebtDebuff:
+        text: Proof of Debt debuff
+        content: Inflicts a single target enemy with a Proof of Debt status, increasing the DMG it takes from follow-up attacks by {{proofOfDebtFuaVulnerability}}%.
+      numbyEnhancedState:
+        text: Numby enhanced state
+        content: Numby enters the Windfall Bonanza! state and its DMG multiplier increases by {{enhancedStateFuaScalingBoost}}% and CRIT DMG increases by {{enhancedStateFuaCdBoost}}%.
+      e1DebtorStacks:
+        text: E1 Debtor stacks
+        content: >-
+          E1: When enemies afflicted with Proof of Debt receive follow-up attacks, they will enter the Debtor state. This can take effect only once within a single action. The Debtor state increases the CRIT DMG of follow-up attacks inflicted on the target enemies by 25%, stacking up to 2 time(s). When Proof of Debt is removed, the Debtor state is also removed.
+  TrailblazerDestruction:
+    Content:
+      enhancedUlt:
+        text: AoE Ult
+        content: >-
+          Choose between two attack modes to deliver a full strike. ::BR:: Blowout: (ST) Farewell Hit deals Physical DMG equal to {{ultScaling}}% of the Trailblazer's ATK to a single enemy.::BR::Blowout: (Blast) RIP Home Run deals Physical DMG equal to {{ultEnhancedScaling}}% of the Trailblazer's ATK to a single enemy, and Physical DMG equal to {{ultEnhancedScaling2}}% of the Trailblazer's ATK to enemies adjacent to it.
+      talentStacks:
+        text: Talent stacks
+        content: Each time after this character inflicts Weakness Break on an enemy, ATK increases by {{talentAtkScalingValue}}% and DEF increases by 10%. This effect stacks up to 2 times.
+  TrailblazerHarmony:
+    Content:
+      backupDancer:
+        text: Backup Dancer BE buff
+        content: >-
+          Grants all allies the Backup Dancer effect, lasting for 3 turn(s). This duration reduces by 1 at the start of Trailblazer's every turn. Allies with the Backup Dancer effect have their Break Effect increased by {{ultBeScaling}}%.
+      superBreakDmg:
+        text: Super Break DMG (force weakness break)
+        content: >-
+          When allies with the Backup Dancer effect attack enemy targets that are in the Weakness Broken state, the Toughness Reduction of the attack will be converted into 1 instance of Super Break DMG.::BR::Super Break DMG is added to each of the BASIC / SKILL / ULT / FUA damage columns. For example when enabled, the SKILL column becomes the sum of base Skill damage + Super Break DMG based on the Skill's toughness damage. This option also overrides enemy weakness break to ON.
+      skillHitsOnTarget:
+        text: Skill extra hits on target
+        content: Deals Imaginary DMG to a single target enemy and additionally deals DMG for 4 times, with each time dealing Imaginary DMG to a random enemy.
+      e2EnergyRegenBuff:
+        text: E2 ERR buff
+        content: When the battle starts, the Trailblazer's Energy Regeneration Rate increases by 25%, lasting for 3 turn(s).
+    TeammateContent:
+      teammateBeValue:
+        text: E4 Combat BE
+        content: While the Trailblazer is on the field, increases the Break Effect of all teammates (excluding the Trailblazer), by an amount equal to 15% of the Trailblazer's Break Effect.
+  TrailblazerPreservation:
+    Content:
+      enhancedBasic:
+        text: Enhanced Basic
+        content: Enhanced basic ATK deals Fire DMG equal to {{basicEnhancedAtkScaling}}% of the Trailblazer's ATK to a single enemy, and reduced damage to adjacent enemies.
+      skillActive:
+        text: Skill DMG reduction
+        content: When the Skill is used, reduces DMG taken by {{skillDamageReductionValue}}%. Also reduces DMG taken by all allies by 15% for 1 turn.
+      shieldActive:
+        text: Shield active
+        content: When the shield is active, increases ATK by 15%.
+      e6DefStacks:
+        text: E6 DEF buff stacks
+        content: "E6: Increases DEF by 10% per stack."
+  Welt:
+    Content:
+      enemyDmgTakenDebuff:
+        text: Ult vulnerability debuff
+        content: When using Ultimate, there is a 100% base chance to increase the DMG received by the targets by 12% for 2 turn(s).
+      enemySlowed:
+        text: Enemy slowed
+        content: When hitting an enemy that is already Slowed, Welt deals Additional Imaginary DMG equal to {{talentScaling}}% of his ATK to the enemy.
+      skillExtraHits:
+        text: Skill extra hits on target
+        content: >-
+          Deals Imaginary DMG equal to {{skillScaling}}% of Welt's ATK to a single enemy and further deals DMG 2 extra times, with each time dealing Imaginary DMG equal to {{skillScaling}}% of Welt's ATK to a random enemy.
+      e1EnhancedState:
+        text: E1 enhanced state
+        content: >-
+          E1: After Welt uses his Ultimate, his abilities are enhanced. The next 2 time(s) he uses his Basic ATK or Skill, deals Additional DMG to the target equal to 50% of his Basic ATK's DMG multiplier or 80% of his Skill's DMG multiplier respectively.
+  Xueyi:
+    Content:
+      beToDmgBoost:
+        text: BE to DMG boost
+        content: Increases DMG dealt by this unit by an amount equal to 100% of Break Effect, up to a maximum DMG increase of 240%.
+      enemyToughness50:
+        text: Intrepid Rollerbearings
+        content: If the enemy target's Toughness is equal to or higher than 50% of their Max Toughness, deals 10% more DMG when using Ultimate.
+      toughnessReductionDmgBoost:
+        text: Ultimate DMG boost
+        content: When using Ultimate, the more Toughness is reduced, the higher the DMG will be dealt, up to a max of {{ultBoostMax}}% increase.
+      fuaHits:
+        text: FUA hits
+        content: >-
+          When Karma reaches the max number of stacks, consumes all current Karma stacks and immediately launches a follow-up attack against an enemy target, dealing DMG for 3 times, with each time dealing Quantum DMG equal to {{fuaScaling}}% of Xueyi's ATK to a single random enemy.
+      e4BeBuff:
+        text: E4 BE buff
+        content: "E4: When using Ultimate, increases Break Effect by 40% for 2 turn(s)."
+  Yanqing:
+    Content:
+      ultBuffActive:
+        text: Ult buff active
+        content: Increases Yanqing's CRIT Rate by 60%. When Soulsteel Sync is active, increases Yanqing's CRIT DMG by an extra {{ultCdBuffValue}}%.
+      soulsteelBuffActive:
+        text: Soulsteel buff active
+        content: >-
+          When Soulsteel Sync is active, Yanqing's CRIT Rate increases by {{talentCrBuffValue}}% and his CRIT DMG increases by {{talentCdBuffValue}}%.::BR::Before using Ultimate, when Soulsteel Sync is active, increases Yanqing's CRIT DMG by an extra {{ultCdBuffValue}}%.::BR::When Soulsteel Sync is active, Effect RES increases by 20%.::BR::E2: When Soulsteel Sync is active, Energy Regeneration Rate increases by an extra 10%.
+      critSpdBuff:
+        text: SPD buff
+        content: When a CRIT Hit is triggered, increases SPD by 10% for 2 turn(s).
+      e1TargetFrozen:
+        text: E1 enemy frozen
+        content: "E1: When Yanqing attacks a Frozen enemy, he deals Additional Ice DMG equal to 60% of his ATK."
+      e4CurrentHp80:
+        text: E4 self HP ≥ 80% RES PEN buff
+        content: "E4: When the current HP percentage is 80% or higher, Ice RES PEN increases by 12%."
+  Yukong:
+    Content:
+      teamImaginaryDmgBoost:
+        text: Team Imaginary DMG boost
+        content: When Yukong is on the field, Imaginary DMG dealt by all allies increases by 12%.
+      roaringBowstringsActive:
+        text: Roaring Bowstrings
+        content: "When Roaring Bowstrings is active, the ATK of all allies increases by {{skillAtkBuffValue}}%.::BR::E4: When Roaring Bowstrings is active, Yukong deals 30% more DMG to enemies."
+      ultBuff:
+        text: Ult CR / CD buffs
+        content: >-
+          If Roaring Bowstrings is active on Yukong when her Ultimate is used, additionally increases all allies' CRIT Rate by {{ultCrBuffValue}}% and CRIT DMG by {{ultCdBuffValue}}%. At the same time, deals Imaginary DMG equal to {{ultScaling}}% of Yukong's ATK to a single enemy.
+      initialSpeedBuff:
+        text: E1 initial SPD buff
+        content: "E1: At the start of battle, increases the SPD of all allies by 10% for 2 turn(s)."
+  Yunli:
+    Content:
+      blockActive:
+        text: Parry active
+        content: While in the Parry state, resists Crowd Control debuffs received and reduces DMG received by 20.0%.
+      ultCull:
+        text: "Intuit: Cull enabled"
+        content: >-
+          Intuit: Cull: Deals Physical DMG equal to {{CullScaling}}% of Yunli's ATK to the target, and deals Physical DMG equal to {{CullAdjacentScaling}}% of Yunli's ATK to adjacent targets. Then, additionally deals 6 instances of DMG, each dealing Physical DMG equal to {{CullAdditionalScaling}}% of Yunli's ATK to a random single enemy.
+      ultCullHits:
+        text: "Intuit: Cull hits"
+        content: >-
+          Intuit: Cull: Deals Physical DMG equal to {{CullScaling}}% of Yunli's ATK to the target, and deals Physical DMG equal to {{CullAdjacentScaling}}% of Yunli's ATK to adjacent targets. Then, additionally deals 6 instances of DMG, each dealing Physical DMG equal to {{CullAdditionalScaling}}% of Yunli's ATK to a random single enemy.
+      counterAtkBuff:
+        text: Counter ATK buff
+        content: When using a Counter, increases Yunli's ATK by 30.0%, lasting for 1 turn.
+      e1UltBuff:
+        text: E1 Ult buff
+        content: "E1: Increases DMG dealt by Intuit: Slash and Intuit: Cull by 20.0%. Increases the number of additional DMG instances for Intuit: Cull by 3.0."
+      e2DefShred:
+        text: E2 FUA DEF PEN
+        content: When dealing DMG via Counter, ignores 20.0% of the target's DEF.
+      e4ResBuff:
+        text: E4 RES buff
+        content: "After launching Intuit: Slash or Intuit: Cull, increases this unit's Effect RES by 50.0%, lasting for 1.0 turn(s)."
+      e6Buffs:
+        text: E6 buffs
+        content: >-
+          While Parry is active, if an enemy actively uses their abilities, regardless of whether it attacks Yunli or not, it will trigger Intuit: Cull and remove the Parry effect. When dealing DMG via Intuit: Slash or Intuit: Cull, increases CRIT Rate by 15.0% and Physical RES PEN by 20.0%.

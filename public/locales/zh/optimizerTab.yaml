@@ -9,8 +9,8 @@ CharacterSelector:
   SuperimpositionPlaceholder: 叠
 LightconePassives: 光锥被动
 CharacterPassives: 角色被动
-NoConditionals: 无条件触发被动技能         
-NoTeamConditionals: 无条件触发团队被动技能  
+NoConditionals: 没有可应用条件触发被动技能         
+NoTeamConditionals: 没有可应用条件触发团队被动技能  
 ResultLimitN: 查找排名前{{limit}}的结果
 MainStats: 主属性
 Sets: 套装
