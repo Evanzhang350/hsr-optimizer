@@ -156,7 +156,7 @@ Lightcones:
   PastSelfInTheMirror:
     Content:
       postUltDmgBuff:
-        text: Post Ult DMG buff
+        text: 终结技后伤害提高
         content: 装备者施放终结技后，使我方全体造成的伤害提高{{DmgBuff}}%，持续3回合。
   PatienceIsAllYouNeed:
     Content:
@@ -951,387 +951,388 @@ Characters:
   Hook:
     Content:
       enhancedSkill:
-        text: Enhanced Skill
+        text: 强化战技
         content: >-
-          After using Ultimate, the next Skill to be used is Enhanced. Enhanced Skill deals Fire DMG equal to {{skillEnhancedScaling}}% of Hook's ATK to a single enemy and reduced DMG to adjacent enemies.
+          施放终结技后，下一次施放的战技得到强化，强化后的战技能够同时对指定敌方单体及其相邻目标造成伤害。强化战技对指定敌方单体造成等同于虎克{{skillEnhancedScaling}}%攻击力的火属性伤害，并对相邻敌人造成较少的伤害。
       targetBurned:
-        text: Target burned
+        text: 目标处于灼烧状态
         content: >-
-          When attacking a target afflicted with Burn, deals Additional Fire DMG equal to {{targetBurnedExtraScaling}}% of Hook's ATK.::BR::E6: Hook deals 20.0% more DMG to enemies afflicted with Burn.
+          攻击处于灼烧状态的敌方目标时，追加1次等同于虎克{{targetBurnedExtraScaling}}%攻击力的火属性附加伤害。::BR::6魂：虎克对灼烧状态下的敌方目标造成的伤害提高20%。
   Huohuo:
     Content:
       ultBuff:
-        text: Ult ATK buff
-        content: Increases all allies' ATK by {{ultBuffValue}}% for 2 turns after using Ultimate.
+        text: 终结技攻击力增益
+        content: 使用终结技后为除自身以外的队友攻击力提高{{ultBuffValue}}%，持续2回合。
       skillBuff:
-        text: E1 SPD buff
-        content: "E1: When Huohuo possesses Divine Provision, all allies' SPD increases by 12%."
+        text: 1魂速度增益
+        content: "1魂：当藿藿拥有【禳命】时我方全体提高12%的速度。"
       e6DmgBuff:
-        text: E6 DMG buff
-        content: "E6: When healing a target ally, increases the target ally's DMG dealt by 50% for 2 turns."
+        text: 6魂伤害增益
+        content: "为我方目标提供治疗时，使目标造成的伤害提高50%，持续2回合。"
   ImbibitorLunae:
     Content:
       basicEnhanced:
-        text: Basic enhancements
+        text: 普攻强化层数
         content: >-
-          0 stack(s): Uses a 2-hit attack and deals Imaginary DMG equal to {{basicScaling}}% ATK to a single enemy target.::BR::1 stack(s): Uses a 3-hit attack and deals Imaginary DMG equal to {{basicEnhanced1Scaling}}% ATK to a single enemy target.::BR::2 stack(s): Uses a 5-hit attack and deals Imaginary DMG equal to {{basicEnhanced2Scaling}}% ATK to a single enemy target and reduced DMG to adjacent targets.::BR::3 stack(s): Uses a 7-hit attack and deals Imaginary DMG equal to {{basicEnhanced3Scaling}}% ATK to a single enemy target and reduced DMG to adjacent targets.
+          0层：施放2段攻击对指定敌方单体造成等同于丹恒•饮月{{basicScaling}}%攻击力的虚数属性伤害。::BR::1层：施放3段攻击对指定敌方单体造成等同于丹恒•饮月{{basicEnhanced1Scaling}}%攻击力的虚数属性伤害。::BR::2层：施放5段攻击对指定敌方单体造成等同于丹恒•饮月{{basicEnhanced2Scaling}}%攻击力的虚数属性伤害。从第4段攻击开始同时对其相邻目标造成较少的伤害。::BR::3层：施放7段攻击对指定敌方单体造成等同于丹恒•饮月{{basicEnhanced3Scaling}}%攻击力的虚数属性伤害。从第4段攻击开始同时对其相邻目标造成较少的伤害。
       skillOutroarStacks:
-        text: Outroar stacks
+        text: 叱咤层数
         content: >-
-          Divine Spear or Fulgurant Leap, starting from the fourth hit, 1 stack of Outroar is gained before every hit. Each stack of Outroar increases Dan Heng • Imbibitor Lunae's CRIT DMG by {{outroarStackCdValue}}%, for a max of 4 stacks. (applied to all hits)
+          施放【天矢阴】或【盘拏耀跃】时，从第4段攻击开始每段攻击前获得1层【叱咤】，使丹恒•饮月的暴击伤害提高{{outroarStackCdValue}}%，该效果最多叠加4层，持续至自身回合结束。（应用于所有攻击次数）
       talentRighteousHeartStacks:
-        text: Righteous Heart stacks
-        content: After each hit dealt during an attack, Dan Heng • Imbibitor Lunae gains 1 stack of Righteous Heart, increasing his DMG by {{righteousHeartDmgValue}}%. (applied to all hits)
+        text: 亢心层数
+        content: 丹恒•饮月施放每段攻击后获得1层【亢心】，使自身造成的伤害提高{{righteousHeartDmgValue}}%，该效果可以叠加6层，持续至自身回合结束。（应用于所有攻击次数）
       e6ResPenStacks:
-        text: E6 RES PEN stacks
-        content: "E6: After any other ally uses their Ultimate, the Imaginary RES PEN of Dan Heng • Imbibitor Lunae's next Fulgurant Leap attack increases by 20%, up to 3 stacks."
+        text: 6魂抗性穿透层数
+        content: "6魂：我方其他角色施放终结技后，丹恒•饮月下一次施放【盘拏耀跃】时虚数属性抗性穿透提高20%，该效果最多叠加3层。"
   Jade:
     Content:
       enhancedFollowUp:
-        text: Enhanced FuA
-        content: Jade enhances her Talent's follow-up attack, increasing its DMG multiplier by {{ultFuaScalingBuff}}%.
+        text: 强化追加攻击
+        content: 使翡翠天赋的追加攻击获得强化，追加攻击造成的伤害倍率提高{{ultFuaScalingBuff}}%。
       pawnedAssetStacks:
-        text: Pawned Asset stacks
+        text: 当品层数
         content: >-
-          When launching her Talent's follow-up attack, Jade immediately gains 5 stack(s) of Pawned Asset, with each stack increasing CRIT DMG by {{pawnedAssetCdScaling}}%, stacking up to 50 times. Each Pawned Asset stack from the Talent additionally increases Jade's ATK by 0.5%.
+          翡翠发动天赋的追加攻击时立即获得5层【当品】，每层【当品】使暴击伤害提高{{pawnedAssetCdScaling}}%，最多叠加50层。天赋中每层【当品】额外使翡翠的攻击力提高0.5%。
       e1FuaDmgBoost:
-        text: E1 FUA DMG boost
+        text: 1魂追加攻击伤害提高
         content: >-
-          E1: The follow-up attack DMG from Jade's Talent increases by 32%. After the Debt Collector character attacks and the number of the enemy target(s) hit is either 2 or 1, Jade additionally gains 1 or 2 point(s) of Charge respectively.
+          1魂：翡翠天赋的追加攻击伤害提高32%，持有【收债人】状态的角色施放攻击后击中敌方目标数量等于2/1名时，翡翠额外获得1/2点充能。
       e2CrBuff:
-        text: E2 CR buff
-        content: "E2: When there are 15 stacks of Pawned Asset, Jade's CRIT Rate increases by 18%."
+        text: 2魂暴击率增益
+        content: "2魂：【当品】叠加至15层时，翡翠暴击率提高18%。"
       e4DefShredBuff:
-        text: E4 DEF shred buff
-        content: "E4: When using Ultimate, enables the DMG dealt by Jade to ignore 12% of enemy targets' DEF, lasting for 3 turn(s)."
+        text: 4魂防御穿透增益
+        content: "4魂：施放终结技时，使翡翠造成的伤害无视敌方目标12%的防御力，持续3回合。"
       e6ResShredBuff:
-        text: E6 RES PEN buff
-        content: "E6: When the Debt Collector character exists on the field, Jade's Quantum RES PEN increases by 20%, and Jade gains the Debt Collector state."
+        text: 6魂抗性穿透增益
+        content: "6魂：场上有【收债人】状态的角色时，翡翠量子属性抗性穿透提高20%，同时翡翠获得【收债人】状态。"
     TeammateContent:
       debtCollectorSpdBuff:
-        text: Debt Collector SPD buff
-        content: Makes a single target ally become the Debt Collector and increases their SPD by 30, lasting for 3 turn(s).
+        text: 收债人速度增益
+        content: 指定我方单体成为【收债人】，使其速度提高30点，持续3回合。
   Jiaoqiu:
     Content:
       ashenRoastStacks:
-        text: Ashen Roast stacks
+        text: 烬煨层数
         content: >-
-          When Jiaoqiu hits an enemy with Basic ATK, Skill or Ultimate, there is a 100% base chance to inflict 1 stack of Ashen Roast on them. At 1 stack, increases DMG received by the enemy by {{AshenRoastInitialVulnerability}}%. Then, each subsequent stack increases this by {{AshenRoastAdditionalVulnerability}}%.::BR::Ashen Roast is capped at 5 stack(s) and lasts for 2 turn(s).::BR::When an enemy target is afflicted with Ashen Roast, they are also considered as being Burned at the same time, taking Fire DoT equal to {{AshenRoastDotMultiplier}}% of Jiaoqiu's ATK at the start of each turn.
+          椒丘使用普攻、战技、终结技击中敌人时，有100%的基础概率对其施加1层【烬煨】，1层时使敌人受到的伤害提高{{AshenRoastInitialVulnerability}}%，此后每叠加1层提高{{AshenRoastAdditionalVulnerability}}%。::BR::【烬煨】最多叠加5层，持续2回合。::BR::当敌方目标处于【烬煨】状态时，也会被视为同时陷入了灼烧状态，每回合开始时受到等同于椒丘{{AshenRoastDotMultiplier}}%攻击力的火属性持续伤害。
       ultFieldActive:
-        text: Ult field active
+        text: 终结技结界激活
         content: >-
-          Sets the number of Ashen Roast stacks on enemy targets to the highest number of Ashen Roast stacks present on the battlefield. Then, activates a Zone and deals Fire DMG equal to {{UltScaling}}% of Jiaoqiu's ATK to all enemies.::BR::While inside the Zone, enemy targets receive {{UltVulnerability}}% increased Ultimate DMG, with a {{ZoneDebuffChance}}% base chance of being inflicted with 1 stack of Ashen Roast when taking action. While the Zone exists, this effect can trigger up to 6 time(s). And for each enemy target, it can only trigger once per turn. This trigger count resets every time Jiaoqiu uses Ultimate.
+          将敌方目标具有的【烬煨】层数统一设置为场上【烬煨】层数的最高值，随后开启结界并对敌方全体造成等同于椒丘{{UltScaling}}%攻击力的火属性伤害。::BR::处于结界中时，敌方目标受到的终结技伤害提高{{UltVulnerability}}%，且行动时有{{ZoneDebuffChance}}%的基础概率被施加1层【烬煨】，结界存在期间该效果最多触发6次，且每个敌方目标每回合只能触发1次。椒丘每次施放终结技时重置触发次数。
       ehrToAtkBoost:
-        text: EHR to ATK buff
-        content: For every 15.0% of Jiaoqiu's Effect Hit Rate that exceeds 80.0%, additionally increases ATK by 60.0%, up to 240.0%.
+        text: 效果命中转至攻击力增益
+        content: 椒丘效果命中大于80%时，每超过15%，则额外提高60%攻击力，最高不超过240%。
       e1DmgBoost:
-        text: E1 DMG boost
-        content: "E1: Allies deal 40.0% increased DMG to enemy targets afflicted with Ashen Roast."
+        text: 1魂伤害提高
+        content: "1魂：我方目标对处于【烬煨】状态的敌方目标造成的伤害提高40%。"
       e2Dot:
-        text: E2 DoT scaling
-        content: "E2: When an enemy target is afflicted with Ashen Roast, increases the multiplier for the Fire DoT dealt by Ashen Roast to this target by 300.0%."
+        text: 2魂持续伤害提高
+        content: "2魂：敌方目标处于【烬煨】状态时，【烬煨】对其造成的火属性持续伤害倍率提高300%。"
       e6ResShred:
-        text: E6 RES shred
-        content: "E6: The maximum stack limit of Ashen Roast increases to 9.0, and each Ashen Roast stack reduces the target's All-Type RES by 3.0%."
+        text: 6魂抗性削弱
+        content: "6魂：敌方目标被消灭时，其持有的【烬煨】会叠加给场上存活的【烬煨】层数最低的敌人。【烬煨】的层数上限提升至9，每层【烬煨】会使目标的全属性抗性降低3%。"
   Jingliu:
     Content:
       talentEnhancedState:
-        text: Enhanced state
+        text: 强化状态
         content: >-
-          When Jingliu has 2 stacks of Syzygy, she enters the Spectral Transmigration state with her Action Advanced by 100% and her CRIT Rate increases by {{talentCrBuff}}%. Then, Jingliu's Skill Transcendent Flash becomes enhanced and turns into Moon On Glacial River, and becomes the only ability she can use in battle.
+          当拥有2层【朔望】时，镜流将进入【转魄】状态，并使行动提前100%、暴击率提高{{talentCrBuff}}%，随后战技【无罅飞光】强化为【寒川映月】且仅能使用该战技。
       talentHpDrainAtkBuff:
-        text: HP drain ATK buff
+        text: 吸血量攻击力增益
         content: >-
-          When Jingliu uses an attack in the Spectral Transmigration state, she consumes HP from all other allies and Jingliu's ATK increases based on the total HP consumed from all allies in this attack, capped at {{talentHpDrainAtkBuffMax}}% of her base ATK, lasting until the current attack ends.
+          【转魄】状态下施放攻击时，消耗队友一定生命上限的生命值。根据本次我方全体生命值消耗总量提高镜流攻击力，最高不超过镜流基础攻击力的{{talentHpDrainAtkBuffMax}}%，持续至本次攻击结束。
       e1CdBuff:
-        text: E1 Ult active
+        text: 1魂终结技后增益激活
         content: >-
-          E1: When using her Ultimate or Enhanced Skill, Jingliu's CRIT DMG increases by 24% for 1 turn. If only one enemy target is attacked, the target will additionally be dealt Ice DMG equal to 100% of Jingliu's ATK.
+          1魂：施放终结技或强化战技时，镜流的暴击伤害提高 24% ，持续1回合。若只攻击了1个敌方目标，则额外对该目标造成1次等同于镜流100%攻击力的冰属性伤害。
       e2SkillDmgBuff:
-        text: E2 Skill buff
-        content: "E2: After using Ultimate, increases the DMG of the next Enhanced Skill by 80%."
+        text: 2魂强化战技增益
+        content: "2魂：施放终结技后，下一次强化战技的伤害提高80%。"
   JingYuan:
     Content:
       skillCritBuff:
-        text: Skill CR buff
-        content: After using Skill, CRIT Rate increases by 10% for 2 turns.
+        text: 战技暴击率增益
+        content: 施放战技后，暴击率提升10%，持续2回合。
       talentHitsPerAction:
-        text: Lightning Lord stacks
-        content: Lightning Lord hits-per-action stack up to 10 times.
+        text: 神君层数
+        content: 【神君】最多累计10段攻击段数
       talentAttacks:
-        text: Lightning Lord hits on target
-        content: Count of hits on target. Should usually be set to the same value as Lightning Lord Stacks.
+        text: 神君对目标的攻击次数
+        content: 对目标的攻击次数。通常应设置为与神君层数相同的值。
       e2DmgBuff:
-        text: E2 DMG boost
-        content: "E2: After Lightning-Lord takes action, DMG caused by Jing Yuan's Basic ATK, Skill, and Ultimate increases by 20% for 2 turns."
+        text: 2魂伤害提高
+        content: "2魂：【神君】行动后，景元的普攻、战技、终结技造成的伤害提高20%，持续2回合。"
       e6FuaVulnerabilityStacks:
-        text: E6 Vulnerable stacks
+        text: 6魂易伤层数
         content: >-
-          E6: Each hit performed by the Lightning-Lord when it takes action will make the target enemy Vulnerable. While Vulnerable, enemies receive 12% more DMG until the end of the Lightning-Lord's current turn, stacking up to 3 time(s). (applies to all hits)
+          6魂：【神君】每段攻击后会使指定敌方目标额外陷入易伤状态。易伤状态下的敌方目标受到的伤害提高12%，持续至【神君】本次攻击结束，该效果最多叠加3层。（应用于所有攻击次数）
   Kafka:
     Content:
       e1DotDmgReceivedDebuff:
-        text: E1 DoT vulnerability
-        content: "E1: When the Talent triggers a follow-up attack, there is a 100% base chance to increase the DoT received by the target by 30% for 2 turn(s)."
+        text: 1魂持续伤害易伤
+        content: "1魂：天赋触发追加攻击时，有100%的基础概率使目标受到的持续伤害提高30%，持续2回合。"
       e2TeamDotBoost:
-        text: E2 Team DoT DMG boost
-        content: "E2: While Kafka is on the field, DoT dealt by all allies increases by 25%."
+        text: 2魂团队持续伤害提高
+        content: "2魂：卡芙卡在场时，我方全体造成的持续伤害提高25%。"
   Lingsha:
     Content:
       beConversion:
-        text: BE to ATK / OHB buff
-        content: Increases this unit's ATK or Outgoing Healing by an amount equal to 25.0%/10.0% of Break Effect, up to a maximum increase of 50.0%/20.0% respectively.
+        text: 击破特攻转至攻击力/治疗量增益
+        content: 使自身攻击力/治疗量提高，提高数值等同于击破特攻的25%/10%，最多使攻击力/治疗量提高50%/20%。
       befogState:
-        text: Befog state
-        content: While in Befog, targets receive {{BefogVulnerability}}% increased Break DMG.
+        text: 醇醉状态
+        content: 【醇醉】状态下，使目标受到的击破伤害提高{{BefogVulnerability}}%，持续2回合。
       e1DefShred:
-        text: E1 weakness break buffs
-        content: "E1: Lingsha's Weakness Break Efficiency increases by 50%. When an enemy unit's Weakness is Broken, reduces their DEF by 20%."
+        text: 1魂弱点击破增益
+        content: "1魂：灵砂的弱点击破效率提高50%。当有敌方单位的弱点被击破时，使其防御力降低20%。"
       e2BeBuff:
-        text: E2 BE buff
-        content: "E2: When using Ultimate, increases all allies' Break Effect by 40.0%."
+        text: 2魂击破特攻增益
+        content: "2魂：施放终结技时，使我方全体击破特攻提高40%，持续3回合。"
       e6ResShred:
-        text: E6 RES shred
-        content: "E6: While Fuyuan is on the field, reduces all Enemy units' All-Type RES by 20.0%."
+        text: 6魂抗性削弱
+        content: "6魂：【浮元】在场时，使敌方全体全属性抗性降低20%。"
   Luka:
     Content:
       basicEnhanced:
-        text: Enhanced Basic
-        content: Enhances Basic ATK to deal additional damage, and has a chance to trigger extra hits.
+        text: 强化普攻
+        content: 强化普通攻击以造成额外伤害，并有几率触发额外攻击。
       targetUltDebuffed:
-        text: Ult vulnerability debuff
-        content: Increase the target's DMG received by {{targetUltDebuffDmgTakenValue}}% for 3 turn(s).
+        text: 终结技易伤负面效果
+        content: 使指定敌方单体受到的伤害提高{{targetUltDebuffDmgTakenValue}}%，持续3回合。
       basicEnhancedExtraHits:
-        text: Enhanced basic extra hits
-        content: Increases the number of hits of Basic Enhanced.
+        text: 强化普攻额外攻击次数
+        content: 增加强化普攻的攻击次数。
       e1TargetBleeding:
-        text: E1 target bleeding
-        content: "E1: When Luka takes action, if the target enemy is Bleeding, increases DMG dealt by Luka by 15% for 2 turn(s)."
+        text: 1魂目标处于裂伤状态
+        content: "1魂：当卢卡行动时，若指定的敌方目标处于裂伤状态，卢卡造成的伤害提高15%，持续2回合。"
       e4TalentStacks:
-        text: E4 Talent stacks
-        content: "E4: For every stack of Fighting Will obtained, increases ATK by 5%, stacking up to 4 time(s)."
+        text: 4魂天赋层数
+        content: "4魂：每获得1层【斗志】，攻击力提高5%，该效果最多叠加4层。"
   Luocha:
     Content:
       fieldActive:
-        text: Field active
-        content: "E1: While the Field is active, ATK of all allies increases by 20%."
+        text: 结界激活
+        content: "1魂：结界生效时我方全体攻击力提高20%。"
       e6ResReduction:
-        text: E6 RES shred
-        content: "E6: When Ultimate is used, reduces all enemies' All-Type RES by 20% for 2 turn(s)."
+        text: 6魂抗性削弱
+        content: "6魂：施放终结技时，使敌方全体全属性抗性降低20%，持续2回合。"
   Lynx:
     Content:
       skillBuff:
-        text: Skill max HP buff
+        text: 战技生命上限增益
         content: >-
-          Applies Survival Response to a single target ally and increases their Max HP by {{skillHpPercentBuff}}% of Lynx's Max HP plus {{skillHpFlatBuff}}.::BR::E4: When Survival Response is gained, increases the target's ATK by an amount equal to 3% of Lynx's Max HP for 1 turn(s).::BR::E6: Additionally boosts the Max HP increasing effect of Survival Response by an amount equal to 6% of Lynx's Max HP and increases Effect RES by 30%.
+          为指定我方单体附上【求生反应】，提高等同于玲可{{skillHpPercentBuff}}%生命上限+{{skillHpFlatBuff}}的生命上限。::BR::4魂：获得【求生反应】时，使该目标攻击力提高，提高数值等同于玲可3%生命上限的攻击力，持续1回合。::BR::6魂：【求生反应】的生命上限提高效果额外提高，提高数值等同于玲可6%的生命上限，并使其效果抵抗提高30%。
     TeammateContent:
       teammateHPValue:
-        text: Lynx's HP
+        text: 玲可生命值
         content: >-
-          Applies Survival Response to a single target ally and increases their Max HP by {{skillHpPercentBuff}}% of Lynx's Max HP plus {{skillHpFlatBuff}}.::BR::E4: When Survival Response is gained, increases the target's ATK by an amount equal to 3% of Lynx's Max HP for 1 turn(s).::BR::E6: Additionally boosts the Max HP increasing effect of Survival Response by an amount equal to 6% of Lynx's Max HP and increases Effect RES by 30%.
+          为指定我方单体附上【求生反应】，提高等同于玲可{{skillHpPercentBuff}}%生命上限+{{skillHpFlatBuff}}的生命上限。::BR::4魂：获得【求生反应】时，使该目标攻击力提高，提高数值等同于玲可3%生命上限的攻击力，持续1回合。::BR::6魂：【求生反应】的生命上限提高效果额外提高，提高数值等同于玲可6%的生命上限，并使其效果抵抗提高30%。
   March7thImaginary:
     Content:
       enhancedBasic:
-        text: Enhanced Basic
+        text: 强化普攻
         content: >-
-          Initially, deals 3 hits, each causing Imaginary DMG equal to {{BasicEnhancedScaling}}% of March 7th's ATK to a single target enemy. Whenever dealing the final hit, there is a 60% fixed chance to deal 1 additional hit of DMG, up to a max of 3 additional hit(s).
+          初始造成3段伤害，每段对指定敌方单体造成等同于三月七{{BasicEnhancedScaling}}%攻击力的虚数属性伤害。每当造成最后1段伤害后，有60%的固定概率再造成1段伤害，最多额外造成3段伤害。
       basicAttackHits:
-        text: Enhanced Basic hits
+        text: 强化普攻攻击次数
         content: >-
-          Initially, deals 3 hits, each causing Imaginary DMG equal to {{BasicEnhancedScaling}}% of March 7th's ATK to a single target enemy. Whenever dealing the final hit, there is a 60% fixed chance to deal 1 additional hit of DMG, up to a max of 3 additional hit(s).
+         初始造成3段伤害，每段对指定敌方单体造成等同于三月七{{BasicEnhancedScaling}}%攻击力的虚数属性伤害。每当造成最后1段伤害后，有60%的固定概率再造成1段伤害，最多额外造成3段伤害。
       masterAdditionalDmgBuff:
-        text: DPS Shifu buff
-        content: Whenever using Basic ATK or dealing 1 hit of Enhanced Basic ATK's DMG, deals Additional DMG equal to {{ShifuDmgBuff}}% of March 7th's ATK.
+        text: DPS师傅增益
+        content: 每当施放普攻或造成1段强化普攻的伤害时，额外造成等同于三月七{{ShifuDmgBuff}}%攻击力的基于【师父】属性的附加伤害。
       masterToughnessRedBuff:
-        text: Support Shifu buff
-        content: Whenever using Basic ATK or dealing 1 hit of Enhanced Basic ATK's DMG, increases the Toughness Reduction of this instance of DMG by 100%.
+        text: 辅助师傅增益
+        content: 每当施放普攻或造成1段强化普攻的伤害时，本次伤害的削韧值提高100%。
       talentDmgBuff:
-        text: Talent Basic DMG buff
+        text: 天赋普攻伤害增益
         content: >-
-          After Shifu uses an attack or Ultimate, March 7th gains up to 1 point of Charge each time.::BR::Upon reaching 7 or more points of Charge, March 7th immediately takes action and increases the DMG she deals by {{TalentDmgBuff}}%.
+          【师父】施放攻击或终结技后，三月七每次获得最多1点充能。::BR::充能大于等于7点时，三月七立即行动，造成的伤害提高{{TalentDmgBuff}}%。
       selfSpdBuff:
-        text: E1 SPD buff
-        content: "E1: When Shifu is on the field, increases March 7th's SPD by 10.0%."
+        text: 1魂速度增益
+        content: "1魂：场上存在【师父】时，三月七的速度提高10%。"
       e6CdBuff:
-        text: E6 Basic CD boost
-        content: "E6: After using Ultimate, increases the CRIT DMG dealt by the next Enhanced Basic ATK by 50.0%."
+        text: 6魂强化普攻爆伤提升
+        content: "6魂：施放终结技后，下一次强化普攻造成的暴击伤害提高50%。"
     TeammateContent:
       masterBuff:
-        text: Shifu buff
-        content: Designates a single ally (excluding this unit) as Shifu and increases Shifu's SPD by {{ShifuSpeedBuff}}%.
+        text: 师傅增益
+        content: 使除自身以外的我方指定单体成为【师父】，【师父】的速度提高{{ShifuSpeedBuff}}%。
       masterCdBeBuffs:
-        text: Shifu CD / BE buffs
-        content: After using Enhanced Basic ATK, increases Shifu's CRIT DMG by 60.0% and Break Effect by 36.0%, lasting for 2.0 turn(s).
+        text: 师傅爆伤 / 击破特攻增益
+        content: 施放强化普攻后，使【师父】的暴击伤害提高60%，击破特攻提高36%，持续2回合。
   Misha:
     Content:
       ultHitsOnTarget:
-        text: Ult hits on target
-        content: Number of Ultimate hits on the primary target, dealing DMG equal to {{ultStackScaling}}% ATK per hit.
+        text: 终结技击中目标次数
+        content: 终结技对主要目标的攻击次数，每段攻击对敌方造成等同于米沙{{ultStackScaling}}%攻击力的冰属性伤害。
       enemyFrozen:
-        text: Enemy frozen
-        content: When dealing DMG to Frozen enemies, increases CRIT DMG by 30%.
+        text: 敌人被冻结
+        content: 对陷入冻结状态的敌方目标造成伤害时，暴击伤害提升 30% 。
       e2DefReduction:
-        text: E2 DEF shred
-        content: "E2: Reduces the target's DEF by 16% for 3 turn(s)."
+        text: 2魂防御力削弱
+        content: "2魂：终结技每段攻击前，有一定概率使目标防御力降低16%，持续3回合。"
       e6UltDmgBoost:
-        text: E6 Ult DMG boost
-        content: "E6: When using the Ultimate, increases own DMG by 30%, lasting until the end of the turn."
+        text: 6魂终结技伤害提高
+        content: "6魂：施放终结技时，使自身造成的伤害提高30%，持续至自身回合结束。"
   Moze:
     Content:
       preyMark:
-        text: Prey marked
+        text: 目标被标记为猎物
         content: >-
-          When Prey exists on the field, Moze will enter the Departed state.::BR::After allies attack Prey, Moze will additionally deal 1 instance of Lightning Additional DMG equal to {{PreyAdditionalMultiplier}}% of his ATK and consumes 1 point of Charge. For every 3 point(s) of Charge consumed, Moze launches 1 follow-up attack to Prey, dealing Lightning DMG equal to {{FuaScaling}}% of his ATK. When Charge reaches 0, dispels the target's Prey state and resets the tally of Charge points required to launch follow-up attack.
+          场上存在【猎物】时，貊泽会进入离场状态。::BR::我方目标攻击【猎物】后，貊泽会额外造成1次等同于自身{{PreyAdditionalMultiplier}}%攻击力的雷属性附加伤害，并消耗1点充能。每消耗3点充能，貊泽会对【猎物】发动1次追加攻击，造成等同于自身{{FuaScaling}}%攻击力的雷属性伤害，当充能为0时，解除目标【猎物】状态，并重置计入发动追加攻击所需的充能点数。
       e2CdBoost:
-        text: E2 CD boost
-        content: "E2: When all allies deal DMG to the enemy target marked as Prey, increases CRIT DMG by 40.0%."
+        text: 2魂暴击伤害提升
+        content: "2魂：我方全体目标对成为【猎物】的敌方目标造成伤害时，暴击伤害提高40%。"
       e4DmgBuff:
-        text: E4 DMG buff
-        content: When using Ultimate, increases the DMG dealt by Moze by 30.0%, lasting for 2.0 turn(s).
+        text: 4魂伤害提高
+        content: 施放终结技时，貊泽造成的伤害提高30%，持续2回合。
       e6MultiplierIncrease:
-        text: E6 FUA multiplier buff
-        content: Increases the DMG multiplier of the Talent's follow-up attack by 25.0%.
+        text: 6魂追加攻击倍率增益
+        content: 天赋的追加攻击的伤害倍率提高25%。
   Pela:
     Content:
       teamEhrBuff:
-        text: Team EHR buff
-        content: When Pela is on the battlefield, all allies' Effect Hit Rate increases by 10%.
+        text: 团队效果命中增益
+        content: 佩拉在场时，我方全体的效果命中提高10%。
       enemyDebuffed:
-        text: Enemy debuffed
-        content: Deals 20% more DMG to debuffed enemies.
+        text: 敌人处于负面效果
+        content: 对处于负面效果的敌方目标造成的伤害提高20%。
       skillRemovedBuff:
-        text: Enemy buff removed Skill buffs
-        content: "Using Skill to remove buff(s) increases the DMG of Pela's next attack by 20%.::BR::E2: Using Skill to remove buff(s) increases SPD by 10% for 2 turn(s)."
+        text: 敌人被解除增益效果后增益
+        content: "施放战技解除增益效果时，下一次攻击造成的伤害提高20%。::BR::2魂：施放战技解除增益效果时，速度提高10%，持续2回合。"
       ultDefPenDebuff:
-        text: Ult DEF shred
-        content: When Exposed, enemies' DEF is reduced by {{ultDefPenValue}}% for 2 turn(s).
+        text: 终结技防御力削弱
+        content: 【通解】状态下，敌方目标防御力降低{{ultDefPenValue}}%，持续2回合。
       e4SkillResShred:
-        text: E4 Skill Ice RES shred
-        content: "E4: When using Skill, there is a 100% base chance to reduce the target enemy's Ice RES by 12% for 2 turn(s)."
+        text: 4魂冰抗性削弱
+        content: "4魂：施放战技时，有100%的基础概率使敌方目标冰属性抗性降低12%，持续2回合。"
   Qingque:
     Content:
       basicEnhanced:
-        text: Enhanced Basic
-        content: Qingque's ATK increases by {{talentAtkBuff}}%, and her Basic ATK Flower Pick is enhanced, becoming Cherry on Top!
+        text: 强化普攻
+        content: 青雀攻击力提高{{talentAtkBuff}}%, 普攻【门前清】强化为【杠上开花】。
       basicEnhancedSpdBuff:
-        text: Enhanced Basic SPD buff
-        content: Qingque's SPD increases by 10% for 1 turn after using the Enhanced Basic ATK.
+        text: 强化普工速度增益
+        content: 施放强化普攻后，青雀的速度提高10%，持续1回合。
       skillDmgIncreaseStacks:
-        text: Skill DMG boost stacks
-        content: Immediately draws 2 jade tile(s) and increases DMG by {{skillStackDmg}}% until the end of the current turn. This effect can stack up to 4 time(s).
+        text: 战技伤害提高层数
+        content: 立即抽取2张琼玉牌，使自身造成的伤害提高{{skillStackDmg}}%，持续至本回合结束。该效果可以叠加4层。
   Rappa:
     Content:
       sealformActive:
-        text: Sealform state (force weakness break)
-        content:
+        text: 结印 （强制敌人处于弱点击破状态）
+        content: >-
+          进入【结印】状态，立即获得1个额外回合并获得3点【彩墨】，同时弱点击破效率提高50%，击破特攻提高{{ultBeBuff}}%。
       atkToBreakVulnerability:
-        text: ATK to Break vulnerability
-        content:
+        text: 攻击力转至击破易伤
+        content: 敌方目标的弱点被击破时，受到的击破伤害提高2%，若乱破当前攻击力高于2400点，每超过100点攻击力可使该数值额外提高1% ，最多额外提高8% 。
       chargeStacks:
-        text: Charge stacks
-        content:
+        text: 充能层数
+        content: 每点充能使本次击破伤害倍率提高{{talentChargeMultiplier}}%，并使无视弱点属性的削韧值提高1点。
       e1DefPen:
-        text: E1 DEF PEN
-        content:
+        text: 1魂防御力削弱
+        content: 施放终结技进入【结印】状态期间，乱破造成的伤害无视目标15%的防御。
       e2Buffs:
-        text: E2 break buffs
-        content:
+        text: 2魂击破增益
+        content: 强化普攻的前2段攻击对指定敌方单体的削韧值提高50%。
       e4SpdBuff:
-        text: E4 SPD buff
-        content:
+        text: 4魂速度增益
+        content: 【结印】状态期间，我方全体速度提高12%。
     TeammateContent:
       teammateBreakVulnerability:
-        text: Break vulnerability
-        content:
+        text: 击破易伤
+        content: 敌方目标的弱点被击破时，受到的击破伤害提高2%，若乱破当前攻击力高于2400点，每超过100点攻击力可使该数值额外提高1% ，最多额外提高8% 。
       e4SpdBuff:
-        text: E4 SPD buff
-        content:
+        text: 4魂速度增益
+        content: 【结印】状态期间，我方全体速度提高12%。
   Robin:
     Content:
       concertoActive:
-        text: Concerto active
+        text: 协奏状态激活
         content: >-
-          While in the Concerto state, increases all allies' ATK by {{ultAtkBuffScalingValue}}% of Robin's ATK plus {{ultAtkBuffFlatValue}}. Moreover, after every attack by allies, Robin deals Additional Physical DMG equal to {{ultScaling}}% of her ATK for 1 time, with a fixed CRIT Rate for this damage set at 100% and fixed CRIT DMG set at 150%.
+          处于【协奏】状态时，我方全体攻击力提高，提高数值等同于知更鸟攻击力的{{ultAtkBuffScalingValue}}%+{{ultAtkBuffFlatValue}}点，且我方目标每次施放攻击后，知更鸟会额外造成1次等同于其自身{{ultScaling}}%攻击力的物理属性附加伤害，该伤害暴击率固定为100%，暴击伤害固定为150%。
       skillDmgBuff:
-        text: Skill DMG buff
-        content: Increase DMG dealt by all allies by {{skillDmgBuffValue}}%, lasting for 3 turn(s).
+        text: 战技伤害增益
+        content: 使我方全体造成的伤害提高{{skillDmgBuffValue}}%，持续3回合。
       talentCdBuff:
-        text: Talent CD buff
-        content: Increase all allies' CRIT DMG by {{talentCdBuffValue}}%.
+        text: 天赋暴击伤害增益
+        content: 使我方全体暴击伤害提高{{talentCdBuffValue}}%。
       e1UltResPen:
-        text: E1 Ult RES PEN
-        content: While the Concerto state is active, all allies' All-Type RES PEN increases by 24%.
+        text: 1魂终结技抗性穿透
+        content: 1魂：处于【协奏】状态时，我方全体全属性抗性穿透提高24%。
       e4TeamResBuff:
-        text: E4 team RES buff
-        content: When using the Ultimate, dispels Crowd Control debuffs from all allies. While Robin is in the Concerto state, increases the Effect RES of all allies by 50%.
+        text: 4魂团队效果抵抗增益
+        content: 4魂：施放终结技时，解除我方全体的控制类负面状态，使我方全体在知更鸟处于【协奏】状态期间的效果抵抗提高50%。
       e6UltCDBoost:
-        text: E6 Ult DMG CD boost
+        text: 6魂终结技附加伤害爆伤提升
         content: >-
-          While the Concerto state is active, the CRIT DMG for the Additional Physical DMG caused by the Ultimate increases by 450%. The effect of Moonless Midnight can trigger up to 8 time(s). And the trigger count resets each time the Ultimate is used.
+          处于【协奏】状态时，终结技造成的物理属性附加伤害的暴击伤害额外提高450%。【月隐的午夜】效果最多触发8次，每次施放终结技时重置触发次数。
     TeammateContent:
       teammateATKValue:
-        text: Robin's Combat ATK
+        text: 知更鸟战斗中攻击力
         content: >-
-          While in the Concerto state, increases all allies' ATK by {{ultAtkBuffScalingValue}}% of Robin's ATK plus {{ultAtkBuffFlatValue}}::BR::Set this to the Robin's self ATK stat that she uses to buff teammates.
+          处于【协奏】状态时，我方全体攻击力提高，提高数值等同于知更鸟攻击力的{{ultAtkBuffScalingValue}}%+{{ultAtkBuffFlatValue}}点。::BR::将此设置为知更鸟用来增益队友时的自身攻击力。
       traceFuaCdBoost:
-        text: FUA CD boost
-        content: While the Concerto state is active, the CRIT DMG dealt when all allies launch follow-up attacks increases by 25%.
+        text: 追加攻击暴伤提升
+        content: 处于【协奏】状态时，我方全体发动追加攻击造成的暴击伤害提高25%。
       e2UltSpdBuff:
-        text: E2 Ult SPD buff
-        content: While the Concerto state is active, all allies' SPD increases by 16%.
+        text: 2魂终结技速度增益
+        content: 处于【协奏】状态时，我方全体速度提高16%。
   RuanMei:
     Content:
       skillOvertoneBuff:
-        text: Overtone buff
+        text: 弦外音增益
         content: >-
-          After using her Skill, Ruan Mei gains Overtone, lasting for 3 turn(s). This duration decreases by 1 at the start of Ruan Mei's turn. When Ruan Mei has Overtone, all allies' DMG increases by {{skillScaling}}% and Weakness Break Efficiency increases by 50%
+          施放战技后阮•梅获得【弦外音】，持续3回合。当阮•梅拥有【弦外音】时，我方全体伤害提高{{skillScaling}}%，弱点击破效率提高50%。
       teamBEBuff:
-        text: Team BE buff
-        content: Increases Break Effect by 20% for all allies.
+        text: 团队击破特攻增益
+        content: 我方全体击破特攻提高20%。
       ultFieldActive:
-        text: Ult field active
+        text: 终结技结界激活
         content: >-
-          While inside the field, all allies' All-Type RES PEN increases by {{fieldResPenValue}}%.::BR::E1: While the Ultimate's field is deployed, the DMG dealt by all allies ignores 20% of the target's DEF.
+          处于结界中时我方全体全属性抗性穿透提高{{fieldResPenValue}}%。::BR::1魂：终结技展开结界期间，我方全体造成伤害时无视目标20%的防御力。
       e2AtkBoost:
-        text: E2 weakness ATK boost
-        content: "E2: With Ruan Mei on the field, all allies increase their ATK by 40% when dealing DMG to enemies with Weakness Break."
+        text: 2魂弱点击破时攻击力提升
+        content: "2魂：阮•梅在场时，我方全体对处于弱点击破状态的敌方目标造成伤害时，攻击力提高40%。"
       e4BeBuff:
-        text: E4 BE buff
-        content: "E4: When an enemy target's Weakness is Broken, Ruan Mei's Break Effect increases by 100% for 3 turn(s)."
+        text: 4魂击破特攻增益
+        content: "4魂：当敌方目标的弱点被击破时，阮•梅自身击破特攻提高100%，持续3回合。"
     TeammateContent:
       teamSpdBuff:
-        text: Team SPD buff
-        content: Increases SPD by {{talentSpdScaling}}% for the team (excluding this character).
+        text: 团队速度增益
+        content: 使除自身以外的队友速度提高{{talentSpdScaling}}%。
       teamDmgBuff:
-        text: BE to DMG boost
-        content: In battle, for every 10% of Ruan Mei's Break Effect that exceeds 120%, her Skill additionally increases allies' DMG by 6%, up to a maximum of 36%.
+        text: 击破特攻转至伤害提高
+        content: 战斗中阮•梅的击破特攻大于120%时，每超过10%，则战技使我方全体伤害提高的效果额外提高6%，最高不超过36%。
   Sampo:
     Content:
       targetDotTakenDebuff:
-        text: Ult DoT vulnerability
-        content: When debuffed by Sampo's Ultimate, increase the targets' DoT taken by {{dotVulnerabilityValue}}% for 2 turn(s).
+        text: 终结技持续伤害易伤
+        content: 当受到桑博的终结技伤害时, 使被攻击的敌方目标受到的持续伤害提高{{dotVulnerabilityValue}}%，持续2回合。
       skillExtraHits:
-        text: Skill extra hits
-        content: Number of extra hits from Skill.
+        text: 战技额外攻击次数
+        content: 战技的额外攻击次数。
       targetWindShear:
-        text: Target wind sheared
-        content: Enemies with Wind Shear effect deal 15% less damage to Sampo.
+        text: 目标处于风化状态
+        content: 风化状态下的敌方目标对桑博造成的伤害降低15%。
   Seele:
     Content:
       buffedState:
-        text: Buffed state
+        text: 增幅状态
         content: >-
-          Enters the buffed state upon defeating an enemy with Basic ATK, Skill, or Ultimate, and receives an extra turn. While in the buffed state, the DMG of Seele's attacks increases by {{buffedStateDmgBuff}}% for 1 turn(s).::BR::While Seele is in the buffed state, her Quantum RES PEN increases by 20%.
+          施放普攻、战技、终结技消灭敌方目标时立即获得1个额外回合并进入增幅状态，增幅状态下希儿施放攻击造成的伤害提高{{buffedStateDmgBuff}}%，持续1回合。::BR::增幅状态下希儿的量子属性抗性穿透提高20%。
       speedBoostStacks:
-        text: Speed buff stacks
-        content: Increases SPD by 25% per stack. Stacks up to {{speedBoostStacksMax}} time(s).
+        text: 速度增益层数
+        content: 每层使希儿的速度提高25%，最多可叠加{{speedBoostStacksMax}}次。
       e1EnemyHp80CrBoost:
-        text: E1 enemy HP ≤ 80% CR boost
-        content: "E1: When dealing DMG to an enemy whose HP percentage is 80% or lower, CRIT Rate increases by 15%."
+        text: 1魂敌人生命值≤80%时暴击率提升
+        content: "1魂：对当前生命值百分比小于等于80%的敌方目标造成伤害时，暴击率提高15%。"
       e6UltTargetDebuff:
-        text: E6 Butterfly Flurry
+        text: 6魂敌人处于乱蝶状态
         content: >-
-          E6: After Seele uses her Ultimate, inflict the target enemy with Butterfly Flurry for 1 turn(s). Enemies suffering from Butterfly Flurry will take Additional Quantum DMG equal to 15% of Seele's Ultimate DMG every time they are attacked.
+          施放终结技后使受到攻击的敌方单体陷入【乱蝶】状态，持续1回合。【乱蝶】状态下的敌方目标受到攻击后，额外受到1次等同于希儿终结技伤害15%的量子属性附加伤害。
   Serval:
     Content:
       targetShocked:
