@@ -43,7 +43,7 @@ Lightcones:
         text: 敌人生命值≤50%时暴击率增益
         content: 装备者对生命值百分比小于等于50%的敌方目标暴击率额外提高{{CritBuff}}%。
       enemyDefeatedAtkBuff:
-        text: 击败敌人攻击力加成
+        text: 消灭敌人攻击力加成
         content: 当装备者消灭敌方目标后，攻击力提高{{AtkBuff}}%，持续2回合。
   DanceAtSunset:
     Content:
@@ -210,7 +210,7 @@ Lightcones:
   SomethingIrreplaceable:
     Content:
       dmgBuff:
-        text: 击败敌人 / 受击后伤害增益
+        text: 消灭敌人 / 受击后伤害增益
         content: >-
           当装备者消灭敌方目标或受到攻击后，立即回复等同于装备者攻击力{{Multiplier}}%的生命值，同时造成的伤害提高{{DmgBuff}}%，持续到自身下个回合结束。该效果不可叠加，每回合只可触发1次。
   TextureOfMemories:
@@ -258,7 +258,7 @@ Lightcones:
         text: 暴击伤害转至追加攻击伤害增益
         content: 当装备者在战斗中暴击伤害大于120%时，每超过20% ，追加攻击造成的伤害提高{{DmgBuff}}%，该效果可叠加4层。
       ultFuaDefShred:
-        text: 终结技 / 追加攻击防御力穿透
+        text: 终结技 / 追加攻击防御穿透
         content: 战斗开始时和装备者施放普攻后，使终结技或追加攻击造成的伤害无视目标{{DefShred}}%的防御，持续2回合。
   AfterTheCharmonyFall:
     Content:
@@ -574,17 +574,17 @@ Characters:
       stygianResurgeHitsOnTarget:
         text: 黄泉返渡击中次数
         content: >-
-          在发动【黄泉返渡】时额外造成 6 次伤害，每次伤害对敌方随机单体造成等同于黄泉 25% 攻击力的雷属性伤害，该伤害视为终结技伤害。
+          在发动【黄泉返渡】时额外造成6次伤害，每次伤害对敌方随机单体造成等同于黄泉25%攻击力的雷属性伤害，该伤害视为终结技伤害。
       e1EnemyDebuffed:
         text: 1魂暴击率提升
         content: 对处于负面效果的敌方目标造成伤害时暴击率提高18%。
       e4UltVulnerability:
         text: 4魂终结技易伤
-        content: 在敌方目标进入战斗时，使其陷入终结技伤害易伤状态，受到的终结技伤害提高 8% 。
+        content: 在敌方目标进入战斗时，使其陷入终结技伤害易伤状态，受到的终结技伤害提高8%。
       e6UltBuffs:
         text: 6魂终结技增益
         content: >-
-          黄泉造成的终结技伤害全属性抗性穿透提高 20% ，施放普攻、战技造成的伤害同时视为终结技伤害，并无视弱点属性削减敌方韧性。击破弱点时，触发雷属性的弱点击破效果。
+          黄泉造成的终结技伤害全属性抗性穿透提高20%，施放普攻、战技造成的伤害同时视为终结技伤害，并无视弱点属性削减敌方韧性。击破弱点时，触发雷属性的弱点击破效果。
   Argenti:
     Content:
       ultEnhanced:
@@ -598,7 +598,7 @@ Characters:
         text: 升格层数
         content: 施放普攻、战技、终结技时，每击中1个敌方目标，为银枝恢复 3 点能量并获得1层【升格】，使银枝暴击率提高{{talentCrStackValue}}%，该效果最多叠加{{talentMaxStacks}}层。
       ultEnhancedExtraHits:
-        text: 强化终结技对目标的额外命中
+        text: 强化终结技对目标的额外击中次数
         content: 每次额外伤害对敌方随机单体造成等同于银枝{{ultEnhancedExtraHitScaling}}%攻击力的物理属性伤害。
       e2UltAtkBuff:
         text: 2魂终结技攻击力增益
@@ -628,14 +628,14 @@ Characters:
         text: 防御力转暴击率增益
         content: 若砂金的防御力高于1600点，每超过100点防御力可使自身暴击率提高2%，最多提高48%。
       fortifiedWagerBuff:
-        text: Fortified Wager buff
+        text: 坚垣筹码增益
         content: >-
           持有【坚垣筹码】的我方单体效果抵抗提高{{talentResScaling}}%，并在受到攻击后，使砂金获得1点【盲注】::BR::1魂：施放终结技后，为我方全体提供护盾【坚垣筹码】，护盾量等同于战技提供的护盾量的100%，持续3回合。
       enemyUnnervedDebuff:
         text: 敌人处于惊惶状态
         content: 我方目标击中【惊惶】状态下的敌方目标时，造成的暴击伤害提高{{ultCdBoost}}%。
       fuaHitsOnTarget:
-        text: FUA hits on target
+        text: 追加攻击击中目标次数
         content: >-
           【盲注】达到7点后，砂金消耗7点充能发动7段追加攻击，每段攻击对随机敌方单体造成等同于砂金{{talentDmgScaling}}%防御力的虚数属性伤害，【盲注】上限10点。::BR::4魂：触发天赋的追加攻击时，会先使砂金防御力提高40%，持续2回合，并使天赋的追加攻击额外增加3段攻击段数。
       e2ResShred:
@@ -671,7 +671,7 @@ Characters:
         content: 【揭露】状态下，敌方目标自身回合内受到的伤害提高{{epiphanyDmgTakenBoost}}%。
       defDecreaseDebuff:
         text: 防御力降低负面效果
-        content: 目标防御力降低{{defShredValue}}
+        content: 目标防御力降低{{defShredValue}}%.
       arcanaStacks:
         text: 奥迹层数
         content: >-
@@ -684,7 +684,7 @@ Characters:
     Content:
       enhancedStateActive:
         text: 地狱变状态
-        content: "使自身造成的伤害提高{{enhancedStateDmgBoost}}%，普攻【支离剑】强化为【无间剑树】，持续3回合。::BR::2魂：暴击率提高15%。"
+        content: "使自身造成的伤害提高{{enhancedStateDmgBoost}}%，普攻【支离剑】强化为【无间剑树】，持续3回合。::BR::2魂：刃处于【地狱变】状态时，暴击率提高15%。"
       hpPercentLostTotal:
         text: 累计已损失生命值%
         content: 终结技伤害会根据刃在当前战斗中的生命值损失计数进行加成。 本场战斗中累计已损失生命值最高不超过刃生命上限的{{hpPercentLostTotalMax}}%，施放终结技后会清空并进行重新累计。
@@ -704,11 +704,11 @@ Characters:
         text: 击破特攻转至暴击率 / 暴击伤害增益
         content: 使自身暴击率/暴击伤害提高，提高数值等同于击破特攻的10%/50%，最多使暴击率/暴击伤害提高30%/150%。
       talentBreakDmgScaling:
-        text: 天赋击破伤害（强制敌人处于弱点击破状态）
+        text: 天赋击破伤害（强制弱点击破状态）
         content: >-
           若目标处于弱点击破状态，基于【优势口袋】层数，对目标造成基于波提欧的物理属性击破伤害，该伤害计入的韧性上限不超过普攻【蹄铁裂颅】基础削韧伤害的16倍。
       e1DefShred:
-        text: 1魂防御力穿透
+        text: 1魂防御穿透
         content: 战斗开始时，获得1层【优势口袋】。波提欧造成伤害时无视敌方目标16%的防御力。
       e2BeBuff:
         text: 2魂击破特攻增益
@@ -755,7 +755,7 @@ Characters:
         text: 敌人被标记
         content: 对所有被史瓦罗标上【反击标记】的敌方目标额外造成等同于克拉拉{{skillScaling}}%攻击力物理属性伤害。
       e2UltAtkBuff:
-        text: 2魂终结技后攻击力增益
+        text: 2魂终结技攻击力增益
         content: "2魂：施放终结技后攻击力提高30%，持续2回合。"
       e4DmgReductionBuff:
         text: 4魂减伤增益
@@ -766,7 +766,7 @@ Characters:
         text: 天赋风属性抗性穿透增益
         content: 当丹恒成为我方技能的施放目标时，下一次攻击的风属性抗性穿透提高{{extraPenValue}}%。该效果在2回合后可再次触发。
       enemySlowed:
-        text: 敌人被减速
+        text: 敌人处于减速状态
         content: 普攻对减速状态下的敌方目标造成的伤害提高40%。
       e1EnemyHp50:
         text: 1魂敌人生命值≥50%时暴击率提高
@@ -783,7 +783,7 @@ Characters:
   Feixiao:
     Content:
       weaknessBrokenUlt:
-        text: 弱点击破时终结技（强制弱点击破）
+        text: 弱点击破时终结技（强制弱点击破状态）
         content: 覆盖弱点击破选项以启用。
       talentDmgBuff:
         text: 天赋伤害增益
@@ -823,7 +823,7 @@ Characters:
         content: >-
           生命值越低受到的伤害越低，生命值小于等于20%时减伤效果达到最大值，最多降低{{talentDmgReductionBuff}}%。「完全燃烧」状态下减伤效果维持最大值，效果抵抗提高{{talentResBuff}}%。
       e1DefShred:
-        text: 1魂防御力穿透
+        text: 1魂防御穿透
         content: 施放强化战技时无视目标15%的防御，且强化战技不消耗战技点。
       e4ResBuff:
         text: 4魂效果抵抗增益
@@ -893,7 +893,7 @@ Characters:
   Hanya:
     Content:
       ultBuff:
-        text: 终结技速度/攻击力增益
+        text: 终结技速度 / 攻击力增益
         content: 使指定我方单体速度提高等同于寒鸦速度的{{ultSpdBuffValue}}%，并使该目标攻击力提高{{ultAtkBuffValue}}%，持续2回合。
       targetBurdenActive:
         text: 敌人陷入承负状态
@@ -921,7 +921,7 @@ Characters:
         content: 若敌方目标当前生命值百分比大于等于50%，则对该目标造成的伤害提高20%。
       techniqueBuff:
         text: 秘技攻击力增益
-        content: 击力提高 40% ，持续3回合。
+        content: 击力提高40%，持续3回合。
       enemyHpLte50:
         text: 1魂普攻伤害提高
         content: "1魂：施放普攻时，若指定敌方单体生命值百分比小于等于50%，则额外造成等同于黑塔40%攻击力的冰属性附加伤害。"
@@ -1059,8 +1059,8 @@ Characters:
         text: 神君层数
         content: 【神君】最多累计10段攻击段数
       talentAttacks:
-        text: 神君对目标的攻击次数
-        content: 对目标的攻击次数。通常应设置为与神君层数相同的值。
+        text: 神君对目标的击中次数
+        content: 对目标的击中次数。通常应设置为与神君层数相同的值。
       e2DmgBuff:
         text: 2魂伤害提高
         content: "2魂：【神君】行动后，景元的普攻、战技、终结技造成的伤害提高20%，持续2回合。"
@@ -1079,7 +1079,7 @@ Characters:
   Lingsha:
     Content:
       beConversion:
-        text: 击破特攻转至攻击力/治疗量增益
+        text: 击破特攻转至攻击力 / 治疗量增益
         content: 使自身攻击力/治疗量提高，提高数值等同于击破特攻的25%/10%，最多使攻击力/治疗量提高50%/20%。
       befogState:
         text: 醇醉状态
@@ -1166,7 +1166,7 @@ Characters:
     Content:
       ultHitsOnTarget:
         text: 终结技击中目标次数
-        content: 终结技对主要目标的攻击次数，每段攻击对敌方造成等同于米沙{{ultStackScaling}}%攻击力的冰属性伤害。
+        content: 终结技对主要目标的击中次数，每段攻击对敌方造成等同于米沙{{ultStackScaling}}%攻击力的冰属性伤害。
       enemyFrozen:
         text: 敌人被冻结
         content: 对陷入冻结状态的敌方目标造成伤害时，暴击伤害提升 30% 。
@@ -1222,7 +1222,7 @@ Characters:
   Rappa:
     Content:
       sealformActive:
-        text: 结印 （强制敌人处于弱点击破状态）
+        text: 结印 （强制弱点击破状态）
         content: >-
           进入【结印】状态，立即获得1个额外回合并获得3点【彩墨】，同时弱点击破效率提高50%，击破特攻提高{{ultBeBuff}}%。
       atkToBreakVulnerability:
@@ -1312,8 +1312,8 @@ Characters:
         text: 终结技持续伤害易伤
         content: 当受到桑博的终结技伤害时, 使被攻击的敌方目标受到的持续伤害提高{{dotVulnerabilityValue}}%，持续2回合。
       skillExtraHits:
-        text: 战技额外攻击次数
-        content: 战技的额外攻击次数。
+        text: 战技额外击中次数
+        content: 战技的额外击中次数。
       targetWindShear:
         text: 目标处于风化状态
         content: 风化状态下的敌方目标对桑博造成的伤害降低15%。
@@ -1336,239 +1336,239 @@ Characters:
   Serval:
     Content:
       targetShocked:
-        text: Target shocked
-        content: After Serval attacks, deals Additional Lightning DMG equal to {{talentExtraDmgScaling}}% of Serval's ATK to all Shocked enemies.
+        text: 目标处于触电状态
+        content: 施放攻击后，对所有触电状态下的敌方目标造成等同于希露瓦{{talentExtraDmgScaling}}%攻击力的雷属性附加伤害。
       enemyDefeatedBuff:
-        text: Enemy defeated buff
-        content: Upon defeating an enemy, ATK increases by 20% for 2 turn(s).
+        text: 消灭敌人后增益
+        content: 消灭敌方目标后，攻击力提高20%，持续2回合。
   SilverWolf:
     Content:
       skillResShredDebuff:
-        text: Skill RES shred
+        text: 战技抗性削弱
         content: >-
-          Decreases the target's All-Type RES of the enemy by {{skillResShredValue}}% for 2 turn(s).::BR::If there are 3 or more debuff(s) affecting the enemy when the Skill is used, then the Skill decreases the enemy's All-Type RES by an additional 3%.
+          有100%的基础概率额外使该目标的全属性抗性降低{{skillResShredValue}}%持续2回合。::BR::施放战技时，若敌方目标的负面效果数量大于等于3个，则战技使目标全属性抗性降低的效果额外降低3%。
       skillWeaknessResShredDebuff:
-        text: Skill weakness implanted RES shred
+        text: 战技添加弱点后属性削弱
         content: >-
-          There is a chance to add 1 Weakness of an on-field character's Type to the target enemy. This also reduces the enemy's DMG RES to that Weakness Type by 20% for 2 turn(s). If the enemy already has that Type Weakness, the effect of DMG RES reduction to that Weakness Type will not be triggered.
+          有概率为指定敌方单体目标添加1个场上我方目标持有属性的弱点，且该弱点对应属性的抗性降低20%，持续2回合。若添加的是敌方目标原有属性的弱点，则不会触发对应属性的抗性降低效果。
       talentDefShredDebuff:
-        text: Bug DEF shred
-        content: Silver Wolf's bug reduces the target's DEF by {{talentDefShredDebuffValue}}% for 3 turn(s).
+        text: 缺陷防御力削弱
+        content: 银狼制造的【缺陷】使目标防御力降低{{talentDefShredDebuffValue}}%，持续3回合。
       ultDefShredDebuff:
-        text: Ult DEF shred
-        content: Decreases the target's DEF by {{ultDefShredValue}}% for 3 turn(s).
+        text: 终结技防御力削弱
+        content: 使指定敌方单体防御力降低{{ultDefShredValue}}%，持续3回合。
       targetDebuffs:
-        text: Target debuffs
+        text: 目标负面效果数量
         content: >-
-          If there are 3 or more debuff(s) affecting the enemy when the Skill is used, then the Skill decreases the enemy's All-Type RES by an additional 3%.::BR::E4: After using her Ultimate to attack enemies, deals Additional Quantum DMG equal to 20% of Silver Wolf's ATK for every debuff currently on the enemy target. This effect can be triggered for a maximum of 5 time(s) during each use of her Ultimate.::BR::E6: For every debuff the target enemy has, the DMG dealt by Silver Wolf increases by 20%, up to a limit of 100%.
+          施放战技时，若敌方目标的负面效果数量大于等于3个，则战技使目标全属性抗性降低的效果额外降低3%。::BR::4魂：施放终结技攻击敌方目标后，目标每有1个负面效果，则额外造成等同于银狼20%攻击力的量子属性附加伤害。该效果在每次终结技攻击中最多触发5次。::BR::6魂：敌方目标每有1个负面效果，银狼对其造成的伤害提高20%，最多提高100%。
   Sparkle:
     Content:
       skillCdBuff:
-        text: Skill CD buff
+        text: 战技暴击伤害增益
         content: >-
-          Increases the CRIT DMG of a single ally by {{skillCdBuffScaling}}% of Sparkle's CRIT DMG plus {{skillCdBuffBase}}%, lasting for 1 turn(s).::BR::E6: The CRIT DMG Boost effect of Sparkle's Skill additionally increases by 30% of Sparkle's CRIT DMG, and when she uses her Skill, the CRIT DMG Boost effect will apply to all allies currently with Cipher. When Sparkle uses her Ultimate, this effect will spread to all allies with Cipher should the allied target have the CRIT DMG increase effect provided by the Skill active on them.
+          使指定我方单体的暴击伤害提高，提高数值等同于花火{{skillCdBuffScaling}}%暴击伤害+{{skillCdBuffBase}}%，持续1回合。::BR::6魂：战技的暴击伤害提高效果额外提高，提高数值等同于花火暴击伤害的30%，花火施放战技时，使战技的暴击伤害提高效果对持有【谜诡】的队友都会生效，花火施放终结技时，若我方单体中有目标持有战技的暴击伤害提高效果，使该效果扩散至持有【谜诡】的队友。
       cipherBuff:
-        text: Cipher buff
+        text: 谜诡增益
         content: >-
-          When allies with Cipher trigger the DMG Boost effect provided by Sparkle's Talent, each stack additionally increases its effect by {{cipherTalentStackBoost}}%, lasting for 2 turns.::BR::E1: The Cipher effect applied by the Ultimate lasts for 1 extra turn. All allies affected by Cipher have their ATK increased by 40%.
+          持有【谜诡】的我方目标触发花火天赋造成的伤害提高效果每层额外提高{{cipherTalentStackBoost}}%，持续2回合。::BR::1魂：终结技施加的【谜诡】的持续时间额外增加1回合，持有【谜诡】的我方目标攻击力提高40%。
       talentStacks:
-        text: Talent DMG stacks
+        text: 天赋增伤层数
         content: >-
-          Whenever an ally consumes 1 Skill Point, all allies' DMG increases by {talentBaseStackBoost}}%. This effect lasts for 2 turn(s) and can stack up to 3 time(s).::BR::E2: Each Talent stack allows allies to ignore 8% of the enemy target's DEF when dealing DMG to enemies.
+         当我方目标每消耗1点战技点，则使我方全体造成的伤害提高{talentBaseStackBoost}}%，该效果持续2回合，最多可叠加3层。::BR::2魂：天赋每层效果额外使我方目标造成伤害时无视目标8%的防御力。
       quantumAllies:
-        text: Quantum allies
-        content: When there are 1/2/3 Quantum allies in your team, Quantum-Type allies' ATK are increased by 5%/15%/30%.
+        text: 量子属性队友数量
+        content: 当我方队伍中存在1名/2名/3名量子属性的角色时，我方量子属性的角色的攻击力额外提高5%/15%/30%。
     TeammateContent:
       teammateCDValue:
-        text: Sparkle's Combat CD
-        content: Increases the CRIT DMG of a single ally by {{skillCdBuffScaling}}% of Sparkle's CRIT DMG plus {{skillCdBuffBase}}%, lasting for 1 turn(s).
+        text: 花火战斗中暴击伤害值
+        content: 使指定我方单体的暴击伤害提高，提高数值等同于花火{{skillCdBuffScaling}}%暴击伤害+{{skillCdBuffBase}}%，持续1回合。
   Sushang:
     Content:
       ultBuffedState:
-        text: Ult buffed state
+        text: 终结技强化状态
         content: >-
-          Sushang's ATK increases by {{ultBuffedAtk}}% and using her Skill has 2 extra chances to trigger Sword Stance for 2 turn(s). Sword Stance triggered from the extra chances deals 50% of the original DMG.
+          使素裳攻击力提高{{ultBuffedAtk}}%且施放战技时额外增加2次【剑势】的发动判定，持续2回合。通过额外判定发动的【剑势】伤害为原伤害的50%。
       skillExtraHits:
-        text: Skill extra hits
-        content: Increases the number of Sword Stance extra hits of the Skill.
+        text: 战技额外击中次数
+        content: 增加【剑势】额外击中的次数。
       skillTriggerStacks:
-        text: Skill trigger stacks
-        content: For every Sword Stance triggered, the DMG dealt by Sword Stance increases by 2.5%. Stacks up to 10 time(s).
+        text: 剑势激活层数
+        content: 每发动1次【剑势】，【剑势】造成的伤害提高2.5%，该效果最多叠加10层。
       talentSpdBuffStacks:
-        text: Talent SPD buff stacks
+        text: 天赋速度增益层数
         content: >-
-          When an enemy has their Weakness Broken on the field, Sushang's SPD increases by {{talentSpdBuffValue}}% per stack for 2 turn(s).::BR::E6: Talent's SPD Boost is stackable and can stack up to 2 times.
+          当场上有敌方目标的弱点被击破，素裳的速度每层提高{{talentSpdBuffValue}}%，持续2回合。::BR::6魂：天赋的加速效果可以叠加，最多叠加2层，且进入战斗后素裳立即获得1层天赋的加速效果。
       e2DmgReductionBuff:
-        text: E2 DMG reduction buff
-        content: "E2: After triggering Sword Stance, the DMG taken by Sushang is reduced by 20% for 1 turn."
+        text: 2魂减伤增益
+        content: "2魂：触发【剑势】后，素裳受到的伤害降低20%，持续1回合。"
   Tingyun:
     Content:
       benedictionBuff:
-        text: Benediction buff
+        text: 赐福增益
         content: >-
-          Grants a single ally with Benediction to increase their ATK by {{skillAtkBoostScaling}}%, up to {{skillAtkBoostMax}}% of Tingyun's current ATK. When the ally with Benediction attacks, it deals lightning damage equal to {{skillLightningDmgBoostScaling}}% of that ally's ATK. This effect lasts for 3 turns.
+          为指定我方单体提供【赐福】，使其攻击力提高{{skillAtkBoostScaling}}%，最高不超过停云当前攻击力的{{skillAtkBoostMax}}%。获得【赐福】的目标施放攻击后，会额外造成1次等同于其自身{{skillLightningDmgBoostScaling}}%攻击力的雷属性附加伤害，持续3回合。
       skillSpdBuff:
-        text: Skill SPD buff
-        content: Tingyun's SPD increases by 20% for 1 turn after using Skill.
+        text: 战技速度增益
+        content: 施放战技时，停云自身速度提高20%，持续1回合。
       ultDmgBuff:
-        text: Ult DMG buff
-        content: Regenerates 50 Energy for a single ally and increases the target's DMG by {{ultDmgBoost}}% for 2 turn(s).
+        text: 终结技伤害增益
+        content: 为指定我方单体恢复50点能量，同时使目标造成的伤害提高{{ultDmgBoost}}%，持续2回合。
       ultSpdBuff:
-        text: E1 Ult SPD buff
-        content: "E1: After using their Ultimate, the ally with Benediction gains a 20% increase in SPD for 1 turn."
+        text: 1魂终结技速度增益
+        content: "1魂：得到【赐福】的我方单体施放终结技后速度提高20%，持续1回合。"
     TeammateContent:
       teammateAtkBuffValue:
-        text: Skill ATK buff value
+        text: 战技攻击力增益值
         content: >-
-          Grants a single ally with Benediction to increase their ATK by {{skillAtkBoostScaling}}%, up to {{skillAtkBoostMax}}% of Tingyun's current ATK. When the ally with Benediction attacks, it deals lightning damage equal to {{skillLightningDmgBoostScaling}}% of that ally's ATK. This effect lasts for 3 turns.
+          为指定我方单体提供【赐福】，使其攻击力提高{{skillAtkBoostScaling}}%，最高不超过停云当前攻击力的{{skillAtkBoostMax}}%。获得【赐福】的目标施放攻击后，会额外造成1次等同于其自身{{skillLightningDmgBoostScaling}}%攻击力的雷属性附加伤害，持续3回合。
   Topaz:
     Content:
       enemyProofOfDebtDebuff:
-        text: Proof of Debt debuff
-        content: Inflicts a single target enemy with a Proof of Debt status, increasing the DMG it takes from follow-up attacks by {{proofOfDebtFuaVulnerability}}%.
+        text: 负债证明负面效果
+        content: 使指定敌方单体陷入【负债证明】状态，使其受到的追加攻击伤害提高{{proofOfDebtFuaVulnerability}}%.
       numbyEnhancedState:
-        text: Numby enhanced state
-        content: Numby enters the Windfall Bonanza! state and its DMG multiplier increases by {{enhancedStateFuaScalingBoost}}% and CRIT DMG increases by {{enhancedStateFuaCdBoost}}%.
+        text: 账账强化状态
+        content: 使账账进入【涨幅惊人！】状态，伤害倍率提高{{enhancedStateFuaScalingBoost}}%，暴击伤害提高{{enhancedStateFuaCdBoost}}%。
       e1DebtorStacks:
-        text: E1 Debtor stacks
+        text: 1魂被执行状态层数
         content: >-
-          E1: When enemies afflicted with Proof of Debt receive follow-up attacks, they will enter the Debtor state. This can take effect only once within a single action. The Debtor state increases the CRIT DMG of follow-up attacks inflicted on the target enemies by 25%, stacking up to 2 time(s). When Proof of Debt is removed, the Debtor state is also removed.
+          1魂：陷入【负债证明】状态下的敌方目标受到追加攻击时，将会陷入【被执行】状态，单次攻击内最多生效1次。【被执行】使敌方目标受到的追加攻击的暴击伤害提高25%，最多叠加2层。【负债证明】被移除时，【被执行】也会被移除。
   TrailblazerDestruction:
     Content:
       enhancedUlt:
-        text: AoE Ult
+        text: 终结技对群
         content: >-
-          Choose between two attack modes to deliver a full strike. ::BR:: Blowout: (ST) Farewell Hit deals Physical DMG equal to {{ultScaling}}% of the Trailblazer's ATK to a single enemy.::BR::Blowout: (Blast) RIP Home Run deals Physical DMG equal to {{ultEnhancedScaling}}% of the Trailblazer's ATK to a single enemy, and Physical DMG equal to {{ultEnhancedScaling2}}% of the Trailblazer's ATK to enemies adjacent to it.
+          在两种攻击模式中选择其一挥出全力一击。::BR:: 【全胜•再见安打】(单体）：对指定敌方单体造成等同于开拓者{{ultScaling}}%攻击力的物理属性伤害。::BR::【全胜•安息全垒打】（多个目标）：对指定敌方单体造成等同于开拓者{{ultEnhancedScaling}}%攻击力的物理属性伤害，并对其相邻目标造成等同于开拓者{{ultEnhancedScaling2}}%攻击力的物理属性伤害。
       talentStacks:
-        text: Talent stacks
-        content: Each time after this character inflicts Weakness Break on an enemy, ATK increases by {{talentAtkScalingValue}}% and DEF increases by 10%. This effect stacks up to 2 times.
+        text: 天赋层数
+        content: 每次击破敌方目标的弱点后，攻击力提高{{talentAtkScalingValue}}%，防御力提高10%。该效果最多叠加2层。
   TrailblazerHarmony:
     Content:
       backupDancer:
-        text: Backup Dancer BE buff
+        text: 伴舞击破特攻增益
         content: >-
-          Grants all allies the Backup Dancer effect, lasting for 3 turn(s). This duration reduces by 1 at the start of Trailblazer's every turn. Allies with the Backup Dancer effect have their Break Effect increased by {{ultBeScaling}}%.
+          为我方全体附上【伴舞】效果，持续3回合，开拓者每回合开始时持续回合数减1。持有【伴舞】的我方目标击破特攻提高{{ultBeScaling}}%。
       superBreakDmg:
-        text: Super Break DMG (force weakness break)
+        text: 超击破伤害（强制弱点击破）
         content: >-
-          When allies with the Backup Dancer effect attack enemy targets that are in the Weakness Broken state, the Toughness Reduction of the attack will be converted into 1 instance of Super Break DMG.::BR::Super Break DMG is added to each of the BASIC / SKILL / ULT / FUA damage columns. For example when enabled, the SKILL column becomes the sum of base Skill damage + Super Break DMG based on the Skill's toughness damage. This option also overrides enemy weakness break to ON.
+          当队友攻击处于弱点击破状态下的敌方目标后，会将本次攻击的削韧伤害转化为1次超击破伤害。::BR::超击破伤害会添加到普攻/战技/终结技/追加攻击的伤害栏中。例如，启用时，战技栏将变为基础战技伤害值+基于技能削韧伤害的超击破伤害值之和。此选项将敌方弱点击破状态强制为开启。
       skillHitsOnTarget:
-        text: Skill extra hits on target
-        content: Deals Imaginary DMG to a single target enemy and additionally deals DMG for 4 times, with each time dealing Imaginary DMG to a random enemy.
+        text: 战技对目标的额外击中次数
+        content: 对指定敌方单体造成等虚数属性伤害，并额外造成4次伤害。每次伤害对随机敌方单体造成虚数属性伤害。
       e2EnergyRegenBuff:
-        text: E2 ERR buff
-        content: When the battle starts, the Trailblazer's Energy Regeneration Rate increases by 25%, lasting for 3 turn(s).
+        text: 2魂能量恢复效率增益
+        content: 2魂：战斗开始时，开拓者的能量恢复效率提高25%，持续3回合。
     TeammateContent:
       teammateBeValue:
-        text: E4 Combat BE
-        content: While the Trailblazer is on the field, increases the Break Effect of all teammates (excluding the Trailblazer), by an amount equal to 15% of the Trailblazer's Break Effect.
+        text: 4魂战斗中击破特攻
+        content: 4魂：开拓者在场时，使除自身以外的队友击破特攻提高，提高数值等同于开拓者15%的击破特攻。
   TrailblazerPreservation:
     Content:
       enhancedBasic:
-        text: Enhanced Basic
-        content: Enhanced basic ATK deals Fire DMG equal to {{basicEnhancedAtkScaling}}% of the Trailblazer's ATK to a single enemy, and reduced damage to adjacent enemies.
+        text: 强化普攻
+        content: 强化普攻对指定敌方单体造成等同于开拓者{{basicEnhancedAtkScaling}}%攻击力的火属性伤害，同时对其相邻目标造成降低伤害。
       skillActive:
-        text: Skill DMG reduction
-        content: When the Skill is used, reduces DMG taken by {{skillDamageReductionValue}}%. Also reduces DMG taken by all allies by 15% for 1 turn.
+        text: 战技减伤
+        content: 施放战技后，开拓者受到的伤害降低{{skillDamageReductionValue}}%，同时我方全体受到的伤害降低15%，持续1回合。
       shieldActive:
-        text: Shield active
-        content: When the shield is active, increases ATK by 15%.
+        text: 持有护盾
+        content: 若开拓者持有护盾保护，则攻击力提高15%。
       e6DefStacks:
-        text: E6 DEF buff stacks
-        content: "E6: Increases DEF by 10% per stack."
+        text: 6魂防御力增益层数
+        content: "6魂：施放强化普攻或终结技后，开拓者的防御力提高10%，最多叠加3层。"
   Welt:
     Content:
       enemyDmgTakenDebuff:
-        text: Ult vulnerability debuff
-        content: When using Ultimate, there is a 100% base chance to increase the DMG received by the targets by 12% for 2 turn(s).
+        text: 终结技易伤负面效果
+        content: 施放终结技时，有100%基础概率使目标受到的伤害提高12%，持续2回合。
       enemySlowed:
-        text: Enemy slowed
-        content: When hitting an enemy that is already Slowed, Welt deals Additional Imaginary DMG equal to {{talentScaling}}% of his ATK to the enemy.
+        text: 敌人处于减速状态
+        content: 击中处于减速状态的敌方目标时，额外造成1次等同于瓦尔特{{talentScaling}}%攻击力的虚数属性附加伤害。
       skillExtraHits:
-        text: Skill extra hits on target
+        text: 战技对目标的额外击中次数
         content: >-
-          Deals Imaginary DMG equal to {{skillScaling}}% of Welt's ATK to a single enemy and further deals DMG 2 extra times, with each time dealing Imaginary DMG equal to {{skillScaling}}% of Welt's ATK to a random enemy.
+          对指定敌方单体造成等同于瓦尔特{{skillScaling}}%攻击力的虚数属性伤害，并额外造成2次伤害。每次伤害对敌方随机单体造成等同于瓦尔特{{skillScaling}}%攻击力的虚数属性伤害。
       e1EnhancedState:
-        text: E1 enhanced state
+        text: 1魂强化状态
         content: >-
-          E1: After Welt uses his Ultimate, his abilities are enhanced. The next 2 time(s) he uses his Basic ATK or Skill, deals Additional DMG to the target equal to 50% of his Basic ATK's DMG multiplier or 80% of his Skill's DMG multiplier respectively.
+          1魂：施放终结技后，瓦尔特获得强化，在随后2次施放普攻或战技时额外对敌方目标造成1次附加伤害。施放普攻造成的附加伤害等同于普攻伤害倍率的50%，施放战技造成的附加伤害等同于战技伤害倍率的80%。
   Xueyi:
     Content:
       beToDmgBoost:
-        text: BE to DMG boost
-        content: Increases DMG dealt by this unit by an amount equal to 100% of Break Effect, up to a maximum DMG increase of 240%.
+        text: 击破特攻转至伤害提高
+        content: 使自身造成的伤害提高，提高数值等同于击破特攻的100%，最多使造成的伤害提高240%。
       enemyToughness50:
-        text: Intrepid Rollerbearings
-        content: If the enemy target's Toughness is equal to or higher than 50% of their Max Toughness, deals 10% more DMG when using Ultimate.
+        text: 摧锋轴承
+        content: 如果敌方目标当前韧性大于等于其自身韧性上限的50%，施放终结技时造成的伤害提高10%。
       toughnessReductionDmgBoost:
-        text: Ultimate DMG boost
-        content: When using Ultimate, the more Toughness is reduced, the higher the DMG will be dealt, up to a max of {{ultBoostMax}}% increase.
+        text: 终结技伤害提高
+        content: 使用终结技时，削减的韧性越多，造成的伤害越高，最多提高{{ultBoostMax}}%。
       fuaHits:
-        text: FUA hits
+        text: 追加攻击击中目标次数
         content: >-
-          When Karma reaches the max number of stacks, consumes all current Karma stacks and immediately launches a follow-up attack against an enemy target, dealing DMG for 3 times, with each time dealing Quantum DMG equal to {{fuaScaling}}% of Xueyi's ATK to a single random enemy.
+          当【恶报】叠加至上限时消耗当前所有【恶报】，立即对敌方目标发动追加攻击，造成3次伤害，每次伤害对敌方随机单体造成等同于雪衣{{fuaScaling}}%攻击力的量子属性伤害。
       e4BeBuff:
-        text: E4 BE buff
-        content: "E4: When using Ultimate, increases Break Effect by 40% for 2 turn(s)."
+        text: 4魂击破特攻增益
+        content: "4魂：施放终结技时，击破特攻提高40%，持续2回合。"
   Yanqing:
     Content:
       ultBuffActive:
-        text: Ult buff active
-        content: Increases Yanqing's CRIT Rate by 60%. When Soulsteel Sync is active, increases Yanqing's CRIT DMG by an extra {{ultCdBuffValue}}%.
+        text: 终结技增益激活
+        content: 提高自身60%暴击率，若彦卿处于【智剑连心】效果，则使其暴击伤害额外提高{{ultCdBuffValue}}%.
       soulsteelBuffActive:
-        text: Soulsteel buff active
+        text: 智剑连心效果激活
         content: >-
-          When Soulsteel Sync is active, Yanqing's CRIT Rate increases by {{talentCrBuffValue}}% and his CRIT DMG increases by {{talentCdBuffValue}}%.::BR::Before using Ultimate, when Soulsteel Sync is active, increases Yanqing's CRIT DMG by an extra {{ultCdBuffValue}}%.::BR::When Soulsteel Sync is active, Effect RES increases by 20%.::BR::E2: When Soulsteel Sync is active, Energy Regeneration Rate increases by an extra 10%.
+          彦卿处于【智剑连心】效果时，为自身提高{{talentCrBuffValue}}%暴击率和{{talentCdBuffValue}}%暴击伤害。::BR::使用终结技时，若彦卿处于【智剑连心】效果，则使其暴击伤害额外提高{{ultCdBuffValue}}%.::BR::处于【智剑连心】效果时，效果抵抗提高20%。::BR::2魂：处于【智剑连心】效果时，额外提高10%的能量恢复效率。
       critSpdBuff:
-        text: SPD buff
-        content: When a CRIT Hit is triggered, increases SPD by 10% for 2 turn(s).
+        text: 速度增益
+        content: 触发暴击时，速度提高10%，持续2回合。
       e1TargetFrozen:
-        text: E1 enemy frozen
-        content: "E1: When Yanqing attacks a Frozen enemy, he deals Additional Ice DMG equal to 60% of his ATK."
+        text: 1魂敌人处于冻结状态
+        content: "1魂：当彦卿攻击敌方目标时，如果目标处于冻结状态，则立即对目标造成等同于彦卿60%攻击力的冰属性附加伤害。"
       e4CurrentHp80:
-        text: E4 self HP ≥ 80% RES PEN buff
-        content: "E4: When the current HP percentage is 80% or higher, Ice RES PEN increases by 12%."
+        text: 4魂自身生命值≥80%时抗性穿透增益
+        content: "4魂：当前生命值百分比大于等于80%时，提高自身12%的冰属性抗性穿透。"
   Yukong:
     Content:
       teamImaginaryDmgBoost:
-        text: Team Imaginary DMG boost
-        content: When Yukong is on the field, Imaginary DMG dealt by all allies increases by 12%.
+        text: 团队虚数伤害提高
+        content: 驭空在场时，我方全体造成的虚数属性伤害提高12%。
       roaringBowstringsActive:
-        text: Roaring Bowstrings
-        content: "When Roaring Bowstrings is active, the ATK of all allies increases by {{skillAtkBuffValue}}%.::BR::E4: When Roaring Bowstrings is active, Yukong deals 30% more DMG to enemies."
+        text: 鸣弦号令激活
+        content: "当驭空持有【鸣弦号令】时，我方全体攻击力提高{{skillAtkBuffValue}}%。::BR::4魂：持有【鸣弦号令】时，驭空造成的伤害提高30%。"
       ultBuff:
-        text: Ult CR / CD buffs
+        text: 终结技暴击率 / 暴击伤害增益
         content: >-
-          If Roaring Bowstrings is active on Yukong when her Ultimate is used, additionally increases all allies' CRIT Rate by {{ultCrBuffValue}}% and CRIT DMG by {{ultCdBuffValue}}%. At the same time, deals Imaginary DMG equal to {{ultScaling}}% of Yukong's ATK to a single enemy.
+          施放终结技时，若驭空持有【鸣弦号令】，则额外使我方全体暴击率提高{{ultCrBuffValue}}%，暴击伤害提高{{ultCdBuffValue}}%。同时对指定敌方单体造成等同于驭空{{ultScaling}}%攻击力的虚数属性伤害。
       initialSpeedBuff:
-        text: E1 initial SPD buff
-        content: "E1: At the start of battle, increases the SPD of all allies by 10% for 2 turn(s)."
+        text: 1魂初始速读增益
+        content: "1魂：进入战斗时，我方全体速度提高10%，持续2回合。"
   Yunli:
     Content:
       blockActive:
-        text: Parry active
-        content: While in the Parry state, resists Crowd Control debuffs received and reduces DMG received by 20.0%.
+        text: 格挡状态激活
+        content: 【格挡】状态下抵抗受到的控制类负面效果，并使受到的伤害降低20%。
       ultCull:
-        text: "Intuit: Cull enabled"
+        text: "【勘破•灭】激活"
         content: >-
-          Intuit: Cull: Deals Physical DMG equal to {{CullScaling}}% of Yunli's ATK to the target, and deals Physical DMG equal to {{CullAdjacentScaling}}% of Yunli's ATK to adjacent targets. Then, additionally deals 6 instances of DMG, each dealing Physical DMG equal to {{CullAdditionalScaling}}% of Yunli's ATK to a random single enemy.
+          【勘破•灭】：对目标造成等同于云璃{{CullScaling}}%攻击力的物理属性伤害，对其相邻目标造成等同于云{{CullAdjacentScaling}}%攻击力的物理属性伤害，随后额外造成6次伤害，每次伤害对随机敌方单体造成等同于云璃{{CullAdditionalScaling}}%攻击力的物理伤害。
       ultCullHits:
-        text: "Intuit: Cull hits"
+        text: "【勘破•灭】击中次数"
         content: >-
-          Intuit: Cull: Deals Physical DMG equal to {{CullScaling}}% of Yunli's ATK to the target, and deals Physical DMG equal to {{CullAdjacentScaling}}% of Yunli's ATK to adjacent targets. Then, additionally deals 6 instances of DMG, each dealing Physical DMG equal to {{CullAdditionalScaling}}% of Yunli's ATK to a random single enemy.
+          【勘破•灭】：对目标造成等同于云璃{{CullScaling}}%攻击力的物理属性伤害，对其相邻目标造成等同于云{{CullAdjacentScaling}}%攻击力的物理属性伤害，随后额外造成6次伤害，每次伤害对随机敌方单体造成等同于云璃{{CullAdditionalScaling}}%攻击力的物理伤害。
       counterAtkBuff:
-        text: Counter ATK buff
-        content: When using a Counter, increases Yunli's ATK by 30.0%, lasting for 1 turn.
+        text: 反击攻击力增益
+        content: 施放反击时，云璃的攻击力提高30%，持续1回合。
       e1UltBuff:
-        text: E1 Ult buff
-        content: "E1: Increases DMG dealt by Intuit: Slash and Intuit: Cull by 20.0%. Increases the number of additional DMG instances for Intuit: Cull by 3.0."
+        text: 1魂终结技增益
+        content: "1魂：【勘破•斩】与【勘破•灭】造成的伤害提高20%，【勘破•灭】的额外伤害次数增加3次。"
       e2DefShred:
-        text: E2 FUA DEF PEN
-        content: When dealing DMG via Counter, ignores 20.0% of the target's DEF.
+        text: 2魂追加攻击防御穿透
+        content: 发动反击造成伤害时无视敌方目标20%的防御力。
       e4ResBuff:
-        text: E4 RES buff
-        content: "After launching Intuit: Slash or Intuit: Cull, increases this unit's Effect RES by 50.0%, lasting for 1.0 turn(s)."
+        text: 4魂效果抵抗增益
+        content: "发动【勘破•斩】或【勘破•灭】后使自身效果抵抗提高50%，持续1回合。"
       e6Buffs:
-        text: E6 buffs
+        text: 6魂增益
         content: >-
-          While Parry is active, if an enemy actively uses their abilities, regardless of whether it attacks Yunli or not, it will trigger Intuit: Cull and remove the Parry effect. When dealing DMG via Intuit: Slash or Intuit: Cull, increases CRIT Rate by 15.0% and Physical RES PEN by 20.0%.
+          【格挡】状态期间，敌方主动施放技能时无论是否攻击云璃，都会触发【勘破•灭】同时移除【格挡】效果，发动【勘破•斩】或【勘破•灭】造成伤害时暴击率提高15%，物理属性抗性穿透提高20%。
