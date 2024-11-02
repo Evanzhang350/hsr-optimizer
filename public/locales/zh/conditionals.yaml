@@ -3,7 +3,7 @@ Lightcones:
   AlongThePassingShore:
     Content:
       emptyBubblesDebuff:
-        text: 【泡影】负面效果
+        text: 泡影负面效果
         content: >-
            当装备者击中敌方目标时，使敌方陷入【泡影】状态，持续1回合。装备者每次攻击时，对每个目标只可触发1次。装备者对陷入【泡影】状态的目标造成的伤害提高{{DmgBoost}}%，终结技造成的伤害额外提高{{UltDmgBoost}}%。
   AnInstantBeforeAGaze:
